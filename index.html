@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menmo Enterprise Suite</title>
+    <meta
+      name="description"
+      content="A modern enterprise management experience inspired by Oracle apps"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff4d4d'/><path d='M20 70 L50 20 L80 70' stroke='white' stroke-width='10' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script defer src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell" data-theme="light">
+      <aside class="shell__sidebar">
+        <div class="sidebar__brand">
+          <span class="brand__icon">M</span>
+          <div>
+            <span class="brand__title">Menmo</span>
+            <span class="brand__subtitle">Enterprise Suite</span>
+          </div>
+        </div>
+        <nav class="sidebar__nav">
+          <div class="nav__group">
+            <p class="nav__label">Workspace</p>
+            <a class="nav__item nav__item--active" href="#dashboard">
+              <span class="nav__icon" aria-hidden="true">🏠</span>
+              Dashboard
+            </a>
+            <a class="nav__item" href="#portfolios">
+              <span class="nav__icon" aria-hidden="true">📦</span>
+              Portfolios
+            </a>
+            <a class="nav__item" href="#projects">
+              <span class="nav__icon" aria-hidden="true">🗂️</span>
+              Projects
+            </a>
+            <a class="nav__item" href="#finance">
+              <span class="nav__icon" aria-hidden="true">💳</span>
+              Finance
+            </a>
+            <a class="nav__item" href="#people">
+              <span class="nav__icon" aria-hidden="true">👥</span>
+              People
+            </a>
+          </div>
+          <div class="nav__group">
+            <p class="nav__label">Analytics</p>
+            <a class="nav__item" href="#insights">
+              <span class="nav__icon" aria-hidden="true">📊</span>
+              Insights
+            </a>
+            <a class="nav__item" href="#reports">
+              <span class="nav__icon" aria-hidden="true">📈</span>
+              Reports
+            </a>
+            <a class="nav__item" href="#automation">
+              <span class="nav__icon" aria-hidden="true">⚙️</span>
+              Automation
+            </a>
+          </div>
+        </nav>
+        <div class="sidebar__footer">
+          <div class="sidebar__plan">
+            <span class="plan__label">Platform score</span>
+            <div class="plan__score">
+              <span>92</span>
+              <small>/100</small>
+            </div>
+            <p class="plan__description">
+              Performance is trending upward. Review insights for optimisation.
+            </p>
+            <button class="button button--secondary" type="button">
+              View recommendations
+            </button>
+          </div>
+          <button class="button button--ghost" type="button" id="commandPaletteButton">
+            <span aria-hidden="true">⌘</span>
+            Command palette
+          </button>
+        </div>
+      </aside>
+
+      <main class="shell__content" id="dashboard">
+        <header class="content__header">
+          <div class="header__context">
+            <button class="button button--ghost button--icon" type="button" id="mobileMenu">
+              <span aria-hidden="true">☰</span>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+            <div>
+              <h1>Executive Overview</h1>
+              <p>Monitor performance, financials, people and automation in one workspace.</p>
+            </div>
+          </div>
+          <div class="header__actions">
+            <div class="search" role="search">
+              <input
+                class="search__input"
+                type="search"
+                id="globalSearch"
+                placeholder="Search projects, teams or reports..."
+                aria-label="Search"
+              />
+              <span class="search__icon" aria-hidden="true">🔍</span>
+            </div>
+            <button class="button button--ghost" type="button" id="themeToggle" aria-pressed="false">
+              <span class="theme-toggle__icon" aria-hidden="true">🌞</span>
+              <span class="sr-only">Toggle theme</span>
+            </button>
+            <button class="button button--primary" type="button" id="openCreateModal">
+              <span aria-hidden="true">＋</span>
+              New initiative
+            </button>
+            <div class="user">
+              <span class="user__avatar" aria-hidden="true">AV</span>
+              <div>
+                <p class="user__name">Avery Vaughn</p>
+                <p class="user__role">Chief Operating Officer</p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="panel panel--highlight">
+          <div class="panel__content">
+            <h2>Quarterly outlook</h2>
+            <p>
+              Cross-functional alignment has improved by <strong>12%</strong> this month. Automation pipelines reduced manual effort by <strong>340 hours</strong> and finance is trending <strong>8% under budget</strong>.
+            </p>
+            <div class="panel__tags">
+              <span class="tag">Alignment</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Financial health</span>
+            </div>
+          </div>
+          <div class="panel__figure">
+            <div class="donut" role="img" aria-label="74 percent progress">
+              <svg viewBox="0 0 36 36">
+                <path class="donut__track" d="M18 2.0845a 15.9155 15.9155 0 0 1 0 31.831a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="donut__indicator" stroke-dasharray="74, 100" d="M18 2.0845a 15.9155 15.9155 0 0 1 0 31.831a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="18" y="20.35" class="donut__text">74%</text>
+              </svg>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid grid--metrics" aria-label="Key metrics">
+          <article class="metric" data-metric="revenue">
+            <header>
+              <span class="metric__icon" aria-hidden="true">💰</span>
+              <div>
+                <p class="metric__label">Revenue impact</p>
+                <p class="metric__value" id="metricRevenue">$8.4M</p>
+              </div>
+            </header>
+            <p class="metric__trend metric__trend--positive">+4.3% vs forecast</p>
+          </article>
+          <article class="metric" data-metric="delivery">
+            <header>
+              <span class="metric__icon" aria-hidden="true">🚀</span>
+              <div>
+                <p class="metric__label">On-time delivery</p>
+                <p class="metric__value" id="metricDelivery">94%</p>
+              </div>
+            </header>
+            <p class="metric__trend metric__trend--positive">+6.2% this month</p>
+          </article>
+          <article class="metric" data-metric="automation">
+            <header>
+              <span class="metric__icon" aria-hidden="true">🤖</span>
+              <div>
+                <p class="metric__label">Automation coverage</p>
+                <p class="metric__value" id="metricAutomation">68%</p>
+              </div>
+            </header>
+            <p class="metric__trend metric__trend--neutral">17 pipelines live</p>
+          </article>
+          <article class="metric" data-metric="satisfaction">
+            <header>
+              <span class="metric__icon" aria-hidden="true">😊</span>
+              <div>
+                <p class="metric__label">Employee satisfaction</p>
+                <p class="metric__value" id="metricSatisfaction">8.9</p>
+              </div>
+            </header>
+            <p class="metric__trend metric__trend--positive">+0.6 QoQ</p>
+          </article>
+        </section>
+
+        <section class="grid grid--columns">
+          <section class="panel" aria-labelledby="deliveryPipeline">
+            <div class="panel__header">
+              <div>
+                <h2 id="deliveryPipeline">Delivery pipeline</h2>
+                <p>Track programmes by health, owner, automation coverage and forecast.</p>
+              </div>
+              <div class="panel__actions">
+                <label class="select" aria-label="Filter by health">
+                  <select id="healthFilter">
+                    <option value="all">All health states</option>
+                    <option value="on-track">On track</option>
+                    <option value="at-risk">At risk</option>
+                    <option value="blocked">Blocked</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="table" aria-describedby="deliveryPipeline">
+                <thead>
+                  <tr>
+                    <th scope="col" data-sort="name">Programme</th>
+                    <th scope="col" data-sort="owner">Owner</th>
+                    <th scope="col" data-sort="status">Health</th>
+                    <th scope="col" data-sort="automation">Automation</th>
+                    <th scope="col" data-sort="budget">Budget</th>
+                    <th scope="col" data-sort="forecast">Forecast</th>
+                  </tr>
+                </thead>
+                <tbody id="programmeTableBody"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="panel" aria-labelledby="teamPerformance">
+            <div class="panel__header">
+              <div>
+                <h2 id="teamPerformance">Team performance</h2>
+                <p>Compare velocity, quality and capacity across core delivery teams.</p>
+              </div>
+              <div class="panel__actions">
+                <label class="select" aria-label="Period">
+                  <select id="performancePeriod">
+                    <option value="month">Last 30 days</option>
+                    <option value="quarter">Quarter</option>
+                    <option value="year">Year</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <canvas id="performanceChart" height="220" role="img" aria-label="Team performance chart"></canvas>
+            <ul class="legend" id="performanceLegend" aria-label="Team performance legend"></ul>
+          </section>
+        </section>
+
+        <section class="grid grid--columns">
+          <section class="panel" aria-labelledby="workflows">
+            <div class="panel__header">
+              <div>
+                <h2 id="workflows">Automation workflows</h2>
+                <p>Review the newest automations rolled out across business units.</p>
+              </div>
+            </div>
+            <ul class="workflow" id="workflowList"></ul>
+          </section>
+
+          <section class="panel" aria-labelledby="peopleInsights">
+            <div class="panel__header">
+              <div>
+                <h2 id="peopleInsights">People insights</h2>
+                <p>Engagement drivers, retention risks and succession planning updates.</p>
+              </div>
+              <div class="panel__actions">
+                <label class="switch">
+                  <input type="checkbox" id="pulseToggle" />
+                  <span>Live pulse</span>
+                </label>
+              </div>
+            </div>
+            <div class="insights" id="insightsGrid"></div>
+          </section>
+        </section>
+
+        <section class="grid grid--columns">
+          <section class="panel" aria-labelledby="activityStream">
+            <div class="panel__header">
+              <div>
+                <h2 id="activityStream">Activity stream</h2>
+                <p>Highlights from operations, finance and automation in the last 48 hours.</p>
+              </div>
+              <button class="button button--ghost" type="button" id="refreshActivity">Refresh</button>
+            </div>
+            <ul class="timeline" id="activityTimeline"></ul>
+          </section>
+
+          <section class="panel" aria-labelledby="portfolioHealth">
+            <div class="panel__header">
+              <div>
+                <h2 id="portfolioHealth">Portfolio health</h2>
+                <p>Blended risk across portfolios with actions to maintain momentum.</p>
+              </div>
+            </div>
+            <div class="portfolio" id="portfolioGrid"></div>
+          </section>
+        </section>
+
+        <section class="panel panel--cta" aria-labelledby="cta">
+          <div>
+            <h2 id="cta">Accelerate delivery with Menmo AI</h2>
+            <p>
+              Configure orchestrated workflows, predictive staffing and intelligent budgeting in minutes. Scale enterprise productivity with automated guardrails.
+            </p>
+          </div>
+          <button class="button button--primary" type="button">Launch AI copilots</button>
+        </section>
+
+        <footer class="footer">
+          <p>Menmo Enterprise Suite &copy; <span id="footerYear"></span>. Built for the modern enterprise.</p>
+          <div class="footer__links">
+            <a href="#">Status</a>
+            <a href="#">Trust &amp; security</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+          </div>
+        </footer>
+      </main>
+
+      <button class="button button--floating" id="quickAction" type="button" aria-haspopup="dialog">
+        <span aria-hidden="true">⚡</span>
+        <span class="sr-only">Open quick actions</span>
+      </button>
+
+      <dialog class="modal" id="createModal">
+        <form class="modal__content" method="dialog">
+          <header class="modal__header">
+            <div>
+              <h2>Create new initiative</h2>
+              <p>Set up owners, milestones and automations before kickoff.</p>
+            </div>
+            <button class="button button--ghost button--icon" type="reset" value="cancel">
+              <span aria-hidden="true">✕</span>
+              <span class="sr-only">Close</span>
+            </button>
+          </header>
+          <div class="modal__body">
+            <label class="field">
+              <span>Initiative name</span>
+              <input type="text" name="name" required placeholder="Connected fulfilment platform" />
+            </label>
+            <div class="field-group">
+              <label class="field">
+                <span>Executive sponsor</span>
+                <input type="text" name="sponsor" required placeholder="Jane Doe" />
+              </label>
+              <label class="field">
+                <span>Business unit</span>
+                <select name="unit" required>
+                  <option value="">Select unit</option>
+                  <option>Commerce</option>
+                  <option>Operations</option>
+                  <option>Finance</option>
+                  <option>People</option>
+                </select>
+              </label>
+            </div>
+            <label class="field">
+              <span>Primary objective</span>
+              <textarea name="objective" rows="3" placeholder="Reduce cost-to-serve by 14% through automation"></textarea>
+            </label>
+            <label class="field field--inline">
+              <input type="checkbox" name="automation" checked />
+              <span>Enable automation recommendations</span>
+            </label>
+          </div>
+          <footer class="modal__footer">
+            <button class="button button--ghost" type="reset" value="cancel">Cancel</button>
+            <button class="button button--primary" type="submit">Create initiative</button>
+          </footer>
+        </form>
+      </dialog>
+
+      <div class="command-palette" id="commandPalette" role="dialog" aria-modal="true" aria-labelledby="commandPaletteTitle" hidden>
+        <div class="command-palette__panel">
+          <header>
+            <h2 id="commandPaletteTitle">Command palette</h2>
+            <p>Jump to reports, open automations or create new work.</p>
+          </header>
+          <input
+            class="command-palette__search"
+            type="search"
+            id="commandPaletteSearch"
+            placeholder="Type a command or search"
+            aria-label="Command search"
+          />
+          <ul class="command-palette__list" id="commandPaletteList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+      <span class="toast__icon" aria-hidden="true">✅</span>
+      <span id="toastMessage">Initiative created successfully.</span>
+    </div>
+
+    <template id="commandTemplate">
+      <li>
+        <button type="button"></button>
+      </li>
+    </template>
+  </body>
+</html>
