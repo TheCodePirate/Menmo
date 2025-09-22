@@ -1,0 +1,52 @@
+{
+  "documents": [
+    {
+      "id": "klimatklivet_rule_alignment",
+      "title": "Klimatklivet Handbook 2023",
+      "content": "Klimatklivet prioritises investments that deliver measurable CO2e reductions within Sweden and are led by municipalities or SMEs registered in the country.",
+      "citation": {
+        "title": "Klimatklivet Handbook 2023",
+        "section": "2.1",
+        "url": "https://www.naturvardsverket.se/klimatklivet"
+      },
+      "grant_slugs": ["klimatklivet"],
+      "proprietary": false
+    },
+    {
+      "id": "klimatklivet_fast_chargers",
+      "title": "Stockholm Municipality EV Guidance",
+      "content": "Stockholm municipality recommends EV fast chargers rated at 150 kW or higher and requires applicants to submit a baseline emissions inventory using the municipal template.",
+      "citation": {
+        "title": "Stockholm EV Infrastructure Memo",
+        "section": "3.4",
+        "source_type": "proprietary"
+      },
+      "grant_slugs": ["klimatklivet"],
+      "proprietary": true
+    },
+    {
+      "id": "horizon_europe_partnerships",
+      "title": "Horizon Europe Mission Climate",
+      "content": "Projects must include international partnerships and clearly articulate cross-border impact pathways aligned with the Horizon Europe Mission on Climate-Neutral and Smart Cities.",
+      "citation": {
+        "title": "Horizon Europe Mission Work Programme",
+        "section": "1.2.5",
+        "url": "https://research-and-innovation.ec.europa.eu"
+      },
+      "grant_slugs": ["horizoneurope"],
+      "proprietary": false
+    },
+    {
+      "id": "green_deal_evidence",
+      "title": "Green Deal Call Guidance",
+      "content": "Applicants should attach supplier quotes and lifecycle analyses demonstrating alignment with EU Green Deal sustainability taxonomy.",
+      "citation": {
+        "title": "EU Green Deal Call X Guidance",
+        "section": "Annex B",
+        "url": "https://funding.ec.europa.eu"
+      },
+      "grant_slugs": ["greendeal"],
+      "proprietary": false
+    }
+  ]
+}
