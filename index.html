@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menmo Control Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="app-shell__sidebar" id="sidebar">
+        <div class="sidebar__brand">
+          <div class="brand-mark">M</div>
+          <div class="brand-copy">
+            <span class="brand-copy__name">Menmo</span>
+            <span class="brand-copy__subtitle">Experience Cloud</span>
+          </div>
+        </div>
+        <nav class="sidebar__nav">
+          <button type="button" class="nav__item nav__item--active">
+            <span class="nav__icon" aria-hidden="true">📊</span>
+            <span>Executive Overview</span>
+          </button>
+          <button type="button" class="nav__item">
+            <span class="nav__icon" aria-hidden="true">🤝</span>
+            <span>Customer Journeys</span>
+          </button>
+          <button type="button" class="nav__item">
+            <span class="nav__icon" aria-hidden="true">🎯</span>
+            <span>Sales Orchestration</span>
+          </button>
+          <button type="button" class="nav__item">
+            <span class="nav__icon" aria-hidden="true">📦</span>
+            <span>Lifecycle Operations</span>
+          </button>
+          <button type="button" class="nav__item">
+            <span class="nav__icon" aria-hidden="true">💬</span>
+            <span>Service Intelligence</span>
+          </button>
+          <button type="button" class="nav__item">
+            <span class="nav__icon" aria-hidden="true">⚙️</span>
+            <span>Administration</span>
+          </button>
+        </nav>
+        <div class="sidebar__footer">
+          <button type="button" class="sidebar__collapse" id="collapseSidebar" aria-expanded="true">
+            <span class="nav__icon" aria-hidden="true">⬅️</span>
+            <span>Collapse</span>
+          </button>
+        </div>
+      </aside>
+      <main class="app-shell__content">
+        <header class="page-header">
+          <div class="page-header__title">
+            <h1>Executive Command Center</h1>
+            <p>
+              A unified workspace inspired by Oracle Redwood to align sales,
+              service, and customer success teams.
+            </p>
+          </div>
+          <div class="page-header__actions">
+            <label class="search">
+              <span class="search__icon" aria-hidden="true">🔍</span>
+              <input type="search" placeholder="Search collections, playbooks, and people" />
+            </label>
+            <button type="button" class="button button--ghost" id="toggleTheme" aria-pressed="false">
+              <span class="button__icon" aria-hidden="true">🌙</span>
+              <span>Theme</span>
+            </button>
+            <button type="button" class="button button--primary">
+              <span class="button__icon" aria-hidden="true">➕</span>
+              <span>New Initiative</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="content">
+          <section class="panels">
+            <section class="panel panel--metrics">
+              <div class="panel__header">
+                <div>
+                  <h2>Strategic Metrics</h2>
+                  <p class="panel__subtitle">Weekly performance snapshots for global programs.</p>
+                </div>
+                <div class="panel__actions">
+                  <select id="metricRange" class="control">
+                    <option value="week">This week</option>
+                    <option value="month">This month</option>
+                    <option value="quarter">This quarter</option>
+                  </select>
+                </div>
+              </div>
+              <div id="metricsGrid" class="metrics-grid"></div>
+            </section>
+
+            <section class="panel panel--visual">
+              <div class="panel__header">
+                <div>
+                  <h2>Engagement Pulse</h2>
+                  <p class="panel__subtitle">Benchmark NPS and activation rate across priority cohorts.</p>
+                </div>
+                <div class="panel__actions">
+                  <div class="segmented-control" role="radiogroup" aria-label="Engagement view">
+                    <button type="button" class="segmented-control__item" data-view="nps" aria-pressed="true">NPS</button>
+                    <button type="button" class="segmented-control__item" data-view="activation" aria-pressed="false">Activation</button>
+                  </div>
+                </div>
+              </div>
+              <canvas id="pulseChart" aria-label="Engagement over time" role="img"></canvas>
+              <dl class="chart-legend" id="chartLegend"></dl>
+            </section>
+
+            <section class="panel panel--table">
+              <div class="panel__header">
+                <div>
+                  <h2>Revenue Motions</h2>
+                  <p class="panel__subtitle">Live pipeline health across orchestrated customer journeys.</p>
+                </div>
+                <div class="panel__actions">
+                  <label class="control control--inline">
+                    <span>Segment</span>
+                    <select id="segmentFilter">
+                      <option value="all">All segments</option>
+                      <option value="enterprise">Enterprise</option>
+                      <option value="growth">Growth</option>
+                      <option value="startup">Startup</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <div class="table" role="table" aria-label="Revenue motions" id="pipelineTable"></div>
+            </section>
+          </section>
+
+          <aside class="sidebar-panels">
+            <section class="panel panel--timeline">
+              <div class="panel__header">
+                <div>
+                  <h2>Rhythm of Business</h2>
+                  <p class="panel__subtitle">Upcoming executive touchpoints and dependencies.</p>
+                </div>
+              </div>
+              <div class="timeline" id="timeline"></div>
+            </section>
+
+            <section class="panel panel--actions">
+              <div class="panel__header">
+                <div>
+                  <h2>Rapid Actions</h2>
+                  <p class="panel__subtitle">Align stakeholders and orchestrate next best moves.</p>
+                </div>
+              </div>
+              <ul class="action-list" id="actionList"></ul>
+            </section>
+
+            <section class="panel panel--insights">
+              <div class="panel__header">
+                <div>
+                  <h2>AI Highlights</h2>
+                  <p class="panel__subtitle">Summarized signals that need human attention.</p>
+                </div>
+              </div>
+              <div class="insights" id="insightFeed"></div>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
