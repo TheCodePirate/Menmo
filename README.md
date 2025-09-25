@@ -1,17 +1,13 @@
 # Funding Assistant Experience
 
-This repository hosts a static prototype of the Funding Assistant suite. The experience introduces a left-hand navigation shell
-with a conversational Funding Assistant, portfolio home page, and supporting resources that cover grant programs, eligibility,
-sustainability commitments, the application pipeline, and archived release notes. Every page is written with AI-guided funding
-workflows in mind, including the requirement that assistant answers always cite the uploaded legal and policy documents.
+Det här repositoriet innehåller en statisk prototyp av Menmos Funding Assistant &ndash; ett komplett B2B-gränssnitt inspirerat av moderna Azure- och Oracle-applikationer. Upplevelsen visar hur organisationer kan kombinera en citerande AI-assistent med kataloger för bidrag, behörighetskontroller, hållbarhetsmål, en orkestrerad ansökningspipeline samt ett portföljnav för ledningen. Dokument Intelligence-modellerna (Read, Layout och Prebuilt Forms) har egna sidor som beskriver hur de används i arbetsflödet.
 
-## Running the site locally
+## Starta gränssnittet lokalt
 
-Serve the contents of [`web/`](web/) using any static file server. With Python 3 installed you can run:
+Servera innehållet i [`web/`](web/) med valfri statisk webbserver. Med Python 3 installerat kan du köra:
 
 ```bash
 python3 -m http.server 8080 --directory web
 ```
 
-Open <http://localhost:8080/> to launch the Funding Assistant. Navigate via the left menu to review grant resources or use the
-Company Home link in the top-right corner to see portfolio status snapshots.
+Öppna <http://localhost:8080/> i webbläsaren för att starta Funding Assistant. Navigera via vänstermenyn för att utforska Funding Assistant, programkatalogen, behörighets- och hållbarhetsmodulerna, pipeline-översikten, Document Intelligence-sidorna eller versionarkivet. Använd länken **Company Home** uppe till höger för att se hela portföljen med statusar och rekommenderade åtgärder.

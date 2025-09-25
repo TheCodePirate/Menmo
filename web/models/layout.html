@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout model &mdash; Document Intelligence</title>
+  <link rel="stylesheet" href="../app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
+      </div>
+      <nav>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="../index.html">Funding Assistant</a>
+          <a class="nav-link" href="../grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="../eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="../sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="../pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link active" href="../document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="read.html">Read model</a>
+            <a class="nav-link active" href="layout.html">Layout model</a>
+            <a class="nav-link" href="prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="../versions/v3.1.html">Version Archive</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Document Intelligence</p>
+          <h1>Layout model</h1>
+        </div>
+        <div class="topbar-actions">
+          <a class="home-link" href="../company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
+      </header>
+      <main class="content">
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Strukturbevarande tolkning</span>
+            <h2>Layout-modellen återskapar dokumentets arkitektur för att bevara kontexten.</h2>
+            <p>Den används när ansökningar, ritningar eller miljörapporter behöver bibehålla visuell hierarki. Funding Assistant kan därför hänvisa till specifika tabeller, figurer och bilagor.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="../document-intelligence.html">Tillbaka till katalogen</a>
+              <a class="secondary-button" href="../versions/v3.1.html">Layout release notes</a>
+            </div>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Bevarad struktur</span>
+              <strong>98%</strong>
+              <span>Sidlayout och rubriknivåer bibehålls i exporterna.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Format</span>
+              <strong>PDF, TIFF</strong>
+              <span>Fungerar med komplexa ritningar och inskannade blanketter.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Stödfunktioner</span>
+              <strong>Tables, charts</strong>
+              <span>Identifierar diagram, bilder och fotnoter som separata objekt.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Kapabiliteter</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Layout-uppmärkning</h3>
+              <p>Detekterar rubriker, brödtext, figurer och bilagor för att bevara dokumentets logiska struktur.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Avancerad figuridentifiering</h3>
+              <p>Identifierar diagram, kartor och ritningar så att assistenten kan länka direkt till visuella bevis.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Anchor points</h3>
+              <p>Skapar koordinater per element vilket gör att svar kan länka till exakt position i PDF-viewer.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Hybrid indexering</h3>
+              <p>Kombinerar text och layoutdata för att stödja sökningar som “visa tabell på sidan 32”.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Visuell återgivning</h2>
+          <div class="callout">
+            <p class="badge">Exempel</p>
+            <p>Miljörapport 2024 &mdash; Layout-modellen identifierar figur 4.2 “Projected Emissions Reduction” och gör den sökbar. Funding Assistant kan därför jämföra siffror mot projektmål och referera till bilden i chatten.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Användningsfall</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Hållbarhetsrapporter</h3>
+                <p>Bevara diagram och KPI-tabeller för att länka tillbaka när styrelsen granskar ESG-utfall.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Tekniska bilagor</h3>
+                <p>Underlätta för tekniker att hitta rätt ritning eller planritning under ansökningsprocessen.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Revision</h3>
+                <p>Visa exakt var i dokumentet en viss bestämmelse eller tabell finns när revisorer begär bevis.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

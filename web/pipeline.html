@@ -9,18 +9,33 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
-        <div class="brand">Funding Assistant</div>
-        <p class="tagline">Track readiness from discovery to award in a single guided workspace.</p>
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
       </div>
       <nav>
-        <a class="nav-link" href="index.html">Funding Assistant</a>
-        <a class="nav-link" href="grant-programs.html">Grant Programs</a>
-        <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
-        <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
-        <a class="nav-link active" href="pipeline.html">Application Pipeline</a>
-        <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="index.html">Funding Assistant</a>
+          <a class="nav-link" href="grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
+          <a class="nav-link active" href="pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link" href="document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="models/read.html">Read model</a>
+            <a class="nav-link" href="models/layout.html">Layout model</a>
+            <a class="nav-link" href="models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        </div>
       </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
     </aside>
     <div class="main-area">
       <header class="topbar">
@@ -28,84 +43,89 @@
           <p class="eyebrow">Workflow orchestration</p>
           <h1>Application Pipeline</h1>
         </div>
-        <a class="home-link" href="company-home.html">Company Home</a>
+        <div class="topbar-actions">
+          <a class="home-link" href="company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
       </header>
       <main class="content">
-        <section class="intro-card hero-card">
-          <div class="hero-copy">
-            <span class="hero-label">Workflow orchestration</span>
-            <h2>Visibility from intake to submission</h2>
-            <p>
-              Funding Assistant binder samman uppdragsintag, processflöden och dokumentation i en levande överblick. Teamen ser
-              vem som ansvarar för nästa steg och vilka frågor AI:n redan har löst.
-            </p>
-            <p class="sv-intro">Vi på Menmo har utvecklat ett AI-baserat verktyg som hjälper företag och kommuner att hitta rätt finansiering för sina gröna och innovativa projekt.</p>
-            <p class="sv-intro">Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker.</p>
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Styr flödet</span>
+            <h2>Från idé till beviljad finansiering i samma kontrolltorn.</h2>
+            <p>Pipeline-modulen visualiserar milstolpar, ägare och risker. Funding Assistant skapar automatiskt uppgifter, återanvänder svar från chatten och ser till att varje krav blir uppfyllt i tid.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="index.html">Fråga assistenten</a>
+              <a class="secondary-button" href="company-home.html">Visa portföljen</a>
+            </div>
           </div>
-          <div class="hero-marketing">
-            <div class="marketing-point">
-              <h3>AI-driven Finansierings-analys</h3>
-              <p>Vi analyserar era projekt med hjälp av AI och identifierar de mest relevanta finansieringsmöjligheterna &ndash; från statliga stöd till EU-bidrag och gröna lån.</p>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Aktiva ansökningar</span>
+              <strong>18</strong>
+              <span>Pågående case med tydliga deadlines.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-baserad Matchning till Rätt Stöd</h3>
-              <p>Med Menmos plattform får ni automatiska AI-matchningar till de stöd och bidrag som passar just era behov. Snabbt, enkelt och träffsäkert.</p>
+            <div class="metric-card">
+              <span class="badge">Teamengagemang</span>
+              <strong>64</strong>
+              <span>Medarbetare med uppgifter i pipeline.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-stöd för Ansökningskvalitet</h3>
-              <p>Vår AI hjälper er att strukturera, formulera och kvalitetssäkra ansökningar för att öka chanserna till beviljad finansiering.</p>
+            <div class="metric-card">
+              <span class="badge">Deadlineuppfyllelse</span>
+              <strong>92%</strong>
+              <span>Andel milstolpar som nås i tid.</span>
             </div>
           </div>
         </section>
 
         <section class="card table-card">
-          <h2 class="section-title">Pipeline milestones</h2>
+          <h2 class="section-title">Pipeline-milstolpar</h2>
           <div class="table-wrapper">
             <table>
               <thead>
                 <tr>
-                  <th>Stage</th>
-                  <th>Owner</th>
-                  <th>Assistant Prompts</th>
-                  <th>Outputs</th>
+                  <th>Steg</th>
+                  <th>Ägare</th>
+                  <th>AI-stöd</th>
+                  <th>Leverabler</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Discovery</td>
-                  <td>Business development</td>
-                  <td>“Summarize eligibility conflicts for the top three programs.”</td>
-                  <td>Shortlist memo with citations and risk highlights</td>
+                  <td>Business Development</td>
+                  <td>Snabb jämförelse av programkrav och risker.</td>
+                  <td>Prioriteringsmemo med källhänvisningar.</td>
                 </tr>
                 <tr>
                   <td>Qualification</td>
-                  <td>Strategy lead</td>
-                  <td>“Build a requirements checklist with links to governing clauses.”</td>
-                  <td>Interactive checklist shared with project team</td>
+                  <td>Strategy Lead</td>
+                  <td>Checklistor mot programguide och interna policies.</td>
+                  <td>Grönt/gult/rött-status på behörighet.</td>
                 </tr>
                 <tr>
-                  <td>Proposal drafting</td>
-                  <td>Grant writer</td>
-                  <td>“Draft a sustainability section referencing the uploaded net-zero plan.”</td>
-                  <td>Annotated proposal sections with source citations</td>
+                  <td>Proposal Drafting</td>
+                  <td>Grant Writer</td>
+                  <td>Utkast till narrativa sektioner med källor och tonjustering.</td>
+                  <td>Versionerade dokumentkluster redo för granskning.</td>
                 </tr>
                 <tr>
-                  <td>Compliance review</td>
-                  <td>Legal &amp; finance</td>
-                  <td>“Highlight missing signatures and summarize procurement thresholds.”</td>
-                  <td>Redline summary with required approvals and policies</td>
+                  <td>Compliance Review</td>
+                  <td>Legal &amp; Finance</td>
+                  <td>Kontrollerar signaturer, bilagor och ekonomiska trösklar.</td>
+                  <td>Granskningsprotokoll och åtgärdslista.</td>
                 </tr>
                 <tr>
                   <td>Submission</td>
-                  <td>Program manager</td>
-                  <td>“Confirm we’ve met pre-submission notifications and reporting requirements.”</td>
-                  <td>Submission confirmation packet with audit log</td>
+                  <td>Program Manager</td>
+                  <td>Verifierar e-signaturer, portalsteg och rapporteringsschema.</td>
+                  <td>Inlämningspaket med komplett auditlogg.</td>
                 </tr>
                 <tr>
                   <td>Post-award</td>
-                  <td>Grants administration</td>
-                  <td>“Outline reporting cadence and reimbursement documentation needed.”</td>
-                  <td>Milestone tracker synced to contract obligations</td>
+                  <td>Grants Administration</td>
+                  <td>Skapar rapporteringsplaner och kopplar utbetalningar till ERP.</td>
+                  <td>Milestone tracker och uppföljningsrapporter.</td>
                 </tr>
               </tbody>
             </table>
@@ -113,24 +133,51 @@
         </section>
 
         <section class="card">
-          <h2 class="section-title">Connected systems</h2>
+          <h2 class="section-title">Automationer</h2>
           <div class="feature-grid">
             <article class="feature-card">
-              <h3>Document repositories</h3>
-              <p>Secure integrations with SharePoint, Box, and Google Drive keep supporting files in sync.</p>
+              <h3>Dokumentrutter</h3>
+              <p>Automatisk distribution av ansökningsdelar till ansvariga, inklusive versionshantering.</p>
             </article>
             <article class="feature-card">
-              <h3>Task orchestration</h3>
-              <p>Link Asana, Jira, or Monday.com boards so the assistant can reference due dates and owners in real time.</p>
+              <h3>Beslutslogg</h3>
+              <p>Alla beslut loggas med länk till AI-svar och källdokument för revision.</p>
             </article>
             <article class="feature-card">
-              <h3>Compliance systems</h3>
-              <p>Connect ERP and procurement tools to verify spending thresholds and reimbursement policies.</p>
+              <h3>Påminnelser</h3>
+              <p>Teams- och e-postnotiser triggas av deadlines, riskflaggor och statusändringar.</p>
             </article>
             <article class="feature-card">
-              <h3>Analytics &amp; BI</h3>
-              <p>Feed award outcomes into Power BI or Tableau dashboards with assistant-generated commentary.</p>
+              <h3>Dashboard-export</h3>
+              <p>Synka pipeline-data till Power BI eller Tableau för ledningsrapporter.</p>
             </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Samarbetsflöde</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Kickoff</h3>
+                <p>Funding Assistant genererar kickoff-agendan, ansvarsfördelning och risklista.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Iterera</h3>
+                <p>Gemensamma kommentarer och AI-förslag minskar antalet dokumentversioner.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Leverera</h3>
+                <p>Submission checklist genereras automatiskt och arkiveras efter inlämning.</p>
+              </div>
+            </div>
           </div>
         </section>
       </main>

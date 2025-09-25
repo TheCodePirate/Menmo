@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prebuilt Forms model &mdash; Document Intelligence</title>
+  <link rel="stylesheet" href="../app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
+      </div>
+      <nav>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="../index.html">Funding Assistant</a>
+          <a class="nav-link" href="../grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="../eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="../sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="../pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link active" href="../document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="read.html">Read model</a>
+            <a class="nav-link" href="layout.html">Layout model</a>
+            <a class="nav-link active" href="prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="../versions/v3.1.html">Version Archive</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Document Intelligence</p>
+          <h1>Prebuilt Forms model</h1>
+        </div>
+        <div class="topbar-actions">
+          <a class="home-link" href="../company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
+      </header>
+      <main class="content">
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Strukturerad fältextraktion</span>
+            <h2>Prebuilt Forms-modellen automatiserar administrativa blanketter.</h2>
+            <p>Den läser myndighetsformulär, EU-ansökningar och miljörapporter och levererar färdiga JSON-svar till checklistor, dashboards och e-signaturflöden.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="../pipeline.html">Koppla till pipeline</a>
+              <a class="secondary-button" href="../versions/v3.1.html">Forms release notes</a>
+            </div>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Fälttäckning</span>
+              <strong>450+</strong>
+              <span>Fördefinierade fält för statsbidrag och EU-program.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Valideringsregler</span>
+              <strong>Auto</strong>
+              <span>Inbyggd logik för datum, belopp och signaturer.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Export</span>
+              <strong>JSON &amp; CSV</strong>
+              <span>Redo att skicka till ekonomisystem och ärendehantering.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Hur formulär extraheras</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Malligenkänning</h3>
+              <p>Känner igen officiella formulär genom unika rubriker, logotyper och fältnamn.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Fältsvar</h3>
+              <p>Extraherar text, kryssrutor och numeriska värden med kontext kring sidan och sektionen.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Validering</h3>
+              <p>Kör schema- och regelkontroller innan data skickas vidare till pipeline eller RAG-index.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Workflow triggers</h3>
+              <p>Utlöser automatiska uppgifter när obligatoriska fält saknas eller signaturer behöver inhämtas.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Exempel på JSON-export</h2>
+          <div class="callout">
+            <p class="badge">Sample</p>
+            <pre style="margin:0; white-space:pre-wrap; font-family:'SFMono-Regular',Consolas,Monaco,monospace; color:var(--text-muted); background:transparent;">{
+  "formId": "SE-GREEN-LOAN-2024",
+  "fields": [
+    { "name": "project_name", "value": "Solar District Upgrade", "confidence": 0.98 },
+    { "name": "requested_amount", "value": "12 500 000 SEK", "confidence": 0.96 },
+    { "name": "emissions_reduction", "value": "45%", "confidence": 0.94 },
+    { "name": "signatory", "value": "Anna Berg", "confidence": 0.99 }
+  ],
+  "attachments": ["impact_report_q4.pdf", "net_zero_plan.docx"],
+  "validation": {
+    "status": "needs-review",
+    "issues": [
+      "Missing municipal resolution attachment",
+      "Confirm matching funds letter"
+    ]
+  }
+}</pre>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Integrationsscenarier</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Ansökningsintag</h3>
+                <p>Importera ett inkommande formulär, låt modellen läsa in fälten och skapa uppgifter för saknade bilagor.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Finansiell kontroll</h3>
+                <p>Koppla extraherade belopp till ERP-system för att kontrollera budgetlinjer automatiskt.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Rapportering</h3>
+                <p>Generera statusuppdateringar till grant officers med direktlänkar till källdokument och AI-insikter.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

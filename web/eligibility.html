@@ -9,111 +9,155 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
-        <div class="brand">Funding Assistant</div>
-        <p class="tagline">Align on grant readiness with transparent requirements and AI checklists.</p>
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
       </div>
       <nav>
-        <a class="nav-link" href="index.html">Funding Assistant</a>
-        <a class="nav-link" href="grant-programs.html">Grant Programs</a>
-        <a class="nav-link active" href="eligibility.html">Eligibility &amp; Requirements</a>
-        <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
-        <a class="nav-link" href="pipeline.html">Application Pipeline</a>
-        <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="index.html">Funding Assistant</a>
+          <a class="nav-link" href="grant-programs.html">Grant Programs</a>
+          <a class="nav-link active" href="eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link" href="document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="models/read.html">Read model</a>
+            <a class="nav-link" href="models/layout.html">Layout model</a>
+            <a class="nav-link" href="models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        </div>
       </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
     </aside>
     <div class="main-area">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Grant readiness</p>
+          <p class="eyebrow">Behörighetskontroller</p>
           <h1>Eligibility &amp; Requirements</h1>
         </div>
-        <a class="home-link" href="company-home.html">Company Home</a>
+        <div class="topbar-actions">
+          <a class="home-link" href="company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
       </header>
       <main class="content">
-        <section class="intro-card hero-card">
-          <div class="hero-copy">
-            <span class="hero-label">Grant readiness</span>
-            <h2>Know what qualifies before you apply</h2>
-            <p>
-              Funding Assistant destillerar varje krav till kontrollerbara checklistor, med citat från era egna rådgivande och
-              juridiska dokument. Ni får tydliga nästa steg innan ansökningsteamet ens öppnar mallarna.
-            </p>
-            <p class="sv-intro">Vi på Menmo har utvecklat ett AI-baserat verktyg som hjälper företag och kommuner att hitta rätt finansiering för sina gröna och innovativa projekt.</p>
-            <p class="sv-intro">Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker.</p>
-          </div>
-          <div class="hero-marketing">
-            <div class="marketing-point">
-              <h3>AI-driven Finansierings-analys</h3>
-              <p>Vi analyserar era projekt med hjälp av AI och identifierar de mest relevanta finansieringsmöjligheterna &ndash; från statliga stöd till EU-bidrag och gröna lån.</p>
-            </div>
-            <div class="marketing-point">
-              <h3>AI-baserad Matchning till Rätt Stöd</h3>
-              <p>Med Menmos plattform får ni automatiska AI-matchningar till de stöd och bidrag som passar just era behov. Snabbt, enkelt och träffsäkert.</p>
-            </div>
-            <div class="marketing-point">
-              <h3>AI-stöd för Ansökningskvalitet</h3>
-              <p>Vår AI hjälper er att strukturera, formulera och kvalitetssäkra ansökningar för att öka chanserna till beviljad finansiering.</p>
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Kontrollera innan du ansöker</span>
+            <h2>Checklistor, intyg och riskflaggor byggs direkt från källdokumenten.</h2>
+            <p>Funding Assistant analyserar behörighetskraven från programguiden och kombinerar dem med era interna policies. Resultatet är en samlad vy där varje krav har ansvarig, status och länk till originaltexten.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="index.html">Ställ en kontrollfråga</a>
+              <a class="secondary-button" href="pipeline.html">Skapa uppgifter</a>
             </div>
           </div>
-        </section>
-
-        <section class="card">
-          <h2 class="section-title">Eligibility checklist template</h2>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <h3>Organizational status</h3>
-              <p>Document nonprofit registrations, municipal resolutions, or private-public partnership agreements.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Financial readiness</h3>
-              <p>Upload audited financials, match funding commitments, and procurement policies for review.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Impact evidence</h3>
-              <p>Provide baseline metrics, stakeholder letters, and sustainability forecasts to validate claims.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Compliance attestations</h3>
-              <p>Store risk management plans, labor compliance forms, and equity statements for quick citation.</p>
-            </article>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Checklistor</span>
+              <strong>35</strong>
+              <span>Aktiva kontrollistor kopplade till nuvarande program.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Riskflaggor</span>
+              <strong>12</strong>
+              <span>Potentiella blockerare identifierade av AI:n denna månad.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Uppfyllda krav</span>
+              <strong>82%</strong>
+              <span>Andel krav med komplett dokumentation.</span>
+            </div>
           </div>
         </section>
 
         <section class="card table-card">
-          <h2 class="section-title">Assistant-powered requirement checks</h2>
+          <h2 class="section-title">Behörighetsöversikt</h2>
           <div class="table-wrapper">
             <table>
               <thead>
                 <tr>
-                  <th>Need</th>
-                  <th>Documented In</th>
-                  <th>Assistant Action</th>
+                  <th>Kravområde</th>
+                  <th>Status</th>
+                  <th>Ansvarig</th>
+                  <th>AI-insikt</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Eligibility clause validation</td>
-                  <td>Agency statutes &amp; uploaded legal counsel memos</td>
-                  <td>Confirms alignment and cites statute + memo paragraph for audit logs</td>
+                  <td>Juridiska intyg</td>
+                  <td>Pågår</td>
+                  <td>Legal</td>
+                  <td>Behöver uppdaterad kommunresolution för Clean Energy District Grant.</td>
                 </tr>
                 <tr>
-                  <td>Matching funds confirmation</td>
-                  <td>Client capital plans &amp; board approvals</td>
-                  <td>Checks ratio math, surfaces board vote references, and flags missing resolutions</td>
+                  <td>Finansiell kapacitet</td>
+                  <td>Grön</td>
+                  <td>Finance</td>
+                  <td>Alla matchningskrav uppfyllda, AI föreslår att bilägga senaste audit.</td>
                 </tr>
                 <tr>
-                  <td>Sustainability thresholds</td>
-                  <td>GHG inventories &amp; sustainability roadmaps</td>
-                  <td>Calculates improvements, references measurement methodology, and suggests stretch targets</td>
+                  <td>Projektmognad</td>
+                  <td>Gul</td>
+                  <td>Program Office</td>
+                  <td>Need to upload vendor MoU för Sustainable Transit Accelerator.</td>
                 </tr>
                 <tr>
-                  <td>Equity &amp; inclusion commitments</td>
-                  <td>Community engagement reports &amp; DEI frameworks</td>
-                  <td>Summarizes outreach evidence and points to signed partnership MOUs</td>
+                  <td>Hållbarhet</td>
+                  <td>Grön</td>
+                  <td>Sustainability</td>
+                  <td>Net-zero plan och emissionsbaslinje är uppdaterade för året.</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <p class="footer-note">Statusuppdateringar syns direkt i pipeline-modulen och loggas för audit.</p>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Vad AI:n kontrollerar</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Behörighetsregler</h3>
+              <p>Jämför projektdata mot programkrav och flaggar konflikter eller saknade kriterier.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Bilagestatus</h3>
+              <p>Visar vilka dokument som är uppladdade, väntande eller behöver revideras.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Intressentgodkännanden</h3>
+              <p>Följer upp signaturer och styrelsegodkännanden med automatiska påminnelser.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Policykonflikter</h3>
+              <p>Lyfter fram avsnitt där organisationens interna riktlinjer skiljer sig från programkravet.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Riskspårning</h2>
+          <div class="grid-split">
+            <div class="callout">
+              <h3 class="callout-title">Automatiserade varningar</h3>
+              <p>Funding Assistant skickar notifieringar när ett krav riskerar att missa deadline eller saknar källunderlag.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Dokumenterade undantag</h3>
+              <p>Alla avvikelser loggas med citat så att beslutsfattare kan dokumentera kompensationsåtgärder.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Auditklara rapporter</h3>
+              <p>Exportera en komplett sammanställning av uppfyllda krav, bilagor och ansvariga team.</p>
+            </div>
           </div>
         </section>
       </main>

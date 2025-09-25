@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Read model &mdash; Document Intelligence</title>
+  <link rel="stylesheet" href="../app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
+      </div>
+      <nav>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="../index.html">Funding Assistant</a>
+          <a class="nav-link" href="../grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="../eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="../sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="../pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link active" href="../document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link active" href="read.html">Read model</a>
+            <a class="nav-link" href="layout.html">Layout model</a>
+            <a class="nav-link" href="prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="../versions/v3.1.html">Version Archive</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Document Intelligence</p>
+          <h1>Read model</h1>
+        </div>
+        <div class="topbar-actions">
+          <a class="home-link" href="../company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
+      </header>
+      <main class="content">
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Textförståelse</span>
+            <h2>Read-modellen plockar ut varje paragraf, fotnot och tabell som styr era ansökningar.</h2>
+            <p>Modellen kombinerar OCR och naturlig språkförståelse för att tolka inskannade PDF:er, bifogade Word-filer och signerade avtal. Resultatet ger Funding Assistant möjlighet att svara med exakta citat.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="../index.html">Tillbaka till assistenten</a>
+              <a class="secondary-button" href="../versions/v3.1.html">Visa Read release notes</a>
+            </div>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Noggrannhet</span>
+              <strong>99.1%</strong>
+              <span>Tecken- och tabellprecision på testade myndighetsdokument.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Format</span>
+              <strong>PDF, DOCX</strong>
+              <span>Stöd för både uppladdade mallar och skannade kopior.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Språk</span>
+              <strong>25+</strong>
+              <span>Tränad på svenska, engelska och de vanligaste EU-språken.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Nyckelkapabiliteter</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Citerbar OCR</h3>
+              <p>Mappar varje textbit till sin sidposition så att assistenten kan skapa hänvisningar med paragraf, sida och rad.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Tabellavkodning</h3>
+              <p>Identifierar rad- och kolumnrubriker även i komplexa finansieringsmatriser.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Entity tagging</h3>
+              <p>Markerar budgetposter, datum, myndigheter och juridiska termer för att förenkla filtrering.</p>
+            </article>
+            <article class="feature-card">
+              <h3>RAG-optimerad struktur</h3>
+              <p>Delar upp dokument i chunkar anpassade för retrieval-modeller så att svaren blir träffsäkra.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Exempelutdrag</h2>
+          <div class="callout">
+            <p class="badge">JSON-output</p>
+            <pre style="margin:0; white-space:pre-wrap; font-family:'SFMono-Regular',Consolas,Monaco,monospace; color:var(--text-muted); background:transparent;">{
+  "document": "Clean Energy District Grant Guide.pdf",
+  "page": 12,
+  "paragraph": "Applicants must secure a municipal resolution confirming net-zero alignment prior to submission.",
+  "citations": [
+    {
+      "type": "section",
+      "value": "2.1"
+    }
+  ],
+  "entities": ["municipal resolution", "net-zero alignment"]
+}</pre>
+          </div>
+          <p class="footer-note">Utdraget ovan visas i Funding Assistant när användaren ber om bekräftelse på krav och bilagor.</p>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">När ska Read användas?</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Programintag</h3>
+                <p>Läs in nya bidragsutlysningar och styrdokument så att AI:n kan svara på frågor samma dag.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Riskkontroller</h3>
+                <p>Identifiera paragrafer om egenfinansiering, rapporteringskrav och begränsningar för projektkostnader.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Beslutsunderlag</h3>
+                <p>Skapa exporter till styrelsen där varje rekommendation länkar till rätt källdokument.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

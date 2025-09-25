@@ -3,137 +3,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Funding Assistant</title>
+  <title>Funding Assistant &mdash; Menmo</title>
   <link rel="stylesheet" href="app.css" />
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
-        <div class="brand">Funding Assistant</div>
-        <p class="tagline">Guided grant discovery with verifiable answers and a shared application pipeline.</p>
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
       </div>
       <nav>
-        <a class="nav-link active" href="index.html">Funding Assistant</a>
-        <a class="nav-link" href="grant-programs.html">Grant Programs</a>
-        <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
-        <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
-        <a class="nav-link" href="pipeline.html">Application Pipeline</a>
-        <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link active" href="index.html">Funding Assistant</a>
+          <a class="nav-link" href="grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link" href="document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="models/read.html">Read model</a>
+            <a class="nav-link" href="models/layout.html">Layout model</a>
+            <a class="nav-link" href="models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        </div>
       </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
     </aside>
     <div class="main-area">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Conversational guidance</p>
+          <p class="eyebrow">Conversational workspace</p>
           <h1>Funding Assistant</h1>
         </div>
-        <a class="home-link" href="company-home.html">Company Home</a>
+        <div class="topbar-actions">
+          <a class="home-link" href="company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
       </header>
       <main class="content">
-        <section class="intro-card hero-card">
-          <div class="hero-copy">
-            <span class="hero-label">AI-guided funding studio</span>
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">AI-guided financing</span>
             <h2>Vi på Menmo har utvecklat ett AI-baserat verktyg som hjälper företag och kommuner att hitta rätt finansiering för sina gröna och innovativa projekt.</h2>
-            <p>Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker.</p>
+            <p>Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker. Funding Assistant kopplar samman dokument, krav och projektmål så att varje svar är spårbart och citerat.</p>
             <div class="hero-actions">
               <a class="primary-button" href="grant-programs.html">Utforska program</a>
-              <a class="ghost-button" href="pipeline.html">Se pipeline</a>
+              <a class="secondary-button" href="pipeline.html">Se ansökningsflöde</a>
+              <a class="ghost-button" href="document-intelligence.html">Förstå AI-modellerna</a>
             </div>
           </div>
-          <div class="hero-marketing">
-            <div class="marketing-point">
-              <h3>AI-driven Finansierings-analys</h3>
-              <p>Vi analyserar era projekt med hjälp av AI och identifierar de mest relevanta finansieringsmöjligheterna &ndash; från statliga stöd till EU-bidrag och gröna lån.</p>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Kundinsikter</span>
+              <strong>95%</strong>
+              <span>Av svaren innehåller citerade lagrum eller policydokument.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-baserad Matchning till Rätt Stöd</h3>
-              <p>Med Menmos plattform får ni automatiska AI-matchningar till de stöd och bidrag som passar just era behov. Snabbt, enkelt och träffsäkert.</p>
+            <div class="metric-card">
+              <span class="badge">Projektpipeline</span>
+              <strong>48</strong>
+              <span>Aktiva finansieringsspår med AI-drivna kontroller.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-stöd för Ansökningskvalitet</h3>
-              <p>Vår AI hjälper er att strukturera, formulera och kvalitetssäkra ansökningar för att öka chanserna till beviljad finansiering.</p>
+            <div class="metric-card">
+              <span class="badge">Handläggningstid</span>
+              <strong>2&times;</strong>
+              <span>Snabbare ansökningscykler tack vare AI-stödda mallar och checklistor.</span>
             </div>
-          </div>
-        </section>
-
-        <section class="card chat-section">
-          <h2>How conversations stay compliant</h2>
-          <div class="chat-window">
-            <div class="message from-user">
-              <p>
-                Do we qualify for the Clean Energy District grant if our solar array reaches 1.2MW and includes community job
-                training?
-              </p>
-            </div>
-            <div class="message from-assistant">
-              <p>
-                You meet the capacity threshold (minimum 1MW) and the workforce development priority, but you still need the
-                city council’s net-zero endorsement letter before applying.<span class="citation">Clean Energy District Grant
-                Brief &sect;2.1</span><span class="citation">Workforce Addendum &sect;4.3</span>
-              </p>
-            </div>
-            <div class="message from-user">
-              <p>What documents should I collect for the endorsement?</p>
-            </div>
-            <div class="message from-assistant">
-              <p>
-                Assemble the sustainability roadmap, emissions baseline, and last quarter’s impact report. The endorsement
-                template on file lists them as mandatory attachments.<span class="citation">City Net-Zero Resolution Checklist p.3</span><span class="citation">Impact Report Q4 FY23</span>
-              </p>
+            <div class="metric-card">
+              <span class="badge">Nöjdhet</span>
+              <strong>4.8</strong>
+              <span>Snittbetyg från projektledare och compliance-team.</span>
             </div>
           </div>
-          <p class="footer-note">
-            Responses are generated through retrieval-augmented generation (RAG) using your curated legal, policy, and project
-            repositories so the Funding Assistant can cite the exact clauses behind every recommendation.
-          </p>
         </section>
 
         <section class="card">
-          <h2 class="section-title">Why teams choose the Funding Assistant</h2>
+          <h2 class="section-title">Samtala med Funding Assistant</h2>
+          <p class="section-lede">Varje rekommendation bygger på en RAG-motor som använder era uppladdade myndighetsdokument, avtal och hållbarhetsmål. AI:n fungerar som en rådgivare medan källdokumenten står för bevisen.</p>
+          <div class="chat-window">
+            <div class="message from-user">
+              <p>Behöver vi ett kommunalt beslut innan vi skickar in ansökan till Clean Energy District Grant?</p>
+            </div>
+            <div class="message from-assistant">
+              <p>Ja, programguiden kräver ett fullmäktigebeslut som bekräftar nettonoll-strategin innan ansökan signeras.<span class="citation">Clean Energy District Grant &sect;2.1</span><span class="citation">Kommunfullmäktigeprotokoll 2023-11-12</span></p>
+            </div>
+            <div class="message from-user">
+              <p>Vilka bilagor ska inkluderas i paketet?</p>
+            </div>
+            <div class="message from-assistant">
+              <p>Ladda upp hållbarhetsplanen, emissionsbaslinjen samt det senaste kvartalets påverkanrapport. Bilageförteckningen kräver även ett signerat partnerskapsintyg.<span class="citation">Bilageguide Bilaga B</span><span class="citation">Impact Report Q4 FY23</span></p>
+            </div>
+          </div>
+          <p class="footer-note">Chatthistoriken loggas med källhänvisningar så att jurister, ekonomer och projektägare delar samma beslutsunderlag.</p>
+        </section>
+
+        <section class="card">
+          <div class="hero-intro">
+            <span class="hero-label">Document Intelligence</span>
+            <h2>Modeller som tolkar regler, checklistor och formulär</h2>
+            <p>Funding Assistant drivs av Azure Document Intelligence-modeller finjusterade för finansiering. Välj en modell för att se hur den analyserar era dokument och stärker besluten.</p>
+          </div>
           <div class="feature-grid">
             <article class="feature-card">
-              <h3>Requirement clarity</h3>
-              <p>
-                Translate dense agency requirements into actionable checklists with links back to the governing regulation, so
-                compliance teams never lose context.
-              </p>
+              <h3><a href="models/read.html">Read</a></h3>
+              <p>Extraherar text, tabeller och nyckelfält ur PDF:er och skannade dokument med hög precision. Perfekt för att tolka långa programbeskrivningar.</p>
             </article>
             <article class="feature-card">
-              <h3>Grant comparison</h3>
-              <p>
-                Compare award sizes, match expectations, and sustainability fit side-by-side to find the strongest program for
-                each initiative.
-              </p>
+              <h3><a href="models/layout.html">Layout</a></h3>
+              <p>Bevarar dokumentets struktur, sidhuvuden och avsnitt. Används när ansökningar kräver återgivning av originalformat och referenser.</p>
             </article>
             <article class="feature-card">
-              <h3>Pipeline visibility</h3>
-              <p>
-                Surface submission deadlines, reviewer assignments, and decision gates so funding opportunities stay on track
-                from discovery to award.
-              </p>
-            </article>
-            <article class="feature-card">
-              <h3>Team-ready answers</h3>
-              <p>
-                Share conversations with stakeholders, complete with citations, so legal, finance, and sustainability groups
-                can collaborate without re-reading every policy memo.
-              </p>
+              <h3><a href="models/prebuilt-forms.html">Prebuilt Forms</a></h3>
+              <p>Känner igen standardiserade formulär, t.ex. EU-ansökningar och miljörapporter, och levererar färdiga JSON-svar till checklistor och RAG-index.</p>
             </article>
           </div>
-          <div class="stat-band">
-            <div class="stat">
-              <strong>50+</strong>
-              <span>Curated offentliga program med assistentförankrade beslutsunderlag.</span>
-            </div>
-            <div class="stat">
-              <strong>95%</strong>
-              <span>Av kundfrågorna besvaras med direkta källhänvisningar från ert arkiv.</span>
-            </div>
-            <div class="stat">
-              <strong>2x</strong>
-              <span>Snabbare ansökningscykler när AI-stödet används genom hela processen.</span>
-            </div>
+          <div class="hero-actions" style="margin-top:1.5rem;">
+            <a class="secondary-button" href="document-intelligence.html">Utforska modellbiblioteket</a>
+            <a class="ghost-button" href="versions/v3.1.html">Arkiv: v3.1 (2023-07-31-GA)</a>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Ett komplett B2B-verktyg</h2>
+          <p class="section-lede">Funding Assistant binder samman era processer med tydliga moduler. Varje sida i suiten delar samma designprinciper, säkerhet och loggning.</p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Programkatalog</h3>
+              <p>En jämförande vy över prioriterade bidrag, matchkrav och AI-genererade insikter för beslutsfattare.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Behörighetskontroller</h3>
+              <p>Checklistor, riskflaggor och intressentstatus gör att compliance-team ser luckor innan ansökan.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Hållbarhetsmått</h3>
+              <p>Visualisera klimatmål, ESG-KPI:er och projektspårning kopplat till finansieringsstrategin.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Pipeline &amp; logistik</h3>
+              <p>Tidslinjer, ansvariga och automatiska påminnelser ger kontroll över varje steg till beviljat stöd.</p>
+            </article>
           </div>
         </section>
       </main>

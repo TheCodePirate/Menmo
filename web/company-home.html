@@ -9,18 +9,33 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
-        <div class="brand">Funding Assistant</div>
-        <p class="tagline">Monitor funding pursuits, awards, and impact from a single command center.</p>
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
       </div>
       <nav>
-        <a class="nav-link" href="index.html">Funding Assistant</a>
-        <a class="nav-link" href="grant-programs.html">Grant Programs</a>
-        <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
-        <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
-        <a class="nav-link" href="pipeline.html">Application Pipeline</a>
-        <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="index.html">Funding Assistant</a>
+          <a class="nav-link" href="grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link" href="document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="models/read.html">Read model</a>
+            <a class="nav-link" href="models/layout.html">Layout model</a>
+            <a class="nav-link" href="models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        </div>
       </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
     </aside>
     <div class="main-area">
       <header class="topbar">
@@ -28,71 +43,76 @@
           <p class="eyebrow">Portfolio overview</p>
           <h1>Company Home</h1>
         </div>
-        <a class="home-link current" href="company-home.html" aria-current="page">Company Home</a>
+        <div class="topbar-actions">
+          <a class="home-link current" href="company-home.html" aria-current="page">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
       </header>
       <main class="content">
-        <section class="intro-card hero-card">
-          <div class="hero-copy">
-            <span class="hero-label">Portfolio overview</span>
-            <h2>Funding status at a glance</h2>
-            <p>
-              Följ aktiva satsningar, beviljade bidrag och effekter i ett enda nav. Funding Assistant binder samman
-              AI-dialogerna med ert projekt- och regelefterlevnadsarbete så beslut kan fattas direkt.
-            </p>
-            <p class="sv-intro">Vi på Menmo har utvecklat ett AI-baserat verktyg som hjälper företag och kommuner att hitta rätt finansiering för sina gröna och innovativa projekt.</p>
-            <p class="sv-intro">Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker.</p>
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Ledningsvy</span>
+            <h2>Följ finansieringsläget, ESG-effekt och risker i realtid.</h2>
+            <p>Company Home kombinerar data från pipeline, dokumentindex och sustainability-modulen. Ledare ser vilka ansökningar som kräver beslut, vilka KPI:er som är uppnådda och vilka risker som behöver eskaleras.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="pipeline.html">Öppna pipeline</a>
+              <a class="secondary-button" href="sustainability.html">Visa hållbarhet</a>
+            </div>
           </div>
-          <div class="hero-marketing">
-            <div class="marketing-point">
-              <h3>AI-driven Finansierings-analys</h3>
-              <p>Vi analyserar era projekt med hjälp av AI och identifierar de mest relevanta finansieringsmöjligheterna &ndash; från statliga stöd till EU-bidrag och gröna lån.</p>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Beviljat i år</span>
+              <strong>78 MSEK</strong>
+              <span>Totalt värde av godkända bidrag hittills.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-baserad Matchning till Rätt Stöd</h3>
-              <p>Med Menmos plattform får ni automatiska AI-matchningar till de stöd och bidrag som passar just era behov. Snabbt, enkelt och träffsäkert.</p>
+            <div class="metric-card">
+              <span class="badge">Success rate</span>
+              <strong>64%</strong>
+              <span>Andel ansökningar som fått finansiering under 12 månader.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-stöd för Ansökningskvalitet</h3>
-              <p>Vår AI hjälper er att strukturera, formulera och kvalitetssäkra ansökningar för att öka chanserna till beviljad finansiering.</p>
+            <div class="metric-card">
+              <span class="badge">Risker</span>
+              <strong>3</strong>
+              <span>Öppna riskflaggor som kräver ledningsbeslut.</span>
             </div>
           </div>
         </section>
 
         <section class="card table-card">
-          <h2 class="section-title">Active portfolio</h2>
+          <h2 class="section-title">Aktiv portfölj</h2>
           <div class="table-wrapper">
             <table>
               <thead>
                 <tr>
                   <th>Opportunity</th>
                   <th>Status</th>
-                  <th>Next milestone</th>
-                  <th>Owner</th>
+                  <th>Nästa milstolpe</th>
+                  <th>Ägare</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Clean Energy District Grant</td>
-                  <td>In compliance review</td>
-                  <td>Finalize council endorsement packet (Apr 12)</td>
+                  <td>Compliance review</td>
+                  <td>Kommunbeslut signeras (12 apr)</td>
                   <td>Legal + Sustainability</td>
                 </tr>
                 <tr>
                   <td>Resilient Schools Retrofit</td>
                   <td>Draft submitted</td>
-                  <td>Incorporate facilities risk assessment (Mar 22)</td>
+                  <td>Inkorporera riskanalys (22 mar)</td>
                   <td>Grants PMO</td>
                 </tr>
                 <tr>
                   <td>Sustainable Transit Accelerator</td>
                   <td>Qualified</td>
-                  <td>Secure fleet vendor quotes (Mar 28)</td>
+                  <td>Vendor offers slutförs (28 mar)</td>
                   <td>Mobility Team</td>
                 </tr>
                 <tr>
                   <td>Innovation for Rural Health</td>
                   <td>Discovery</td>
-                  <td>Gather broadband coverage evidence (Apr 5)</td>
+                  <td>Bredbandsdata samlas (5 apr)</td>
                   <td>Community Health</td>
                 </tr>
               </tbody>
@@ -101,37 +121,55 @@
         </section>
 
         <section class="card">
-          <h2 class="section-title">Assistant-powered insights</h2>
+          <h2 class="section-title">Ledningsinsikter</h2>
           <div class="feature-grid">
             <article class="feature-card">
               <h3>Executive briefs</h3>
-              <p>Automated weekly summaries spotlight wins, risks, and outstanding decisions with linked citations.</p>
+              <p>Veckosammanfattningar som lyfter vinster, blockerare och kommande deadlines.</p>
             </article>
             <article class="feature-card">
               <h3>Impact dashboards</h3>
-              <p>Pair Funding Assistant callouts with KPI visualizations to quantify emissions, equity, and job creation.</p>
+              <p>Kopplar finansieringsstatus till utsläppsminskningar, jobbskapande och samhällseffekt.</p>
             </article>
             <article class="feature-card">
               <h3>Audit readiness</h3>
-              <p>Maintain a traceable record of every answer, source citation, and decision log for audit season.</p>
+              <p>Full spårbarhet med citerade AI-svar, källor och beslutshistorik.</p>
             </article>
             <article class="feature-card">
               <h3>Team alignment</h3>
-              <p>Track collaborator assignments and share assistant transcripts so everyone stays on the same page.</p>
+              <p>Klustrade chattloggar och uppgifter gör att projektteam jobbar på samma data.</p>
             </article>
           </div>
           <div class="stat-band">
             <div class="stat">
-              <strong>360&deg;</strong>
-              <span>Överblick över koncernens finansieringsinitiativ i realtid.</span>
+              <strong>360°</strong>
+              <span>Helhetsvy över alla initiativ i realtid.</span>
             </div>
             <div class="stat">
               <strong>24/7</strong>
-              <span>AI-stöd för beslutsunderlag och uppföljning när styrelsen behöver svar.</span>
+              <span>Assistans och beslutsunderlag när ledningen efterfrågar svar.</span>
             </div>
             <div class="stat">
               <strong>100%</strong>
-              <span>Citerade rekommendationer som kan spåras tillbaka till källdokument.</span>
+              <span>Svar med verifierade källor i loggen.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Åtgärder</h2>
+          <div class="grid-split">
+            <div class="callout">
+              <h3 class="callout-title">Godkänn kommunresolution</h3>
+              <p>Signera Clean Energy District Grant resolutionen för att hålla tidsplanen.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Granska hållbarhetsrapport</h3>
+              <p>Säkerställ att Q1-rapporten inkluderar nya ESG-indikatorer från transitprojektet.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Bekräfta matchningsmedel</h3>
+              <p>Finance-teamet behöver intyg på lokal medfinansiering för två pågående ansökningar.</p>
             </div>
           </div>
         </section>

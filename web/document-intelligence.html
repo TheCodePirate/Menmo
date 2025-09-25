@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document Intelligence &mdash; Funding Assistant</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
+      </div>
+      <nav>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="index.html">Funding Assistant</a>
+          <a class="nav-link" href="grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link active" href="document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="models/read.html">Read model</a>
+            <a class="nav-link" href="models/layout.html">Layout model</a>
+            <a class="nav-link" href="models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link" href="versions/v3.1.html">Version Archive</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">AI document services</p>
+          <h1>Document Intelligence</h1>
+        </div>
+        <div class="topbar-actions">
+          <a class="home-link" href="company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
+      </header>
+      <main class="content">
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">AI-underbyggd tolkning</span>
+            <h2>Hjärtat i Funding Assistant är ett bibliotek av Document Intelligence-modeller.</h2>
+            <p>Varje modell är tränad för att tolka myndighetskrav, checklistor och kundernas egna hållbarhetsplaner. Resultatet matas direkt in i RAG-indexet som ger citerade svar.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="models/read.html">Starta med Read</a>
+              <a class="secondary-button" href="versions/v3.1.html">Se modellhistorik</a>
+            </div>
+          </div>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Källdokument</span>
+              <strong>12k+</strong>
+              <span>Indexerade lagtexter, policys och kundmaterial.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Nya versioner</span>
+              <strong>8</strong>
+              <span>Större modelluppdateringar sedan GA-release 2023.</span>
+            </div>
+            <div class="metric-card">
+              <span class="badge">Latency</span>
+              <strong>&lt;1.5s</strong>
+              <span>Genomsnittlig svarstid för dokumenttolkning.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Modellkatalog</h2>
+          <p class="section-lede">Välj en modell för att se format, styrkor och rekommenderade användningsområden.</p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3><a href="models/read.html">Read</a></h3>
+              <p>Optimerad för textintensiva riktlinjer. Extraherar referenser, fotnoter och tabeller för att bygga citerbara svar.</p>
+              <div class="tag-list">
+                <span class="tag">PDF</span>
+                <span class="tag">OCR</span>
+                <span class="tag">Regulatory</span>
+              </div>
+            </article>
+            <article class="feature-card">
+              <h3><a href="models/layout.html">Layout</a></h3>
+              <p>Bevarar visuellt upplägg och hierarki, perfekt när ansökningar ska spegla originalformat.</p>
+              <div class="tag-list">
+                <span class="tag">Blueprints</span>
+                <span class="tag">Zonindelning</span>
+                <span class="tag">Planritningar</span>
+              </div>
+            </article>
+            <article class="feature-card">
+              <h3><a href="models/prebuilt-forms.html">Prebuilt Forms</a></h3>
+              <p>Identifierar och strukturerar standardfält i EU-blanketter, miljörapporter och statsbidragsformulär.</p>
+              <div class="tag-list">
+                <span class="tag">Forms</span>
+                <span class="tag">JSON output</span>
+                <span class="tag">KPIs</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Hur modellerna samspelar</h2>
+          <div class="grid-split">
+            <div class="callout">
+              <h3 class="callout-title">Ingestion</h3>
+              <p>Dokument laddas upp från SharePoint, Box eller kundens portal. Automatiska regler styr vilken modell som körs.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Extraction</h3>
+              <p>Resultat lagras i ett säkrat index med metadata, versionsnummer och källreferenser.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Grounded answers</h3>
+              <p>Funding Assistant använder indexet för att citera varje påstående och länka tillbaka till originaldokumentet.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Styrning och säkerhet</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Åtkomstkontroll</h3>
+              <p>Azure AD-roller styr vilka projekt som kan läsas och skrivs alltid till revisionsloggar.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Datatvätt</h3>
+              <p>PII-maskning och klassificering sker före indexering för att möta GDPR och ISO 27001.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Versionsmärkning</h3>
+              <p>Varje index-uppdatering taggas med modellversion, datum och ansvarig handläggare.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Auditloggar</h3>
+              <p>Alla AI-svar sparas med länk till underlag så att externa revisorer kan följa beslutsflödet.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

@@ -3,122 +3,164 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Version Archive v3.1 &mdash; Funding Assistant</title>
+  <title>v3.1 Archive &mdash; Funding Assistant</title>
   <link rel="stylesheet" href="../app.css" />
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar">
-      <div>
-        <div class="brand">Funding Assistant</div>
-        <p class="tagline">Review earlier releases and improvements to the Funding Assistant experience.</p>
+      <div class="brand-block">
+        <span class="brand-mark">Menmo</span>
+        <p class="brand-subtitle">Funding Assistant Suite</p>
       </div>
       <nav>
-        <a class="nav-link" href="../index.html">Funding Assistant</a>
-        <a class="nav-link" href="../grant-programs.html">Grant Programs</a>
-        <a class="nav-link" href="../eligibility.html">Eligibility &amp; Requirements</a>
-        <a class="nav-link" href="../sustainability.html">Sustainability Goals</a>
-        <a class="nav-link" href="../pipeline.html">Application Pipeline</a>
-        <a class="nav-link active" href="v3.1.html">Version Archive</a>
+        <div class="nav-group">
+          <p class="nav-label">Workspace</p>
+          <a class="nav-link" href="../index.html">Funding Assistant</a>
+          <a class="nav-link" href="../grant-programs.html">Grant Programs</a>
+          <a class="nav-link" href="../eligibility.html">Eligibility &amp; Requirements</a>
+          <a class="nav-link" href="../sustainability.html">Sustainability Goals</a>
+          <a class="nav-link" href="../pipeline.html">Application Pipeline</a>
+        </div>
+        <div class="nav-group">
+          <p class="nav-label">Knowledge</p>
+          <a class="nav-link" href="../document-intelligence.html">Document Intelligence</a>
+          <div class="nav-subgroup">
+            <a class="nav-link" href="../models/read.html">Read model</a>
+            <a class="nav-link" href="../models/layout.html">Layout model</a>
+            <a class="nav-link" href="../models/prebuilt-forms.html">Prebuilt Forms model</a>
+          </div>
+          <a class="nav-link active" href="v3.1.html">Version Archive</a>
+        </div>
       </nav>
+      <div class="sidebar-footer">
+        <p>Behöver ni hjälp? <a href="mailto:support@menmo.ai">support@menmo.ai</a></p>
+      </div>
     </aside>
     <div class="main-area">
       <header class="topbar">
         <div>
           <p class="eyebrow">Release history</p>
-          <h1>Version 3.1 (2023-07-31-GA)</h1>
+          <h1>Version v3.1 &mdash; 2023-07-31 GA</h1>
         </div>
-        <a class="home-link" href="../company-home.html">Company Home</a>
+        <div class="topbar-actions">
+          <a class="home-link" href="../company-home.html">Company Home</a>
+          <a class="outline-link" href="mailto:support@menmo.ai">Contact Support</a>
+        </div>
       </header>
       <main class="content">
-        <section class="intro-card hero-card">
-          <div class="hero-copy">
-            <span class="hero-label">Release history</span>
-            <h2>What shipped in v3.1</h2>
-            <p>
-              Vår juli-release lade grunden för Funding Assistant. Här kan du jämföra funktionalitet och planera hur organisationen
-              tar nästa steg mot dagens AI-stödda upplevelse.
-            </p>
-            <p class="sv-intro">Vi på Menmo har utvecklat ett AI-baserat verktyg som hjälper företag och kommuner att hitta rätt finansiering för sina gröna och innovativa projekt.</p>
-            <p class="sv-intro">Genom smart analys och matchning gör vi processen snabbare, enklare och mer träffsäker.</p>
+        <section class="card hero-card two-columns">
+          <div class="hero-intro">
+            <span class="hero-label">Release notes</span>
+            <h2>v3.1 introducerade RAG-förbättringar och fler dokumentanslutningar.</h2>
+            <p>Denna version var vår första General Availability och lade grunden för dagens Funding Assistant. Samma designprinciper lever kvar men med moderniserad upplevelse i dagens release.</p>
+            <div class="hero-actions">
+              <a class="primary-button" href="../index.html">Tillbaka till nuvarande version</a>
+              <a class="secondary-button" href="https://learn.microsoft.com/azure/applied-ai-services/form-recognizer/">Läs mer om Document Intelligence</a>
+            </div>
           </div>
-          <div class="hero-marketing">
-            <div class="marketing-point">
-              <h3>AI-driven Finansierings-analys</h3>
-              <p>Vi analyserar era projekt med hjälp av AI och identifierar de mest relevanta finansieringsmöjligheterna &ndash; från statliga stöd till EU-bidrag och gröna lån.</p>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <span class="badge">Release</span>
+              <strong>v3.1</strong>
+              <span>31 juli 2023</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-baserad Matchning till Rätt Stöd</h3>
-              <p>Med Menmos plattform får ni automatiska AI-matchningar till de stöd och bidrag som passar just era behov. Snabbt, enkelt och träffsäkert.</p>
+            <div class="metric-card">
+              <span class="badge">Modeller</span>
+              <strong>3</strong>
+              <span>Read, Layout och Prebuilt Forms.</span>
             </div>
-            <div class="marketing-point">
-              <h3>AI-stöd för Ansökningskvalitet</h3>
-              <p>Vår AI hjälper er att strukturera, formulera och kvalitetssäkra ansökningar för att öka chanserna till beviljad finansiering.</p>
+            <div class="metric-card">
+              <span class="badge">Nya integrationer</span>
+              <strong>SharePoint</strong>
+              <span>Automatiskt intag av katalogiserade dokument.</span>
             </div>
           </div>
         </section>
 
         <section class="card">
-          <h2 class="section-title">Highlights</h2>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <h3>Initial assistant launch</h3>
-              <p>Delivered conversational Q&amp;A with inline citations sourced from uploaded policy and legal documents.</p>
+          <h2 class="section-title">Höjdpunkter i v3.1</h2>
+          <div class="release-list">
+            <article class="release-card">
+              <h3>Grundad AI med citationer</h3>
+              <div class="release-meta">
+                <span class="badge">RAG</span>
+                <span>Ny komponent</span>
+              </div>
+              <p>Implementerade retrieval-augmented generation som hämtar exakta paragrafer från kunddokument och offentliga källor.</p>
             </article>
-            <article class="feature-card">
-              <h3>Grant catalog seeds</h3>
-              <p>Seeded ten federal and regional grant packages with scoring rubrics and compliance templates.</p>
+            <article class="release-card">
+              <h3>Pipeline 1.0</h3>
+              <div class="release-meta">
+                <span class="badge">Workflow</span>
+                <span>Första version</span>
+              </div>
+              <p>Introducerade milstolpar och uppgifter med enkel statusuppföljning för att styra ansökningsprocessen.</p>
             </article>
-            <article class="feature-card">
-              <h3>Checklist automation</h3>
-              <p>Released requirement checklist generator with downloadable CSV export for audit teams.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Pipeline tracker</h3>
-              <p>Added milestone tracker for discovery, drafting, review, and submission stages.</p>
+            <article class="release-card">
+              <h3>Säkerhet och loggar</h3>
+              <div class="release-meta">
+                <span class="badge">Compliance</span>
+                <span>ISO-ready</span>
+              </div>
+              <p>Färdigställde auditloggar, rollbaserad åtkomst och data retention för att möta myndighetskrav.</p>
             </article>
           </div>
         </section>
 
-        <section class="card table-card">
-          <h2 class="section-title">Upgrade considerations</h2>
+        <section class="card">
+          <h2 class="section-title">Versionsjämförelse</h2>
           <div class="table-wrapper">
             <table>
               <thead>
                 <tr>
-                  <th>Area</th>
-                  <th>v3.1 Behavior</th>
-                  <th>Latest Improvements</th>
+                  <th>Funktion</th>
+                  <th>v3.1 (GA)</th>
+                  <th>Nuvarande version</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Citations</td>
-                  <td>Static referencing of two most relevant documents.</td>
-                  <td>Dynamic citations with paragraph-level anchors and verification stamps.</td>
+                  <td>Assistentgränssnitt</td>
+                  <td>Chatfönster med enkel lista över svar</td>
+                  <td>Modulär layout med navigering och dokumentcitat</td>
                 </tr>
                 <tr>
-                  <td>Document ingestion</td>
-                  <td>Manual uploads through the admin console.</td>
-                  <td>Automated syncs from cloud storage and API-based ingestion.</td>
+                  <td>Dokumentindex</td>
+                  <td>Manuell indexering via portal</td>
+                  <td>Automatiskt intag via connectors och versionstaggar</td>
                 </tr>
                 <tr>
-                  <td>Collaboration</td>
-                  <td>Single-user chat transcripts exported via email.</td>
-                  <td>Shared workspaces with comment threads and governance controls.</td>
+                  <td>Pipeline</td>
+                  <td>Grundläggande statusflaggor</td>
+                  <td>Fullt orkestrerad med uppgifter, automationer och rapporter</td>
                 </tr>
                 <tr>
-                  <td>Pipeline reporting</td>
-                  <td>CSV export of milestone status.</td>
-                  <td>Interactive dashboards with assistant-authored summaries.</td>
+                  <td>Säkerhet</td>
+                  <td>Azure AD och basala loggar</td>
+                  <td>Detaljerade auditloggar, dataklassning och PII-maskning</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p class="footer-note">
-            Need help migrating? Use the Funding Assistant to surface implementation guides and contact support through the
-            Company Home dashboard.
-          </p>
+        </section>
+
+        <section class="card">
+          <h2 class="section-title">Uppgraderingsrekommendationer</h2>
+          <div class="grid-split">
+            <div class="callout">
+              <h3 class="callout-title">Planera migrering</h3>
+              <p>Kartlägg dokumentflöden och uppgraderingsplaner för att använda automatiserade connectors.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Testa modeller</h3>
+              <p>Verifiera att anpassade formulär fungerar med nuvarande Prebuilt Forms-version.</p>
+            </div>
+            <div class="callout">
+              <h3 class="callout-title">Utbilda team</h3>
+              <p>Uppdatera utbildningsmaterial så att medarbetare drar nytta av nya dashboards och AI-svar.</p>
+            </div>
+          </div>
         </section>
       </main>
     </div>
