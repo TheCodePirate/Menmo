@@ -7,6 +7,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
 
 from sqlalchemy.orm import Session
 
+from .azure_integration import get_azure_integration
 from .matching import MatchingService, SimpleTfidfEncoder, _cosine_similarity
 from .models import (
     ApplicationSection,
@@ -70,6 +71,7 @@ class JourneyService:
         self.session = session
         self.matching_service = MatchingService()
         self.rag_engine = RAGEngine()
+        self._azure = get_azure_integration()
 
     # ------------------------------------------------------------------
     # Stage 1 – Quick Scan
@@ -300,7 +302,14 @@ class JourneyService:
                 f"Based on {chunk['citation'].get('title')} section {chunk['citation'].get('section')}"
                 for chunk in rag_chunks
             ]
-            draft = self._compose_draft_text(section_key=key, grant=grant, project=project, match=match)
+            draft = self._compose_draft_text(
+                section_key=key,
+                section_title=title,
+                grant=grant,
+                project=project,
+                match=match,
+                rag_chunks=rag_chunks,
+            )
             section = ApplicationSection(
                 match=match,
                 grant=grant,
@@ -551,10 +560,29 @@ class JourneyService:
     def _compose_draft_text(
         self,
         section_key: str,
+        section_title: str,
         grant: Grant,
         project: ProjectProfile,
         match: Match,
+        rag_chunks: Sequence[Mapping[str, Any]],
     ) -> str:
+        """Generate application copy, optionally backed by Azure OpenAI."""
+
+        blockers = [blocker.get("text") for blocker in match.blockers or []]
+        if self._azure.is_generation_enabled:
+            draft = self._azure.generate_application_section(
+                section_key=section_key,
+                section_title=section_title,
+                grant_title=grant.title,
+                grant_description=grant.description,
+                project_summary=project.description,
+                organization=match.user.organization or match.user.name,
+                blockers=blockers,
+                rag_chunks=rag_chunks,
+            )
+            if draft:
+                return draft
+
         base = f"{grant.title} expects applicants to demonstrate alignment with {grant.description[:120]}"
         if section_key == "summary":
             return (
