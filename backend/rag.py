@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Optional, Sequence
 
 import numpy as np
 
+from .azure_integration import get_azure_integration
 from .matching import SimpleTfidfEncoder, _cosine_similarity
 from .models import Grant
 
@@ -53,6 +54,9 @@ class RAGEngine:
         self._matrix: Optional[np.ndarray] = None
         if self._documents:
             self._matrix = self._encoder.fit_transform([doc.content for doc in self._documents])
+        # Lazily resolve Azure clients; this keeps tests fast and enables
+        # optional Azure-powered retrieval when credentials are provided.
+        self._azure = get_azure_integration()
 
     def search(
         self,
@@ -60,7 +64,23 @@ class RAGEngine:
         grant_reference: Optional[Grant] = None,
         top_k: int = 3,
     ) -> List[Dict[str, Any]]:
-        if not query or not self._documents:
+        if not query:
+            return []
+
+        # Attempt Azure Cognitive Search first when configured.
+        if self._azure.is_search_enabled:
+            grant_slug = None
+            if grant_reference is not None and grant_reference.title:
+                grant_slug = self._to_slug(grant_reference.title)
+            azure_results = self._azure.retrieve(
+                query=query,
+                grant_slug=grant_slug,
+                top_k=top_k,
+            )
+            if azure_results:
+                return azure_results
+
+        if not self._documents:
             return []
         indices = list(range(len(self._documents)))
         if grant_reference is not None and grant_reference.url:
