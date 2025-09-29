@@ -11,6 +11,7 @@ The backend service lives in [`backend/`](backend/) and exposes REST APIs for ma
 - **Multi-stage Journey API** – `/journey/*` endpoints cover Quick Scan, Funding Match, Gap-to-Yes planner, Application Builder, Evidence AutoCheck, Deadline Radar, Finalisation, and Post Submission updates.
 - **Rules- + RAG-driven intelligence** – grants include structured rules JSON alongside proprietary notes; the `backend/rag.py` utility retrieves highlighted knowledge snippets (from [`backend/data/documents.json`](backend/data/documents.json)) to ground explanations and AI-generated drafts.
 - **Rich persistence model** – SQLAlchemy models track user profiles, project payloads, stored matches (with reasons/blockers/citations), remediation tasks, application sections, evidence statuses, and deadlines.
+- **Optional Supabase replication** – configure credentials to mirror matches and remediation tasks into Supabase tables for analytics or downstream automation.
 - **Hybrid matching engine** – `backend/matching.py` prefers `sentence-transformers` embeddings but automatically falls back to a deterministic TF-IDF encoder for offline environments.
 - **Comprehensive tests** – Pytest suites assert the full customer journey flow plus low-level matching behaviour.
 
@@ -31,13 +32,25 @@ The backend service lives in [`backend/`](backend/) and exposes REST APIs for ma
    export DATABASE_URL=postgresql+psycopg2://user:password@localhost:5432/menmo
    ```
 
-4. Run the API locally (table creation is handled automatically on startup):
+4. (Optional) Configure Supabase credentials to mirror journey data into your Supabase project:
+
+   ```bash
+   export SUPABASE_URL="https://YOUR-PROJECT.supabase.co"
+   export SUPABASE_SERVICE_ROLE_KEY="your-service-role-key"
+   # Optionally override default table names
+   # export SUPABASE_MATCH_TABLE="matches"
+   # export SUPABASE_TASK_TABLE="remediation_tasks"
+   ```
+
+   The integration performs best-effort upserts after the funding match and gap-plan stages. Tables should expose JSON columns for payload fields.
+
+5. Run the API locally (table creation is handled automatically on startup):
 
    ```bash
    uvicorn backend.main:app --reload --port 8000
    ```
 
-5. (Optional) Prime the database with grant programmes by POSTing to `/grants` using the schema documented below or by adapting the payload from `backend/tests/test_api.py::_ingest_sample_grants`.
+6. (Optional) Prime the database with grant programmes by POSTing to `/grants` using the schema documented below or by adapting the payload from `backend/tests/test_api.py::_ingest_sample_grants`.
 
 ### Stage endpoints at a glance
 
