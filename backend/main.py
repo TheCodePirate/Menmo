@@ -353,6 +353,23 @@ def funding_match(
 
 
 # ---------------------------------------------------------------------------
+# Matches – surfaced for the frontend dashboard
+# ---------------------------------------------------------------------------
+@app.get("/matches/{user_id}", response_model=List[MatchResponse])
+def list_matches(user_id: int, session: Session = Depends(get_session)) -> List[MatchResponse]:
+    """Return stored matches for a user ordered by score."""
+
+    _get_user(session, user_id)
+    matches = (
+        session.query(Match)
+        .filter(Match.user_id == user_id)
+        .order_by(Match.score.desc())
+        .all()
+    )
+    return [MatchResponse.model_validate(match) for match in matches]
+
+
+# ---------------------------------------------------------------------------
 # Stage 3 – Gap-to-Yes planner
 # ---------------------------------------------------------------------------
 @app.post("/journey/gap-plan", response_model=List[TaskRead])
