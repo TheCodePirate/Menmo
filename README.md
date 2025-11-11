@@ -12,6 +12,7 @@ The backend service lives in [`backend/`](backend/) and exposes REST APIs for ma
 - **Rules- + RAG-driven intelligence** – grants include structured rules JSON alongside proprietary notes; the `backend/rag.py` utility retrieves highlighted knowledge snippets (from [`backend/data/documents.json`](backend/data/documents.json)) to ground explanations and AI-generated drafts.
 - **Rich persistence model** – SQLAlchemy models track user profiles, project payloads, stored matches (with reasons/blockers/citations), remediation tasks, application sections, evidence statuses, and deadlines.
 - **Optional Supabase replication** – configure credentials to mirror matches and remediation tasks into Supabase tables for analytics or downstream automation.
+- **Open-data scraping utilities** – harvests climate-related grant catalogues from CKAN portals (Data.gov, data.ca.gov) and normalises them into the Menmo database and RAG corpus.
 - **Hybrid matching engine** – `backend/matching.py` prefers `sentence-transformers` embeddings but automatically falls back to a deterministic TF-IDF encoder for offline environments.
 - **Comprehensive tests** – Pytest suites assert the full customer journey flow plus low-level matching behaviour.
 
@@ -51,6 +52,14 @@ The backend service lives in [`backend/`](backend/) and exposes REST APIs for ma
    ```
 
 6. (Optional) Prime the database with grant programmes by POSTing to `/grants` using the schema documented below or by adapting the payload from `backend/tests/test_api.py::_ingest_sample_grants`.
+
+   You can also harvest live opportunities from open-data portals:
+
+   ```bash
+   python -m backend.scraper.ingest
+   ```
+
+   The command fetches climate-related datasets from Data.gov and the California Open Data portal, upserts them into the `grants` table, and writes machine-readable snapshots to `backend/data/scraped_grants.json` and `backend/data/scraped_documents.json` for the RAG engine.
 
 ### Stage endpoints at a glance
 

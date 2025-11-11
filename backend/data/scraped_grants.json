@@ -1,0 +1,1303 @@
+{
+  "records": [
+    {
+      "deadline": null,
+      "description": "PROPOSITION 1 GRANTS The Water Quality, Supply, and Infrastructure Improvement Act of 2014 (Proposition 1) provides funding to implement the three broad objectives of the California Water Action Plan: more reliable water supplies; the restoration of important species and habitat; and a more resilient, sustainably managed water resources system (water supply, water quality, flood protection, and environment). PROPOSITION 68 GRANTS The California Drought, Water, Parks, Climate, Coastal Protection, And Outdoor Access For All Act Of 2018 (Proposition 68) provides funding for CDFW grants for projects that: 1) improve a community's ability to adapt to the unavoidable impacts of climate change; 2) improve and protect coastal and rural economies, agricultural viability, wildlife corridors, or habitat; and/or 3) develop future recreational opportunities, or enhance drought tolerance, landscape resilience, and water retention. GREENHOUSE GAS REDUCTION FUND GRANTS Greenhouse Gas Reduction Projects are funded under California's Cap and Trade Program's Greenhouse Gas Reduction Fund (GGRF). These projects include mountain meadow and Sacramento-San Joaquin Delta wetland restoration projects that will lead to reductions in greenhouse gases. RESTORATION GRANTS PROGRAM This program funds projects based on their suitability for each grant, not based on specific grant applications. It began in 2022 and accepts applications on an ongoing basis, giving out grants on a monthly cycle. As of 2023, the available grants are: Drought - Protecting Salmon, Addressing Climate Impacts, Wetlands and Mountain Meadow Restoration, Wildlife Corridors, Proposition 1, and Proposition 68. FISHERIES RESTORATION GRANT PROGRAM GRANTS The Fisheries Restoration Grant Program (FRGP) was established in 1981 in response to rapidly declining populations of wild salmon and steelhead trout and deteriorating fish habitat in California. This competitive grant program has invested millions of dollars to support projects from sediment reduction to watershed education throughout coastal California. Contributing partners include federal and local governments, tribes, water districts, fisheries organizations, watershed restoration groups, the California Conservation Corps, AmeriCorps, and private landowners.  FRGP\u2019s database began in 1999 to capture and maintain data about habitat restoration projects in California benefiting anadromous fish. The FRGP specific data is managed by the California Department of Fish and Wildlife (CDFW) and funded by NOAA Fisheries and CDFW. DATA OVERVIEW This data set contains points provided by the grantees representing the approximate location of the projects approved by the California Department of Wildlife's Watershed Restoration Grants Branch for funding under these grants through 2024.  In some cases, the points represent small, discrete sites, but in many they represent larger areas such as regions, watersheds, or stream reaches.  In a few cases the points are a laboratory site in which research will be/has been conducted. An attempt has been made to assess the point extent, but this was done by CDFW personnel based on the grant title and description, not the grantee.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:2a69855c-ca94-48d1-a812-7f3d8bb328ac",
+      "industries": [
+        "Auth_CDFW",
+        "CAOpenData",
+        "CDFW",
+        "California Department of Fish And Wildlife",
+        "California Department of Fish and Wildlife",
+        "California Natural Resources Agency",
+        "DS2663_20250513_wm",
+        "Delta",
+        "Proposition 1",
+        "WRGB",
+        "Watershed Restoration Grant Program",
+        "Watershed Restoration Grants Branch",
+        "acquisition",
+        "california department of fish and wildlife",
+        "implementation",
+        "meadows",
+        "planning",
+        "restoration"
+      ],
+      "jurisdiction": "California",
+      "notes": "PROPOSITION 1 GRANTS The Water Quality, Supply, and Infrastructure Improvement Act of 2014 (Proposition 1) provides funding to implement the three broad objectives of the California Water Action Plan: more reliable water supplies; the restoration of important species and habitat; and a more resilient, sustainably managed water resources system (water supply, water quality, flood protection, and environment). PROPOSITION 68 GRANTS The California Drought, Water, Parks, Climate, Coastal Protection, And Outdoor Access For All Act Of 2018 (Proposition 68) provides funding for CDFW grants for projects that: 1) improve a community's ability to adapt to the unavoidable impacts of climate change; 2) improve and protect coastal and rural economies, agricultural viability, wildlife corridors, or habitat; and/or 3) develop future recreational opportunities, or enhance drought tolerance, landscape resilience, and water retention. GREENHOUSE GAS REDUCTION FUND GRANTS Greenhouse Gas Reduction Projects are funded under California's Cap and Trade Program's Greenhouse Gas Reduction Fund (GGRF). These projects include mountain meadow and Sacramento-San Joaquin Delta wetland restoration projects that will lead to reductions in greenhouse gases. RESTORATION GRANTS PROGRAM This program funds projects based on their suitability for each grant, not based on specific grant applications. It began in 2022 and accepts applications on an ongoing basis, giving out grants on a monthly cycle. As of 2023, the available grants are: Drought - Protecting Salmon, Addressing Climate Impacts, Wetlands and Mountain Meadow Restoration, Wildlife Corridors, Proposition 1, and Proposition 68. FISHERIES RESTORATION GRANT PROGRAM GRANTS The Fisheries Restoration Grant Program (FRGP) was established in 1981 in response to rapidly declining populations of wild salmon and steelhead trout and deteriorating fish habitat in California. This competitive grant program has invested millions of dollars to support projects from sediment reduction to watershed education throughout coastal California. Contributing partners include federal and local governments, tribes, water districts, fisheries organizations, watershed restoration groups, the California Conservation Corps, AmeriCorps, and private landowners.  FRGP\u2019s database began in 1999 to capture and maintain data about habitat restoration projects in California benefiting anadromous fish. The FRGP specific data is managed by the California Department of Fish and Wildlife (CDFW) and funded by NOAA Fisheries and CDFW. DATA OVERVIEW This data set contains points provided by the grantees representing the approximate location of the projects approved by the California Department of Wildlife's Watershed Restoration Grants Branch for funding under these grants through 2024.  In some cases, the points represent small, discrete sites, but in many they represent larger areas such as regions, watersheds, or stream reaches.  In a few cases the points are a laboratory site in which research will be/has been conducted. An attempt has been made to assess the point extent, but this was done by CDFW personnel based on the grant title and description, not the grantee.",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "California Department of Fish and Wildlife",
+      "title": "Watershed Restoration Grant Awards - CDFW [ds2663]",
+      "url": "https://data-cdfw.opendata.arcgis.com/datasets/CDFW::watershed-restoration-grant-awards-cdfw-ds2663"
+    },
+    {
+      "deadline": null,
+      "description": "App showing schools and childcare facilities included in California Department of Forestry and Fire Protection (CAL FIRE) Urban and Community Forestry Program's Green Schoolyards Grants. Green Schoolyards Grants are designed to protect the health, well-being, and educational opportunity of children most vulnerable to increasing temperatures and extreme heat across California.\u00a0Projects shall be centered around improving the environmental conditions and experiences for school children with the highest levels of co-benefits. Projects will invest in nature-based climate solutions that deliver multiple benefits such as helping to alleviate extreme heat, improving the immediate environment for students as well as supporting outdoor learning and environmental literacy, while also reducing greenhouse gas (GHG) emissions, improving functionality of urban forests, arresting the decline of urban forest resources, increasing climate change resilience, improving the quality of the environment in urban areas, and optimizing co-benefits to school children and surrounding urban residents. Such projects shall include the planting of trees and may include converting pavement to green spaces on school campuses with a focus on child-accessible areas of campus. Projects may also include strategies such as the installment of natural features for learning and recess such as pocket forests, rain gardens, botanical gardens, natural playgrounds, food producing gardens and landscaping, outdoor classrooms as well as maintenance of planted vegetation for the duration of their expected life span. Public access is encouraged after school hours to areas identified by the campus for a specific purpose such as recreation or growing food. More information can be found at Urban and Community Forestry Grants Program . California schools maintain a closed campus policy. For the safety of students, visitors are restricted from entering until receiving official permission from each school to enter a campus. Access to the data on this map in no way implies permission to enter any school campus.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:35ff9c76-3262-4bc7-9fa9-a2df2a08dc7e",
+      "industries": [
+        "CAL FIRE",
+        "Urban Forestry",
+        "cal fire"
+      ],
+      "jurisdiction": "California",
+      "notes": "App showing schools and childcare facilities included in California Department of Forestry and Fire Protection (CAL FIRE) Urban and Community Forestry Program's Green Schoolyards Grants. Green Schoolyards Grants are designed to protect the health, well-being, and educational opportunity of children most vulnerable to increasing temperatures and extreme heat across California.\u00a0Projects shall be centered around improving the environmental conditions and experiences for school children with the highest levels of co-benefits. Projects will invest in nature-based climate solutions that deliver multiple benefits such as helping to alleviate extreme heat, improving the immediate environment for students as well as supporting outdoor learning and environmental literacy, while also reducing greenhouse gas (GHG) emissions, improving functionality of urban forests, arresting the decline of urban forest resources, increasing climate change resilience, improving the quality of the environment in urban areas, and optimizing co-benefits to school children and surrounding urban residents. Such projects shall include the planting of trees and may include converting pavement to green spaces on school campuses with a focus on child-accessible areas of campus. Projects may also include strategies such as the installment of natural features for learning and recess such as pocket forests, rain gardens, botanical gardens, natural playgrounds, food producing gardens and landscaping, outdoor classrooms as well as maintenance of planted vegetation for the duration of their expected life span. Public access is encouraged after school hours to areas identified by the campus for a specific purpose such as recreation or growing food. More information can be found at Urban and Community Forestry Grants Program . California schools maintain a closed campus policy. For the safety of students, visitors are restricted from entering until receiving official permission from each school to enter a campus. Access to the data on this map in no way implies permission to enter any school campus.",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "CAL FIRE",
+      "title": "CAL FIRE Green Schoolyards Grants Project Information App",
+      "url": "https://gis.data.cnra.ca.gov/apps/CALFIRE-Forestry::cal-fire-green-schoolyards-grants-project-information-app"
+    },
+    {
+      "deadline": null,
+      "description": "The California State Wildlife Action Plan (SWAP) is required under the State and Tribal Wildlife Grants Program (SWG), which allows states and territories to receive Federal grant funds. It is a comprehensive vision for wildlife conservation initially completed in 2005 and updated in 2015. The GIS data for SWAP are divided into two types - terrestrial (vegetation macrogroup based) and aquatic(watershed based)data. This file contains the terrestrial targets. The SWAP defines \"target\" macrogroups throughout the state and describes their \"Key Ecological Attributes\", Environmental \"Pressures\"\" (positive or negative) and \"Strategies\" for protection/enhancement of each target. Terrestrial targets are composed of specific macrogroups which are assigned target status based on what ecoregion and province they are within. A macrogroup may be a target within a certain ecoregion, but not a target within others. The macrogroups used in this data set come from CaLFIRE-FRAP data. Initially, CALFIRE-FRAP compiled the \"best available\" land cover data into a single data layer (FVEG15_1), to support the various analyses required for the Forest and Rangeland Assessment, a legislatively mandated function. These data were updated to support on-going analyses and to prepare for the next FRAP assessment in 2015. The landcover data were crosswalked to macrogroups based on the Manual of California Vegetation (MCV) for use in the California Department of Fish and Wildlifes (CDFW) State Wildlife Action Plan (SWAP) in 2015. The \"best available\" landcover dataset for California (FVEG15_1) was crosswalked to macrogroups, a level in the hierarchical vegetation classification from the California Manual of Vegetation (MCV), the California arm of the National Vegetation Classification System (NVCS). These data were developed for use in CDFWs 2015 SWAP update and presented in Chapter 5 of the SWAP document using common names which are used throughout the SWAP document. A crosswalk between SWAP common",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:d22961c3-7d51-4bb9-a508-e9dc0826829c",
+      "industries": [
+        "Auth_CDFW",
+        "CAOpenData",
+        "CDFW",
+        "Calfire",
+        "California",
+        "California Department of Fish And Wildlife",
+        "California Department of Fish and Wildlife",
+        "California Natural Resources Agency",
+        "DS1966_20180226_wm",
+        "SWAP",
+        "State Wildlife Action Plan",
+        "Strategies",
+        "california department of fish and wildlife",
+        "climate adapation strategies",
+        "fveg",
+        "macrogroups",
+        "targets"
+      ],
+      "jurisdiction": "California",
+      "notes": "The California State Wildlife Action Plan (SWAP) is required under the State and Tribal Wildlife Grants Program (SWG), which allows states and territories to receive Federal grant funds. It is a comprehensive vision for wildlife conservation initially completed in 2005 and updated in 2015. The GIS data for SWAP are divided into two types - terrestrial (vegetation macrogroup based) and aquatic(watershed based)data. This file contains the terrestrial targets. The SWAP defines \"target\" macrogroups throughout the state and describes their \"Key Ecological Attributes\", Environmental \"Pressures\"\" (positive or negative) and \"Strategies\" for protection/enhancement of each target. Terrestrial targets are composed of specific macrogroups which are assigned target status based on what ecoregion and province they are within. A macrogroup may be a target within a certain ecoregion, but not a target within others. The macrogroups used in this data set come from CaLFIRE-FRAP data. Initially, CALFIRE-FRAP compiled the \"best available\" land cover data into a single data layer (FVEG15_1), to support the various analyses required for the Forest and Rangeland Assessment, a legislatively mandated function. These data were updated to support on-going analyses and to prepare for the next FRAP assessment in 2015. The landcover data were crosswalked to macrogroups based on the Manual of California Vegetation (MCV) for use in the California Department of Fish and Wildlifes (CDFW) State Wildlife Action Plan (SWAP) in 2015. The \"best available\" landcover dataset for California (FVEG15_1) was crosswalked to macrogroups, a level in the hierarchical vegetation classification from the California Manual of Vegetation (MCV), the California arm of the National Vegetation Classification System (NVCS). These data were developed for use in CDFWs 2015 SWAP update and presented in Chapter 5 of the SWAP document using common names which are used throughout the SWAP document. A crosswalk between SWAP common",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "California Department of Fish and Wildlife",
+      "title": "SWAP Terrestrial Targets - 2015 [ds1966]",
+      "url": "https://data-cdfw.opendata.arcgis.com/content/CDFW::swap-terrestrial-targets-2015-ds1966"
+    },
+    {
+      "deadline": null,
+      "description": "Aerial Information Systems, Inc. (AIS) was contracted by the Western Riverside County Regional Conservation Authority to perform an update to their original 2005 Western Riverside Vegetation Map. The project was funded through a Local Assistance Grant from the California Department of Fish and Wildlife (CDFW). The original vegetation layer was created in 2005 using a baseline image dataset created from 2000/01 Emerge imagery flown in early spring. The original map has been used to monitor and evaluate the habitat in the Western Riverside County Multi-species Habitat Conservation Plan (MSHCP). An update to the original map was needed to address changes in vegetation makeup that have occurred in the intervening years due to widespread and multiple burns in the mapping area, urban expansion, and broadly occurring vegetation succession.The update conforms to the standards set by the National Vegetation Classification System (NVCS) published in 2008 by the Federal Geographic Data Committee. (FGDC-STD-005-2008, Vegetation Subcommittee, Federal Geographic Data Committee, February 2008) The update also adheres to the vegetation types as represented in the 2008-second edition of the Manual of California Vegetation (MCV2). Extensive ground based field data both within and nearby the western Riverside County mapping area has been acquired since the completion of the project in 2005. This additional data has resulted in the reclassification of several vegetation types that are addressed in the updated vegetation map. The mapping area covers 1,017,364 acres of the original 1.2 million acres mapped in the 2005 study. The new study covers portions of the Upper Santa Ana River Valley, Perris Plain, and the foothills of the San Jacinto and Santa Ana Mountains but excludes US Forest Service land. The final geodatabase includes an updated 2012 vegetation map. Vegetative and cartographic comparisons between the newly created 2012 image-based map and the original vegetation map produced in 2005 are described in this report.The Update mapping was performed using baseline digital imagery created in 2012 by the US Department of Agriculture '' Farm Service Agency''s National Agricultural Imagery Program (NAIP). Vegetation units were mapped using the National Vegetation Classification System (NVCS) to the Alliance and Association level as depicted in the MCV2. Approximately 55 percent of the study area is classified to vegetated or naturally occurring sparsely vegetated types; the remaining 45 percent is unvegetated, with over a third (36 percent) in urban development and an additional 9 percent in agriculture. The major tasks for the Update project consisted of updating the original mapping classification to conform to the changes and refinements to the MCV2 classification, updating the existing vegetation map to 2012 conditions, retroactively correcting the 2005 vegetation interpretations, creating the final report and project metadata, and producing the final vegetation geodatabase. After completion of the original 2005 vegetation map, CDFW crosswalked the original mapping units to the NVCS hierarchical names as defined in the Manual of California Vegetation (MCV).The original crosswalk was revised during the Update effort to reflect changes in the original MCV classification as depicted in the second edition (MCV2). Changes were minor and did not result in a significant effort in the updating process. The updating process in many steps is similar to the creation of the original vegetation map. First, photo interpreters review the study area for terrain, environmental features, and probable vegetation types present. Questionable photo signatures on the new baseline imagery (2012 NAIP) were compared to the original 2000/01 Emerge imagery. Photo signatures for a given vegetation polygon were correlated between the two image datasets. Production level updates to the linework and labeling commenced following the correlation of the two baseline image datasets and the subsequent refinement of photo interpretation criteria and biogeographical descriptions of the types. Existing datasets depicting topography, fire history, climate and past vegetation gathering efforts aided photo interpreters in their delineations and floristic assignments during the updating effort. The production updating effort took approximately 11 months.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:df2d2a59-9bf3-427b-8c02-c1552b82628f",
+      "industries": [
+        "Auth_CDFW",
+        "CAOpenData",
+        "CDFW",
+        "California Department of Fish And Wildlife",
+        "California Natural Resources Agency",
+        "DS1196_20150608_wm",
+        "MCV Vegetation Map",
+        "MSHCP Vegetation Map",
+        "NVCS",
+        "National Vegetation Classification System",
+        "Western Riverside County Vegetation Map",
+        "biota",
+        "california department of fish and wildlife",
+        "environment",
+        "inlandWaters",
+        "vegetation"
+      ],
+      "jurisdiction": "California",
+      "notes": "Aerial Information Systems, Inc. (AIS) was contracted by the Western Riverside County Regional Conservation Authority to perform an update to their original 2005 Western Riverside Vegetation Map. The project was funded through a Local Assistance Grant from the California Department of Fish and Wildlife (CDFW). The original vegetation layer was created in 2005 using a baseline image dataset created from 2000/01 Emerge imagery flown in early spring. The original map has been used to monitor and evaluate the habitat in the Western Riverside County Multi-species Habitat Conservation Plan (MSHCP). An update to the original map was needed to address changes in vegetation makeup that have occurred in the intervening years due to widespread and multiple burns in the mapping area, urban expansion, and broadly occurring vegetation succession.The update conforms to the standards set by the National Vegetation Classification System (NVCS) published in 2008 by the Federal Geographic Data Committee. (FGDC-STD-005-2008, Vegetation Subcommittee, Federal Geographic Data Committee, February 2008) The update also adheres to the vegetation types as represented in the 2008-second edition of the Manual of California Vegetation (MCV2). Extensive ground based field data both within and nearby the western Riverside County mapping area has been acquired since the completion of the project in 2005. This additional data has resulted in the reclassification of several vegetation types that are addressed in the updated vegetation map. The mapping area covers 1,017,364 acres of the original 1.2 million acres mapped in the 2005 study. The new study covers portions of the Upper Santa Ana River Valley, Perris Plain, and the foothills of the San Jacinto and Santa Ana Mountains but excludes US Forest Service land. The final geodatabase includes an updated 2012 vegetation map. Vegetative and cartographic comparisons between the newly created 2012 image-based map and the original vegetation map produced in 2005 are described in this report.The Update mapping was performed using baseline digital imagery created in 2012 by the US Department of Agriculture '' Farm Service Agency''s National Agricultural Imagery Program (NAIP). Vegetation units were mapped using the National Vegetation Classification System (NVCS) to the Alliance and Association level as depicted in the MCV2. Approximately 55 percent of the study area is classified to vegetated or naturally occurring sparsely vegetated types; the remaining 45 percent is unvegetated, with over a third (36 percent) in urban development and an additional 9 percent in agriculture. The major tasks for the Update project consisted of updating the original mapping classification to conform to the changes and refinements to the MCV2 classification, updating the existing vegetation map to 2012 conditions, retroactively correcting the 2005 vegetation interpretations, creating the final report and project metadata, and producing the final vegetation geodatabase. After completion of the original 2005 vegetation map, CDFW crosswalked the original mapping units to the NVCS hierarchical names as defined in the Manual of California Vegetation (MCV).The original crosswalk was revised during the Update effort to reflect changes in the original MCV classification as depicted in the second edition (MCV2). Changes were minor and did not result in a significant effort in the updating process. The updating process in many steps is similar to the creation of the original vegetation map. First, photo interpreters review the study area for terrain, environmental features, and probable vegetation types present. Questionable photo signatures on the new baseline imagery (2012 NAIP) were compared to the original 2000/01 Emerge imagery. Photo signatures for a given vegetation polygon were correlated between the two image datasets. Production level updates to the linework and labeling commenced following the correlation of the two baseline image datasets and the subsequent refinement of photo interpretation criteria and biogeographical descriptions of the types. Existing datasets depicting topography, fire history, climate and past vegetation gathering efforts aided photo interpreters in their delineations and floristic assignments during the updating effort. The production updating effort took approximately 11 months.",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "California Department of Fish and Wildlife",
+      "title": "Vegetation - Western Riverside County Update - 2012 [ds1196]",
+      "url": "https://data-cdfw.opendata.arcgis.com/datasets/CDFW::vegetation-western-riverside-county-update-2012-ds1196"
+    },
+    {
+      "deadline": null,
+      "description": "The study area for this project was Garrapata State Park in northwestern Monterey County, California. Development of Garrapata State Park land by Spanish missionaries began in the late 1700s (Costanoan Rumsen Carmel Tribe 2001). Cattle ranching on the land began in the 1830s with land grants to ranchers, beginning a long stint of grazing on most of the land south of the Carmel River. In 1980, the state of California began purchasing parcels of land and the area was officially classified as a state park in 1985 (Garrapata State Park Monterey Sector 2003). Garrapata State Park encompasses 2,866 acres along the pacific coast, immediately south of Carmel Highlands. The area is largely dominated by steep foothills of the coastal Santa Lucia Range and is dissected by several steep creeks: Wildcat Creek, Malpaso Creek, Soberanes Creek, Doud Creek and Granite Creek. Elevation ranges from sea level to 2,011 ft atop Rocky Ridge. The park also contains an approximately 4.1-mile stretch of coastal bluff, rocky intertidal zone, and beach west of Highway. The park\u2019s Mediterranean climate is characterized by dry summers and cool wet winters and receives approximately 28 inches of mean annual precipitation (PRISM 2012). Wildfire is a prominent disturbance in this landscape; the Soberanes Fire which began in Garrapata State Park in 2016 was one of the largest fires recorded in California history, burning 132,127 acres (CAL Fire 2016). The National Vegetation Classification System allows vegetation to be mapped at three broad levels\u2014 physiognomy, biogeography, and floristics\u2014each of which can be broken down into multiple sublevels (USNVC 2020). Floristic-level mapping provides the finest resolution and is the only level to reflect local environmental conditions. Such fine-scale data resolution helps establish a more precise inventory of native and non-native vegetation communities, which benefits land managers interested in protecting valued natural resources, monitoring fuel loads for fire management, and understanding habitat requirements of wildlife. We attempted to map vegetation communities to the alliance sublevel, which is the broadest sublevel at the floristic level of mapping. We did not attempt to map associations, which occur at the level below alliances. Vegetation community mapping comprised preliminary delineation of somewhat homogeneous vegetation stands, field-based classification of alliances and other mapping units, and quality assurance. We first estimated the boundaries of stands using aerial and satellite-derived orthoimagery which were later classified through field observations. Most of the stands we mapped were conformant with previously defined alliances. Non-conformant stands were classified within novel mapping units, defined in Appendix B. We also used novel mapping units for two situations where the exact alliance could not be readily determined in fall; these classes were \u201cWillows\u201d and \u201cUnidentified annual grasses\u201d. We examined aerial and satellite imagery to initially digitize polygons around areas where vegetation looked homogenous and distinct from surrounding areas. We used a mosaic of natural color (red, green, blue [RGB] band) and color infrared (CIR) National Agriculture Imagery Program (NAIP) orthophotos to conduct initial digitizing of vegetation alliance polygons. Polygons were delineated based on areas of visible homogeneity within the landscape; breaks or abrupt changes in color, structure, or relative height of vegetation usually indicated the need to create separate vegetation community polygons. We established minimum mapping units (MMUs) of 0.25 acres for common mapping units and 0.1 acres for uncommon classes, to maximize the level of detail conveyed in vegetation maps given time constraints and clarity of aerial and satellite imagery. The status of each vegetation community polygon was indicated as \u201cunconfirmed\u201d until field crews verified whether initial delineations were correct. Polygons were classified based on the dominant species composition of each polygon. Classification rules were based on rules provided by CNPS, and where rules contradicted each other, we adopted a rule based on either the most recent or the most locally relevant CNPS-listed rule. Most rules were based on the percent cover of the tallest stratum of vegetation. Rules for novel mapping units were that the nominate dominant species should have 50% relative cover. The vegetation map was prepared for publication in California Department of Fish and Wildlife's Biogeographic Information and Observation System by staff from the Vegetation Classification and Mapping Program.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:ccdc3c42-3823-4d38-8b57-97fc7f99c249",
+      "industries": [
+        "A Manual of California Vegetation",
+        "Auth_CDFW",
+        "CAOpenData",
+        "CDFW",
+        "California",
+        "California Department of Fish And Wildlife",
+        "California Natural Resources Agency",
+        "California Wildlife Habitat Relationships",
+        "DS2945_20210830_wm",
+        "Garrapata State Park",
+        "National Vegetation Classification Standard",
+        "biota",
+        "california department of fish and wildlife",
+        "environment",
+        "vegetation"
+      ],
+      "jurisdiction": "California",
+      "notes": "The study area for this project was Garrapata State Park in northwestern Monterey County, California. Development of Garrapata State Park land by Spanish missionaries began in the late 1700s (Costanoan Rumsen Carmel Tribe 2001). Cattle ranching on the land began in the 1830s with land grants to ranchers, beginning a long stint of grazing on most of the land south of the Carmel River. In 1980, the state of California began purchasing parcels of land and the area was officially classified as a state park in 1985 (Garrapata State Park Monterey Sector 2003). Garrapata State Park encompasses 2,866 acres along the pacific coast, immediately south of Carmel Highlands. The area is largely dominated by steep foothills of the coastal Santa Lucia Range and is dissected by several steep creeks: Wildcat Creek, Malpaso Creek, Soberanes Creek, Doud Creek and Granite Creek. Elevation ranges from sea level to 2,011 ft atop Rocky Ridge. The park also contains an approximately 4.1-mile stretch of coastal bluff, rocky intertidal zone, and beach west of Highway. The park\u2019s Mediterranean climate is characterized by dry summers and cool wet winters and receives approximately 28 inches of mean annual precipitation (PRISM 2012). Wildfire is a prominent disturbance in this landscape; the Soberanes Fire which began in Garrapata State Park in 2016 was one of the largest fires recorded in California history, burning 132,127 acres (CAL Fire 2016). The National Vegetation Classification System allows vegetation to be mapped at three broad levels\u2014 physiognomy, biogeography, and floristics\u2014each of which can be broken down into multiple sublevels (USNVC 2020). Floristic-level mapping provides the finest resolution and is the only level to reflect local environmental conditions. Such fine-scale data resolution helps establish a more precise inventory of native and non-native vegetation communities, which benefits land managers interested in protecting valued natural resources, monitoring fuel loads for fire management, and understanding habitat requirements of wildlife. We attempted to map vegetation communities to the alliance sublevel, which is the broadest sublevel at the floristic level of mapping. We did not attempt to map associations, which occur at the level below alliances. Vegetation community mapping comprised preliminary delineation of somewhat homogeneous vegetation stands, field-based classification of alliances and other mapping units, and quality assurance. We first estimated the boundaries of stands using aerial and satellite-derived orthoimagery which were later classified through field observations. Most of the stands we mapped were conformant with previously defined alliances. Non-conformant stands were classified within novel mapping units, defined in Appendix B. We also used novel mapping units for two situations where the exact alliance could not be readily determined in fall; these classes were \u201cWillows\u201d and \u201cUnidentified annual grasses\u201d. We examined aerial and satellite imagery to initially digitize polygons around areas where vegetation looked homogenous and distinct from surrounding areas. We used a mosaic of natural color (red, green, blue [RGB] band) and color infrared (CIR) National Agriculture Imagery Program (NAIP) orthophotos to conduct initial digitizing of vegetation alliance polygons. Polygons were delineated based on areas of visible homogeneity within the landscape; breaks or abrupt changes in color, structure, or relative height of vegetation usually indicated the need to create separate vegetation community polygons. We established minimum mapping units (MMUs) of 0.25 acres for common mapping units and 0.1 acres for uncommon classes, to maximize the level of detail conveyed in vegetation maps given time constraints and clarity of aerial and satellite imagery. The status of each vegetation community polygon was indicated as \u201cunconfirmed\u201d until field crews verified whether initial delineations were correct. Polygons were classified based on the dominant species composition of each polygon. Classification rules were based on rules provided by CNPS, and where rules contradicted each other, we adopted a rule based on either the most recent or the most locally relevant CNPS-listed rule. Most rules were based on the percent cover of the tallest stratum of vegetation. Rules for novel mapping units were that the nominate dominant species should have 50% relative cover. The vegetation map was prepared for publication in California Department of Fish and Wildlife's Biogeographic Information and Observation System by staff from the Vegetation Classification and Mapping Program.",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "California Department of Fish and Wildlife",
+      "title": "Vegetation - Garrapata State Park [ds2945]",
+      "url": "https://data-cdfw.opendata.arcgis.com/datasets/CDFW::vegetation-garrapata-state-park-ds2945"
+    },
+    {
+      "deadline": null,
+      "description": "CalEnviroScreen is a mapping tool that helps identify California communities that are most affected by many sources of pollution, and where people are often especially vulnerable to pollution\u2019s effects. CalEnviroScreen uses environmental, health, and socioeconomic information to produce scores for every census tract in the state. The scores are mapped so that different communities can be compared. An area with a high score is one that experiences a much higher pollution burden than areas with low scores. CalEnviroScreen ranks communities based on data that are available from state and federal government sources.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "California Open Data Portal:0bd5f40b-c59b-4183-be22-d057eae8383c",
+      "industries": [
+        "CalEnviroScreen",
+        "Census Tract",
+        "Cumulative Impacts",
+        "Environmental Justice",
+        "pollution",
+        "population"
+      ],
+      "jurisdiction": "California",
+      "notes": "CalEnviroScreen is a mapping tool that helps identify California communities that are most affected by many sources of pollution, and where people are often especially vulnerable to pollution\u2019s effects. CalEnviroScreen uses environmental, health, and socioeconomic information to produce scores for every census tract in the state. The scores are mapped so that different communities can be compared. An area with a high score is one that experiences a much higher pollution burden than areas with low scores. CalEnviroScreen ranks communities based on data that are available from state and federal government sources.",
+      "project_types": [
+        "climate resilience",
+        "sustainability"
+      ],
+      "source": "California Open Data Portal",
+      "sponsor": "California Office of Environmental Health Hazard Assessment",
+      "title": "CalEnviroScreen 3.0 Results",
+      "url": "https://data.ca.gov/dataset/0bd5f40b-c59b-4183-be22-d057eae8383c/resource/850cbbb8-f616-48c0-9240-971003c99413/download/calenviroscreen-3.0-report.pdf"
+    },
+    {
+      "deadline": null,
+      "description": "This data is a graphic representation of electric utility service territories. The file has not been certified by a Professional Surveyor. This data is not suitable for legal purposes. The purpose of this data is to provide a generalized statewide view of electric service territories. The data does not include individual or commercial releases. A release is an agreement between adjoining utilities that release customers from one utility to be served by the adjoining utility. A customer release does not change the territory boundary. The file has been compiled from numerous sources and as such contains errors. The data only contains the electric utility service territories and the name of the utility.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:5e2c6540-a64b-46f1-a079-105b47a4ab2f",
+      "industries": [
+        "arkansas",
+        "electric",
+        "energy",
+        "power",
+        "public service commission"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This data is a graphic representation of electric utility service territories. The file has not been certified by a Professional Surveyor. This data is not suitable for legal purposes. The purpose of this data is to provide a generalized statewide view of electric service territories. The data does not include individual or commercial releases. A release is an agreement between adjoining utilities that release customers from one utility to be served by the adjoining utility. A customer release does not change the territory boundary. The file has been compiled from numerous sources and as such contains errors. The data only contains the electric utility service territories and the name of the utility.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Electric Utility Service Territories (polygon)",
+      "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Utilities/FeatureServer/11 http://gis.arkansas.gov/product/electric-utility-service-territories-polygon/"
+    },
+    {
+      "deadline": null,
+      "description": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. Federal Communications Commission Antenna Structure Registration. This dataset was derived using the registration data uploaded and maintained at the following web address http://wireless.fcc.gov/antenna/index.htm?job=uls_transaction=weekly. Each record represents an Enitity that has filed a tower registration with the FCC through the FCC Universal Licensing System. The data was processed through SQL Server and an appropriate View was exported. The data has been buffered within GIS software to include 10 miles outside the County boundaries maintained by AHTD.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:e46eac74-ad6d-4f3c-b3a1-8aadc9097295",
+      "industries": [
+        "antenna structure regristration",
+        "arkansas",
+        "asr",
+        "communications",
+        "fcc",
+        "tower",
+        "towers",
+        "united states of america"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. Federal Communications Commission Antenna Structure Registration. This dataset was derived using the registration data uploaded and maintained at the following web address http://wireless.fcc.gov/antenna/index.htm?job=uls_transaction=weekly. Each record represents an Enitity that has filed a tower registration with the FCC through the FCC Universal Licensing System. The data was processed through SQL Server and an appropriate View was exported. The data has been buffered within GIS software to include 10 miles outside the County boundaries maintained by AHTD.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "ASR Towers FCC (point)",
+      "url": "http://gis.arkansas.gov/product/asr-towers-fcc-point/ https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Utilities/FeatureServer/6"
+    },
+    {
+      "deadline": null,
+      "description": "This asset includes a number of individual data sets related to site-specific information for Superfund, which is governed under the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA) of 1980, which was amended by the Superfund Amendments and Reauthorization Act (SARA) in 1986. The Superfund Enterprise Management System (SEMS) contains basic site description, location, schedule of activities, enforcement and settlement data, contaminants and selected remedy and much more, as well as the records that clearly document site decisions. This asset also includes sampling data and lab results (CLPSS, EDDs), redevelopment and technical assistance case studies, site reuse and land revitalization information, EPAOSC.net information, Superfund Technical Assistance Grants information, site management information records (RODs, Remediation plans, cleanup directives), contract management information, and more.\n\nSuperfund site management information can also be found in agency wide systems such as EAS and COMPASS.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:f32e5795-390d-4145-8954-42d5dbe56f35",
+      "industries": [
+        "cerclis",
+        "clp",
+        "clpss",
+        "environment",
+        "racs",
+        "sems",
+        "site history",
+        "site information",
+        "site location",
+        "site reuse",
+        "site status",
+        "superfund redevelopment",
+        "tags",
+        "united states"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This asset includes a number of individual data sets related to site-specific information for Superfund, which is governed under the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA) of 1980, which was amended by the Superfund Amendments and Reauthorization Act (SARA) in 1986. The Superfund Enterprise Management System (SEMS) contains basic site description, location, schedule of activities, enforcement and settlement data, contaminants and selected remedy and much more, as well as the records that clearly document site decisions. This asset also includes sampling data and lab results (CLPSS, EDDs), redevelopment and technical assistance case studies, site reuse and land revitalization information, EPAOSC.net information, Superfund Technical Assistance Grants information, site management information records (RODs, Remediation plans, cleanup directives), contract management information, and more.\n\nSuperfund site management information can also be found in agency wide systems such as EAS and COMPASS.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "U.S. Environmental Protection Agency",
+      "title": "Superfund Site Information",
+      "url": "https://www.epa.gov/superfund/superfund-data-and-reports"
+    },
+    {
+      "deadline": null,
+      "description": "The Beaches Environmental Assessment and Coastal Health (BEACH) Program focuses on the following five areas to meet the goals of improving public health and environmental protection for beach goers and providing the public with information about the quality of their beach water: strengthening beach standards and testing, providing faster laboratory test methods-predicting pollution, investing in health and methods research, informing the public. Under the BEACH Act Grant Program states (including tribes and territories) are required to submit their beach monitoring (water quality), notification (advisory and closing), and beach location data to EPA.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:b5c5bb3b-50ce-40fa-9032-44779725d574",
+      "industries": [
+        "beach",
+        "beach act",
+        "beach data",
+        "beach locational data",
+        "beaches",
+        "cleanup",
+        "conservation",
+        "ecology",
+        "environment",
+        "health",
+        "human",
+        "nhd",
+        "recreation",
+        "united states",
+        "water",
+        "water program",
+        "waterbody"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The Beaches Environmental Assessment and Coastal Health (BEACH) Program focuses on the following five areas to meet the goals of improving public health and environmental protection for beach goers and providing the public with information about the quality of their beach water: strengthening beach standards and testing, providing faster laboratory test methods-predicting pollution, investing in health and methods research, informing the public. Under the BEACH Act Grant Program states (including tribes and territories) are required to submit their beach monitoring (water quality), notification (advisory and closing), and beach location data to EPA.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "U.S. Environmental Protection Agency",
+      "title": "EPA Office of Water (OW): Beaches NHDPlus Indexed Dataset",
+      "url": "https://watersgeo.epa.gov/arcgis/rest/services/OWRAD_NP21/BEACH_NP21/MapServer/"
+    },
+    {
+      "deadline": "2017-01-01",
+      "description": "United States agricultural researchers have many options for making their data available online. This dataset aggregates the primary sources of ag-related data and determines where researchers are likely to deposit their agricultural data. These data serve as both a current landscape analysis and also as a baseline for future studies of ag research data. Purpose As sources of agricultural data become more numerous and disparate, and collaboration and open data become more expected if not required, this research provides a landscape inventory of online sources of open agricultural data. An inventory of current agricultural data sharing options will help assess how the Ag Data Commons , a platform for USDA-funded data cataloging and publication, can best support data-intensive and multi-disciplinary research. It will also help agricultural librarians assist their researchers in data management and publication. The goals of this study were to establish where agricultural researchers in the United States-- land grant and USDA researchers, primarily ARS, NRCS, USFS and other agencies -- currently publish their data, including general research data repositories, domain-specific databases, and the top journals compare how much data is in institutional vs. domain-specific vs. federal platforms determine which repositories are recommended by top journals that require or recommend the publication of supporting data ascertain where researchers not affiliated with funding or initiatives possessing a designated open data repository can publish data Approach The National Agricultural Library team focused on Agricultural Research Service (ARS), Natural Resources Conservation Service (NRCS), and United States Forest Service (USFS) style research data, rather than ag economics, statistics, and social sciences data. To find domain-specific, general, institutional, and federal agency repositories and databases that are open to US research submissions and have some amount of ag data, resources including re3data, libguides, and ARS lists were analysed. Primarily environmental or public health databases were not included, but places where ag grantees would publish data were considered. Search methods We first compiled a list of known domain specific USDA / ARS datasets / databases that are represented in the Ag Data Commons, including ARS Image Gallery, ARS Nutrition Databases (sub-components), SoyBase, PeanutBase, National Fungus Collection, i5K Workspace @ NAL, and GRIN. We then searched using search engines such as Bing and Google for non-USDA / federal ag databases, using Boolean variations of \u201cagricultural data\u201d /\u201cag data\u201d / \u201cscientific data\u201d + NOT + USDA (to filter out the federal / USDA results). Most of these results were domain specific, though some contained a mix of data subjects. We then used search engines such as Bing and Google to find top agricultural university repositories using variations of \u201cagriculture\u201d, \u201cag data\u201d and \u201cuniversity\u201d to find schools with agriculture programs. Using that list of universities, we searched each university web site to see if their institution had a repository for their unique, independent research data if not apparent in the initial web browser search. We found both ag specific university repositories and general university repositories that housed a portion of agricultural data. Ag specific university repositories are included in the list of domain-specific repositories. Results included Columbia University \u2013 International Research Institute for Climate and Society, UC Davis \u2013 Cover Crops Database, etc. If a general university repository existed, we determined whether that repository could filter to include only data results after our chosen ag search terms were applied. General university databases that contain ag data included Colorado State University Digital Collections, University of Michigan ICPSR (Inter-university Consortium for Political and Social Research), and University of Minnesota DRUM (Digital Repository of the University of Minnesota). We then split out NCBI (National Center for Biotechnology Information) repositories. Next we searched the internet for open general data repositories using a variety of search engines, and repositories containing a mix of data, journals, books, and other types of records were tested to determine whether that repository could filter for data results after search terms were applied. General subject data repositories include Figshare, Open Science Framework, PANGEA, Protein Data Bank, and Zenodo. Finally, we compared scholarly journal suggestions for data repositories against our list to fill in any missing repositories that might contain agricultural data. Extensive lists of journals were compiled, in which USDA published in 2012 and 2016, combining search results in ARIS, Scopus, and the Forest Service's TreeSearch, plus the USDA web sites  Economic Research Service (ERS), National Agricultural Statistics Service (NASS), Natural Resources and Conservation Service (NRCS), Food and Nutrition Service (FNS),  Rural Development (RD), and Agricultural Marketing Service (AMS). The top 50 journals' author instructions were consulted to see if they (a) ask or require submitters to provide supplemental data, or (b) require submitters to submit data to open repositories. Data are provided for Journals based on a 2012 and 2016 study of where USDA employees publish their research studies, ranked by number of articles, including 2015/2016 Impact Factor, Author guidelines, Supplemental Data?, Supplemental Data reviewed?, Open Data (Supplemental or in Repository) Required? and Recommended data repositories, as provided in the online author guidelines for each the top 50 journals. Evaluation We ran a series of searches on all resulting general subject databases with the designated search terms. From the results, we noted the total number of datasets in the repository, type of resource searched (datasets, data, images, components, etc.), percentage of the total database that each term comprised, any dataset with a search term that comprised at least 1% and 5% of the total collection, and any search term that returned greater than 100 and greater than 500 results. We compared domain-specific databases and repositories based on parent organization, type of institution, and whether data submissions were dependent on conditions such as funding or affiliation of some kind. Results A summary of the major findings from our data review: Over half of the top 50 ag-related journals from our profile require or encourage open data for their published authors. There are few general repositories that are both large AND contain a significant portion of ag data in their collection. GBIF (Global Biodiversity Information Facility), ICPSR, and ORNL DAAC were among those that had over 500 datasets returned with at least one ag search term and had that result comprise at least 5% of the total collection. Not even one quarter of the domain-specific repositories and datasets reviewed allow open submission by any researcher regardless of funding or affiliation. See included README file for descriptions of each individual data file in this dataset. Resources in this dataset: Resource Title: Journals. File Name: Journals.csv Resource Title: Journals - Recommended repositories. File Name: Repos_from_journals.csv Resource Title: TDWG presentation. File Name: TDWG_Presentation.pptx Resource Title: Domain Specific ag data sources. File Name: domain_specific_ag_databases.csv Resource Title: Data Dictionary for Ag Data Repository Inventory. File Name: Ag_Data_Repo_DD.csv Resource Title: General repositories containing ag data. File Name: general_repos_1.csv Resource Title: README and file inventory. File Name: README_InventoryPublicDBandREepAgData.txt",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:f1b045b3-de40-4177-8466-ff7c01ad2e61",
+      "industries": [
+        "agricultural-data",
+        "ars",
+        "data-access",
+        "data-gov",
+        "data-publication",
+        "data-repositories",
+        "data-sharing",
+        "database",
+        "datasets",
+        "nal-ksd",
+        "open-data",
+        "scholarly-research"
+      ],
+      "jurisdiction": "United States",
+      "notes": "United States agricultural researchers have many options for making their data available online. This dataset aggregates the primary sources of ag-related data and determines where researchers are likely to deposit their agricultural data. These data serve as both a current landscape analysis and also as a baseline for future studies of ag research data. Purpose As sources of agricultural data become more numerous and disparate, and collaboration and open data become more expected if not required, this research provides a landscape inventory of online sources of open agricultural data. An inventory of current agricultural data sharing options will help assess how the Ag Data Commons , a platform for USDA-funded data cataloging and publication, can best support data-intensive and multi-disciplinary research. It will also help agricultural librarians assist their researchers in data management and publication. The goals of this study were to establish where agricultural researchers in the United States-- land grant and USDA researchers, primarily ARS, NRCS, USFS and other agencies -- currently publish their data, including general research data repositories, domain-specific databases, and the top journals compare how much data is in institutional vs. domain-specific vs. federal platforms determine which repositories are recommended by top journals that require or recommend the publication of supporting data ascertain where researchers not affiliated with funding or initiatives possessing a designated open data repository can publish data Approach The National Agricultural Library team focused on Agricultural Research Service (ARS), Natural Resources Conservation Service (NRCS), and United States Forest Service (USFS) style research data, rather than ag economics, statistics, and social sciences data. To find domain-specific, general, institutional, and federal agency repositories and databases that are open to US research submissions and have some amount of ag data, resources including re3data, libguides, and ARS lists were analysed. Primarily environmental or public health databases were not included, but places where ag grantees would publish data were considered. Search methods We first compiled a list of known domain specific USDA / ARS datasets / databases that are represented in the Ag Data Commons, including ARS Image Gallery, ARS Nutrition Databases (sub-components), SoyBase, PeanutBase, National Fungus Collection, i5K Workspace @ NAL, and GRIN. We then searched using search engines such as Bing and Google for non-USDA / federal ag databases, using Boolean variations of \u201cagricultural data\u201d /\u201cag data\u201d / \u201cscientific data\u201d + NOT + USDA (to filter out the federal / USDA results). Most of these results were domain specific, though some contained a mix of data subjects. We then used search engines such as Bing and Google to find top agricultural university repositories using variations of \u201cagriculture\u201d, \u201cag data\u201d and \u201cuniversity\u201d to find schools with agriculture programs. Using that list of universities, we searched each university web site to see if their institution had a repository for their unique, independent research data if not apparent in the initial web browser search. We found both ag specific university repositories and general university repositories that housed a portion of agricultural data. Ag specific university repositories are included in the list of domain-specific repositories. Results included Columbia University \u2013 International Research Institute for Climate and Society, UC Davis \u2013 Cover Crops Database, etc. If a general university repository existed, we determined whether that repository could filter to include only data results after our chosen ag search terms were applied. General university databases that contain ag data included Colorado State University Digital Collections, University of Michigan ICPSR (Inter-university Consortium for Political and Social Research), and University of Minnesota DRUM (Digital Repository of the University of Minnesota). We then split out NCBI (National Center for Biotechnology Information) repositories. Next we searched the internet for open general data repositories using a variety of search engines, and repositories containing a mix of data, journals, books, and other types of records were tested to determine whether that repository could filter for data results after search terms were applied. General subject data repositories include Figshare, Open Science Framework, PANGEA, Protein Data Bank, and Zenodo. Finally, we compared scholarly journal suggestions for data repositories against our list to fill in any missing repositories that might contain agricultural data. Extensive lists of journals were compiled, in which USDA published in 2012 and 2016, combining search results in ARIS, Scopus, and the Forest Service's TreeSearch, plus the USDA web sites  Economic Research Service (ERS), National Agricultural Statistics Service (NASS), Natural Resources and Conservation Service (NRCS), Food and Nutrition Service (FNS),  Rural Development (RD), and Agricultural Marketing Service (AMS). The top 50 journals' author instructions were consulted to see if they (a) ask or require submitters to provide supplemental data, or (b) require submitters to submit data to open repositories. Data are provided for Journals based on a 2012 and 2016 study of where USDA employees publish their research studies, ranked by number of articles, including 2015/2016 Impact Factor, Author guidelines, Supplemental Data?, Supplemental Data reviewed?, Open Data (Supplemental or in Repository) Required? and Recommended data repositories, as provided in the online author guidelines for each the top 50 journals. Evaluation We ran a series of searches on all resulting general subject databases with the designated search terms. From the results, we noted the total number of datasets in the repository, type of resource searched (datasets, data, images, components, etc.), percentage of the total database that each term comprised, any dataset with a search term that comprised at least 1% and 5% of the total collection, and any search term that returned greater than 100 and greater than 500 results. We compared domain-specific databases and repositories based on parent organization, type of institution, and whether data submissions were dependent on conditions such as funding or affiliation of some kind. Results A summary of the major findings from our data review: Over half of the top 50 ag-related journals from our profile require or encourage open data for their published authors. There are few general repositories that are both large AND contain a significant portion of ag data in their collection. GBIF (Global Biodiversity Information Facility), ICPSR, and ORNL DAAC were among those that had over 500 datasets returned with at least one ag search term and had that result comprise at least 5% of the total collection. Not even one quarter of the domain-specific repositories and datasets reviewed allow open submission by any researcher regardless of funding or affiliation. See included README file for descriptions of each individual data file in this dataset. Resources in this dataset: Resource Title: Journals. File Name: Journals.csv Resource Title: Journals - Recommended repositories. File Name: Repos_from_journals.csv Resource Title: TDWG presentation. File Name: TDWG_Presentation.pptx Resource Title: Domain Specific ag data sources. File Name: domain_specific_ag_databases.csv Resource Title: Data Dictionary for Ag Data Repository Inventory. File Name: Ag_Data_Repo_DD.csv Resource Title: General repositories containing ag data. File Name: general_repos_1.csv Resource Title: README and file inventory. File Name: README_InventoryPublicDBandREepAgData.txt",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of Agriculture",
+      "title": "Inventory of online public databases and repositories holding agricultural data in 2017",
+      "url": "https://ndownloader.figshare.com/files/44335916"
+    },
+    {
+      "deadline": null,
+      "description": "In January 2018, a U.S. Geological Survey (USGS) team collected short cores and surface samples from four islands in Florida Bay, Everglades National Park, south Florida (Wingard et al. 2019). The 2018 samples were collected approximately five months after the passage of Hurricane Irma on September 10, 2017, as a category 4 storm. The four islands had also been cored in 2014. The goal of the long-term study of these four islands is to examine the impacts of climate and sea level on island formation and resilience, and to provide insights into the stability of the south Florida coastline. The passage of Hurricane Irma provided an opportunity to sample sediments deposited by the storm surge. \nThe particle size analysis (PSA) data presented here contain results from three types of samples: 1) a short core (20 cm) collected from the western-most of the four islands (Jim Foot Key); 2) surface samples, representing overwash deposits from the storm surge collected from the four islands (Jim Foot Key, Buttonwood Key #7, Bob Allen Key, and Russell Key); and 3) basin samples from Florida Bay mudbanks and deeper water surrounding the islands. The basin samples were collected in December 2020 for comparison to the storm deposits to investigate possible provenance. The three types of samples were photographed and described prior to splitting and/or subsampling for PSA, which was conducted using the Beckman Coulter LS 13 320 XR laser diffraction analyzer housed in the Bascom Laser Diffraction Sedimentology Laboratory in Reston, VA.\nThe work described here is done in collaboration with Everglades National Park (Study #EVER-00617) and is funded by the Greater Everglades Priority Ecosystem Science program of the USGS. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\nReference: Wingard, G.L., Bergstresser, S.E., Stackhouse, B.L., Jones, M.C., Marot, M.E., Hoefke, K., Daniels, A., and Keller, K. 2019. Impacts of Hurricane Irma on Florida Bay Islands, Everglades National Park, U.S.A. Estuaries and Coasts. https://doi.org/10.1007/s12237-019-00638-7\nThis Data Release was revised to v1.1 in May 2025 to include updated statistics data for laser diffractometry results contained therein.  No other changes to the data release were made for v1.1.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:c05f9bcf-6c6a-436b-81e5-6f34653fdcce",
+      "industries": [
+        "beckman-coulter",
+        "biota",
+        "carbonates",
+        "everglades",
+        "fbgc",
+        "florence-bascom-geoscience-center",
+        "florida",
+        "florida-bay",
+        "grain-size-analysis",
+        "hurricane-irma",
+        "laser-diffraction",
+        "overwash-deposit",
+        "particle-size",
+        "sedimentology",
+        "u-s-geological-survey",
+        "usgs",
+        "usgs-66c7533fd34e0338828b3f56"
+      ],
+      "jurisdiction": "United States",
+      "notes": "In January 2018, a U.S. Geological Survey (USGS) team collected short cores and surface samples from four islands in Florida Bay, Everglades National Park, south Florida (Wingard et al. 2019). The 2018 samples were collected approximately five months after the passage of Hurricane Irma on September 10, 2017, as a category 4 storm. The four islands had also been cored in 2014. The goal of the long-term study of these four islands is to examine the impacts of climate and sea level on island formation and resilience, and to provide insights into the stability of the south Florida coastline. The passage of Hurricane Irma provided an opportunity to sample sediments deposited by the storm surge. \nThe particle size analysis (PSA) data presented here contain results from three types of samples: 1) a short core (20 cm) collected from the western-most of the four islands (Jim Foot Key); 2) surface samples, representing overwash deposits from the storm surge collected from the four islands (Jim Foot Key, Buttonwood Key #7, Bob Allen Key, and Russell Key); and 3) basin samples from Florida Bay mudbanks and deeper water surrounding the islands. The basin samples were collected in December 2020 for comparison to the storm deposits to investigate possible provenance. The three types of samples were photographed and described prior to splitting and/or subsampling for PSA, which was conducted using the Beckman Coulter LS 13 320 XR laser diffraction analyzer housed in the Bascom Laser Diffraction Sedimentology Laboratory in Reston, VA.\nThe work described here is done in collaboration with Everglades National Park (Study #EVER-00617) and is funded by the Greater Everglades Priority Ecosystem Science program of the USGS. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.\nReference: Wingard, G.L., Bergstresser, S.E., Stackhouse, B.L., Jones, M.C., Marot, M.E., Hoefke, K., Daniels, A., and Keller, K. 2019. Impacts of Hurricane Irma on Florida Bay Islands, Everglades National Park, U.S.A. Estuaries and Coasts. https://doi.org/10.1007/s12237-019-00638-7\nThis Data Release was revised to v1.1 in May 2025 to include updated statistics data for laser diffractometry results contained therein.  No other changes to the data release were made for v1.1.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of the Interior",
+      "title": "Particle size distribution data from Florida Bay, Everglades National Park, Florida - 2024 analyses of samples collected following Hurricane Irma (2017) (ver. 1.1, May 2025)",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.66c7533fd34e0338828b3f56.xml"
+    },
+    {
+      "deadline": null,
+      "description": "Computer model simulation of hurricane storm surge inundation around Honolulu, Hawaii using current sea level at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates a Category 4 hurricane, similar to Hurricane Iniki which devastated the island of Kauai in 1992, with a central pressure ranging from 910 to 970 mbar and maximum sustained winds ranging from 90 to 150 mph as it tracked from open ocean to land to open ocean again. The model result shows the Maximum of the Maximum Envelope of High Water (MEOW), or MOM, providing a worst-case snapshot for a particular storm category under \"perfect\" storm conditions.\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:6b503965-639c-47e1-b2b9-19799b8e5274",
+      "industries": [
+        "atmosphere",
+        "atmospheric phenomena",
+        "atmospheric/ocean indicators",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "earth science services",
+        "hawaii",
+        "hawaiian islands",
+        "honolulu",
+        "human dimensions",
+        "hurricanes",
+        "inundation",
+        "models",
+        "natural hazards",
+        "north america",
+        "oahu",
+        "ocean",
+        "ocean general circulation models (ogcm)/regional ocean models",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "storm surge",
+        "tropical cyclones",
+        "united states of america",
+        "weather research/forecast models"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Computer model simulation of hurricane storm surge inundation around Honolulu, Hawaii using current sea level at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates a Category 4 hurricane, similar to Hurricane Iniki which devastated the island of Kauai in 1992, with a central pressure ranging from 910 to 970 mbar and maximum sustained winds ranging from 90 to 150 mph as it tracked from open ocean to land to open ocean again. The model result shows the Maximum of the Maximum Envelope of High Water (MEOW), or MOM, providing a worst-case snapshot for a particular storm category under \"perfect\" storm conditions.\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "Hurricane Storm Surge Inundation: Honolulu, Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "deadline": null,
+      "description": "The On-System routes on AHTD's Linear Referencing System (LRS) represent the official state highway system in Arkansas.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:e072084a-7a5c-4ee2-b976-0a35c1f2a14a",
+      "industries": [
+        "adt",
+        "arkansas",
+        "average daily traffic",
+        "highways",
+        "log mile",
+        "logmile",
+        "lrs",
+        "mile",
+        "on system",
+        "state highway",
+        "united states"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The On-System routes on AHTD's Linear Referencing System (LRS) represent the official state highway system in Arkansas.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "State Highway Logmiles",
+      "url": "http://gis.arkansas.gov/product/state-highway-logmiles/ https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Transportation/FeatureServer/4"
+    },
+    {
+      "deadline": null,
+      "description": "The purpose of the Emergency Solutions Grants (ESG) program is to identify sheltered and unsheltered homeless persons, as well as those at risk of homelessness, and to assist those individuals and families regain stability in permanent housing following a housing crisis and/or homelessness. The ESG is a non-competitive formula grant awarded to recipients which are state governments, large cities, urban counties, and U.S. territories.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:e9837a73-486a-4031-a872-8f2f18a13d9e",
+      "industries": [
+        "community-development-programs",
+        "community-planning-and-development",
+        "cpd",
+        "emergency-solutions-grants",
+        "esg",
+        "housing",
+        "hud",
+        "hud-official-content",
+        "polygon",
+        "population",
+        "sheltered",
+        "society",
+        "unsheltered",
+        "us-department-of-housing-and-urban-development"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The purpose of the Emergency Solutions Grants (ESG) program is to identify sheltered and unsheltered homeless persons, as well as those at risk of homelessness, and to assist those individuals and families regain stability in permanent housing following a housing crisis and/or homelessness. The ESG is a non-competitive formula grant awarded to recipients which are state governments, large cities, urban counties, and U.S. territories.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of Housing and Urban Development",
+      "title": "Emergency Solutions Grantee (ESG) Areas",
+      "url": "https://opendata.arcgis.com/api/v3/datasets/446514a2d48b47958aec68511179fb19_4/downloads/data?format=fgdb&spatialRefId=4326&where=1%3D1"
+    },
+    {
+      "deadline": null,
+      "description": "The 25 April 2015 Mw 7.8 Gorkha earthquake and its aftershocks triggered about 25,000 landslides over an area of more than 30,000 km2 in the Greater and Lesser Himalaya of Nepal and China. In order to understand the relation among landslide location, earthquake shaking, topography, tectonic geologic and climatic setting, earthquake-triggered landslides were mapped using high-resolution (<1m pixel resolution) pre- and post-event satellite imagery. Source and runout areas were differentiated and mapped separately. The data accompany an interpretive paper published in the journal Geomorphology.\nThe published products are separate ESRI ArcMap 10.2.2 shapefiles that comprise: (i) mapped landslide source areas, (ii) mapped landslide full areas (source, transport and deposit area combined), (iii) the extent of geographic areas in which mapping was completed, (iv) obscured areas in which the mapping is incomplete because of the lack of clear, undistorted satellite data from post-earthquake dates, and (v) image quality designation for mapped regions. 24,915 landslide areas were mapped in the full20170209.shp file (full areas) compared to 24,795 landslide areas in the source20170209.shp file (source areas). This small discrepancy in total number arises because of image distortion and partial cloud cover. One hundred forty two of the full areas lack an identifiable source area. Additionally, 10 full areas have 2 corresponding source areas because the full area could not be divided into 2 separate runout areas due to image distortion; 12 other source areas do not have corresponding full areas. \nThis work was supported by a National Science Foundation (NSF) RAPID award from the Geomorphology and Land Use Dynamics program to West (EAR-1546630) and Clark (EAR-1546631), partially supported by NSF Geomorphology and Land Use Dynamics program (EAR-1640894 to West and EAR-1640797 to Clark and Zekkos), University of Michigan internal award to Clark and Zekkos (MCubed 2.0 Project ID 917) and a Swiss Federal Institute of Technology (ETH) Research Commission research grant (ETH-15 15-2) awarded to Gallen. We thank Paul Morin from the PGC (Polar Geospatial Center) for providing imagery access and support for acquiring satellite data through a NGA (National Geospatial-Intelligence Agency) cooperative agreement with NSF. We also thank Kristen Cook, William Greenwood, Julie Bateman, Bibek Giri, Maarten Lupker and John Galetzka for their assistance during a 2015 field expedition to Nepal.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:a65bb929-cf26-442c-9b69-1027d77e7182",
+      "industries": [
+        "co-seismic-landslide",
+        "earthquakes",
+        "geoscientificinformation",
+        "gorkha-earthquake",
+        "landslides",
+        "nepal",
+        "usgs-582c74fbe4b04d580bd377e8"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The 25 April 2015 Mw 7.8 Gorkha earthquake and its aftershocks triggered about 25,000 landslides over an area of more than 30,000 km2 in the Greater and Lesser Himalaya of Nepal and China. In order to understand the relation among landslide location, earthquake shaking, topography, tectonic geologic and climatic setting, earthquake-triggered landslides were mapped using high-resolution (<1m pixel resolution) pre- and post-event satellite imagery. Source and runout areas were differentiated and mapped separately. The data accompany an interpretive paper published in the journal Geomorphology.\nThe published products are separate ESRI ArcMap 10.2.2 shapefiles that comprise: (i) mapped landslide source areas, (ii) mapped landslide full areas (source, transport and deposit area combined), (iii) the extent of geographic areas in which mapping was completed, (iv) obscured areas in which the mapping is incomplete because of the lack of clear, undistorted satellite data from post-earthquake dates, and (v) image quality designation for mapped regions. 24,915 landslide areas were mapped in the full20170209.shp file (full areas) compared to 24,795 landslide areas in the source20170209.shp file (source areas). This small discrepancy in total number arises because of image distortion and partial cloud cover. One hundred forty two of the full areas lack an identifiable source area. Additionally, 10 full areas have 2 corresponding source areas because the full area could not be divided into 2 separate runout areas due to image distortion; 12 other source areas do not have corresponding full areas. \nThis work was supported by a National Science Foundation (NSF) RAPID award from the Geomorphology and Land Use Dynamics program to West (EAR-1546630) and Clark (EAR-1546631), partially supported by NSF Geomorphology and Land Use Dynamics program (EAR-1640894 to West and EAR-1640797 to Clark and Zekkos), University of Michigan internal award to Clark and Zekkos (MCubed 2.0 Project ID 917) and a Swiss Federal Institute of Technology (ETH) Research Commission research grant (ETH-15 15-2) awarded to Gallen. We thank Paul Morin from the PGC (Polar Geospatial Center) for providing imagery access and support for acquiring satellite data through a NGA (National Geospatial-Intelligence Agency) cooperative agreement with NSF. We also thank Kristen Cook, William Greenwood, Julie Bateman, Bibek Giri, Maarten Lupker and John Galetzka for their assistance during a 2015 field expedition to Nepal.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of the Interior",
+      "title": "Map data of landslides triggered by the 25 April 2015 Mw 7.8 Gorkha, Nepal earthquake",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.582c74fbe4b04d580bd377e8.xml"
+    },
+    {
+      "deadline": null,
+      "description": "This dataset contains polygons and attributes which represent the School District Board Zones for the Public School Districts in the State of Arkansas. It includes the Local education Authority (LEA) identification number, name of the District and the Zone Number assigned in the redistricting process. The compilation of this data is an effort of the Secretary of State to aid in election administration and future redistricting. Some School Districts in Arkansas Elect Members at Large which is the reason not all school districts are included in the data.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:10a126e8-5da3-4a78-bb1d-ee8984dd2e65",
+      "industries": [
+        "arkansas",
+        "board",
+        "district",
+        "school",
+        "united states",
+        "zones"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This dataset contains polygons and attributes which represent the School District Board Zones for the Public School Districts in the State of Arkansas. It includes the Local education Authority (LEA) identification number, name of the District and the Zone Number assigned in the redistricting process. The compilation of this data is an effort of the Secretary of State to aid in election administration and future redistricting. Some School Districts in Arkansas Elect Members at Large which is the reason not all school districts are included in the data.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "School Board Zones",
+      "url": "http://gis.arkansas.gov/product/school-board-zones-secretary-of-state/ https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Boundaries/FeatureServer/32"
+    },
+    {
+      "deadline": null,
+      "description": "Computer model simulation of tsunami run-up inundation around Honolulu, Hawaii using current sea level at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates maximum inundation based on five major historical tsunamis that have impacted Hawaii: 1) The 1946 Aleutian earthquake (8.2 Mw), 2) 1952 Kamchatka earthquake (9.0 Mw), 3) 1957 Aleutian earthquake (8.6 Mw), 4) 1960 Chile earthquake (9.5 Mw), and 5) the 1964 Alaska earthquake (9.2 Mw).\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:20d9c5e5-227e-48b0-ba4a-80627b2c4e56",
+      "industries": [
+        "atmospheric/ocean indicators",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "earth science services",
+        "hawaii",
+        "hawaiian islands",
+        "honolulu",
+        "human dimensions",
+        "inundation",
+        "models",
+        "natural hazards",
+        "north america",
+        "oahu",
+        "ocean",
+        "ocean general circulation models (ogcm)/regional ocean models",
+        "ocean waves",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "tsunamis",
+        "united states of america"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Computer model simulation of tsunami run-up inundation around Honolulu, Hawaii using current sea level at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates maximum inundation based on five major historical tsunamis that have impacted Hawaii: 1) The 1946 Aleutian earthquake (8.2 Mw), 2) 1952 Kamchatka earthquake (9.0 Mw), 3) 1957 Aleutian earthquake (8.6 Mw), 4) 1960 Chile earthquake (9.5 Mw), and 5) the 1964 Alaska earthquake (9.2 Mw).\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "Tsunami Run-Up Inundation: Honolulu, Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "deadline": null,
+      "description": "This map shows coastal flooding around Honolulu, Hawaii due to 6 feet (1.829 m) of sea level rise. This scenario was derived using a National Geospatial Agency (NGA)-provided digital elevation model (DEM) based on LiDAR data of the Honolulu area collected in 2009. This \"bare earth\" DEM (vegetation and structures removed) was used to represent the current topography of the study area above zero elevation for the urban corridor stretching from Honolulu International Airport to Waikiki and Diamond Head along the south shore of Oahu. The accuracy of the DEM was validated using a selection of 16 Tidal Benchmarks located within the study area. The single value tidal water surface of mean higher high water (MHHW) modeled at the Honolulu tide gauge was used to represent sea level for the purposes of this study. Water levels are shown as they would appear during the highest high tides (excluding wind-driven tides).\n\nData produced in 2014 by Dr. Charles \"Chip\" Fletcher of the department of Geology & Geophysics (G&G) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:9e269585-4b69-4506-acdb-0c1e98947658",
+      "industries": [
+        "atmospheric/ocean indicators",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "hawaii",
+        "hawaiian islands",
+        "honolulu",
+        "inundation",
+        "north america",
+        "oahu",
+        "ocean",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "united states of america"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This map shows coastal flooding around Honolulu, Hawaii due to 6 feet (1.829 m) of sea level rise. This scenario was derived using a National Geospatial Agency (NGA)-provided digital elevation model (DEM) based on LiDAR data of the Honolulu area collected in 2009. This \"bare earth\" DEM (vegetation and structures removed) was used to represent the current topography of the study area above zero elevation for the urban corridor stretching from Honolulu International Airport to Waikiki and Diamond Head along the south shore of Oahu. The accuracy of the DEM was validated using a selection of 16 Tidal Benchmarks located within the study area. The single value tidal water surface of mean higher high water (MHHW) modeled at the Honolulu tide gauge was used to represent sea level for the purposes of this study. Water levels are shown as they would appear during the highest high tides (excluding wind-driven tides).\n\nData produced in 2014 by Dr. Charles \"Chip\" Fletcher of the department of Geology & Geophysics (G&G) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "Sea Level Rise Inundation: 6-ft Scenario: Honolulu, Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "deadline": null,
+      "description": "The Mobile Source Emissions Regulatory Compliance Data Inventory data asset contains measured summary compliance information on light-duty, heavy-duty, and non-road engine manufacturers by model, as well as fee payment data required by Title II of the 1990 Amendments to the Clean Air Act, to certify engines for sale in the U.S. and collect compliance certification fees. Data submitted by manufacturers falls into 12 industries: Heavy Duty Compression Ignition, Marine Spark Ignition, Heavy Duty Spark Ignition, Marine Compression Ignition, Snowmobile, Motorcycle & ATV, Non-Road Compression Ignition, Non-Road Small Spark Ignition, Light-Duty, Evaporative Components, Non-Road Large Spark Ignition, and Locomotive. Title II also requires the collection of fees from manufacturers submitting for compliance certification. Manufacturers submit data on an annual basis, to document engine model changes for certification. Manufacturers also submit compliance information on already certified in-use vehicles randomly selected by the EPA (1) year into their life and (4) years into their life to ensure that emissions systems continue to function appropriately over time.The EPA performs targeted confirmatory tests on approximately 15% of vehicles submitted for certification. Confirmatory data on engines is associated with its corresponding submission data to verify the accuracy of manufacturer submission beyond standard business rules.Section 209 of the 1990 Amendments to the Clean Air Act grants the State of California the authority to set its own standards and perform its own compliance certification through the California Air Resources Board (CARB). Currently manufacturers submit compliance information separately to both the EPA and CARB. Currently, data harmonization occurs between EPA data and CARB data only for Motorcycle & ATV submissions.Submitted data comes in XML format or as documents, with the majority of submissions being sent in XML. Data includes descriptive information on the engine itself, as well as on manufacturer testing methods and results. Submissions may include information (CBI) such as information on estimated sales, new technologies, catalysts and calibration, or other data elements indicated by the submitter as confidential. CBI data is not publically available, but it is available within EPA under the restrictions of the Office of Transportation and Air Quality (OTAQ) CBI policy [RCS Link]. Pollution emission data covers a range of Criteria Air Pollutants (CAPs) including carbon monoxide, hydrocarbons, nitrogen oxides, and particulate matter. Datasets are segmented by vehicle/engine model and year, with corresponding emission, test, and certification data. Data assets are primarily stored in EPA's Verify system. Data collected from the Heavy Duty Compression Ignition, Marine Spark Ignition, Heavy Duty Spark Ignition, Marine Compression Ignition, and Snowmobile industries, however, are currently stored in legacy systems the will be migrated to Verify in the future.Coverage began in 1979, with early records being primarily paper documents that did not go through the same level of validation as the digital submissions that began in 2005.Mobile Source Emissions Compliance documents with metadata, certificate and summary decision information is made available to the public through EPA.gov via the OTAQ Document Index System (http://iaspub.epa.gov/otaqpub/).",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:21dbd0c5-62cc-4fb8-81d4-05b7062a3428",
+      "industries": [
+        "cafe",
+        "certification-and-fuel-economy",
+        "clean-air-act",
+        "climate-change",
+        "energy-independent-security-act",
+        "energy-policy-and-conservation-act",
+        "engine-and-vehicle-compliance",
+        "environment",
+        "environmental-protection-agency",
+        "epa",
+        "fuel-economy-and-cafe-label-data",
+        "ghg",
+        "greenhouse-gases",
+        "mobile-source-emissions-and-regulatory-compliance-data",
+        "oar",
+        "office-of-air-and-radiation",
+        "office-of-transportation-and-air-quality",
+        "otaq",
+        "united-states",
+        "verify"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The Mobile Source Emissions Regulatory Compliance Data Inventory data asset contains measured summary compliance information on light-duty, heavy-duty, and non-road engine manufacturers by model, as well as fee payment data required by Title II of the 1990 Amendments to the Clean Air Act, to certify engines for sale in the U.S. and collect compliance certification fees. Data submitted by manufacturers falls into 12 industries: Heavy Duty Compression Ignition, Marine Spark Ignition, Heavy Duty Spark Ignition, Marine Compression Ignition, Snowmobile, Motorcycle & ATV, Non-Road Compression Ignition, Non-Road Small Spark Ignition, Light-Duty, Evaporative Components, Non-Road Large Spark Ignition, and Locomotive. Title II also requires the collection of fees from manufacturers submitting for compliance certification. Manufacturers submit data on an annual basis, to document engine model changes for certification. Manufacturers also submit compliance information on already certified in-use vehicles randomly selected by the EPA (1) year into their life and (4) years into their life to ensure that emissions systems continue to function appropriately over time.The EPA performs targeted confirmatory tests on approximately 15% of vehicles submitted for certification. Confirmatory data on engines is associated with its corresponding submission data to verify the accuracy of manufacturer submission beyond standard business rules.Section 209 of the 1990 Amendments to the Clean Air Act grants the State of California the authority to set its own standards and perform its own compliance certification through the California Air Resources Board (CARB). Currently manufacturers submit compliance information separately to both the EPA and CARB. Currently, data harmonization occurs between EPA data and CARB data only for Motorcycle & ATV submissions.Submitted data comes in XML format or as documents, with the majority of submissions being sent in XML. Data includes descriptive information on the engine itself, as well as on manufacturer testing methods and results. Submissions may include information (CBI) such as information on estimated sales, new technologies, catalysts and calibration, or other data elements indicated by the submitter as confidential. CBI data is not publically available, but it is available within EPA under the restrictions of the Office of Transportation and Air Quality (OTAQ) CBI policy [RCS Link]. Pollution emission data covers a range of Criteria Air Pollutants (CAPs) including carbon monoxide, hydrocarbons, nitrogen oxides, and particulate matter. Datasets are segmented by vehicle/engine model and year, with corresponding emission, test, and certification data. Data assets are primarily stored in EPA's Verify system. Data collected from the Heavy Duty Compression Ignition, Marine Spark Ignition, Heavy Duty Spark Ignition, Marine Compression Ignition, and Snowmobile industries, however, are currently stored in legacy systems the will be migrated to Verify in the future.Coverage began in 1979, with early records being primarily paper documents that did not go through the same level of validation as the digital submissions that began in 2005.Mobile Source Emissions Compliance documents with metadata, certificate and summary decision information is made available to the public through EPA.gov via the OTAQ Document Index System (http://iaspub.epa.gov/otaqpub/).",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "U.S. Environmental Protection Agency",
+      "title": "Mobile Source Emissions Regulatory Compliance Data Inventory",
+      "url": "https://www.epa.gov/air-pollution-transportation"
+    },
+    {
+      "deadline": null,
+      "description": "The Super-Resolution for Renewable Energy Resource Data with Climate Change Impacts (Sup3rCC) data is a collection of 4km hourly wind, solar, temperature, humidity, and pressure fields for the contiguous United States under various climate change scenarios.\n\nSup3rCC is downscaled Global Climate Model (GCM) data. The downscaling process was performed using a generative machine learning approach called sup3r: Super-Resolution for Renewable Energy Resource Data (linked below as \"Sup3r GitHub Repo\"). The data includes both historical and future weather years, although the historical years represent the historical climate, not the actual historical weather that we experienced. You cannot use Sup3rCC data to study historical weather events, although other sup3r datasets may be intended for this.\n\nThe Sup3rCC data is intended to help researchers study the impact of climate change on energy systems with high levels of wind and solar capacity. Please note that all climate change data is only a representation of the possible future climate and contains significant uncertainty. Analysis of multiple climate change scenarios and multiple climate models can help quantify this uncertainty.\n\nLatest release: second-generation v0.2.2 Sup3rCC data with six GCMs across two climate scenarios (5x SSP2-4.5 and 1x SSP5-8.5). This version includes new generative models that have a larger effective receptive field for improved spatiotemporal weather dynamics over large-areas and improved diurnal shapes. This version also includes seasonal double-bias correction with Quantile Delta Mapping (QDM) at the 100km and 4km resolutions over a longer historical period (20-40 years) for greatly reduced historical climate bias. This release includes \"sup3rcc_models_202412\" that can be used with sup3r software v0.2.2 and phygnn v0.0.30 to reproduce this data release, and \"sup3rcc_models_202507\" that can be used with sup3r v0.2.3 and phygnn v0.0.31 with some additional non-ML performance improvements.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:6d677c82-f225-48c6-96d0-3cfefdf2316d",
+      "industries": [
+        "climate",
+        "climate-change",
+        "contiguous-united-states",
+        "dni",
+        "energy",
+        "energy-planning",
+        "energy-systems",
+        "gan",
+        "generative-adversarial-learning",
+        "generative-adversarial-network",
+        "generative-machine-learning",
+        "ghi",
+        "high-resolution",
+        "irradiance",
+        "machine-learning",
+        "power",
+        "power-systems",
+        "renewable-energy",
+        "resource-data",
+        "solar",
+        "sup3rcc",
+        "temperature",
+        "weather",
+        "wind",
+        "windspeed"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The Super-Resolution for Renewable Energy Resource Data with Climate Change Impacts (Sup3rCC) data is a collection of 4km hourly wind, solar, temperature, humidity, and pressure fields for the contiguous United States under various climate change scenarios.\n\nSup3rCC is downscaled Global Climate Model (GCM) data. The downscaling process was performed using a generative machine learning approach called sup3r: Super-Resolution for Renewable Energy Resource Data (linked below as \"Sup3r GitHub Repo\"). The data includes both historical and future weather years, although the historical years represent the historical climate, not the actual historical weather that we experienced. You cannot use Sup3rCC data to study historical weather events, although other sup3r datasets may be intended for this.\n\nThe Sup3rCC data is intended to help researchers study the impact of climate change on energy systems with high levels of wind and solar capacity. Please note that all climate change data is only a representation of the possible future climate and contains significant uncertainty. Analysis of multiple climate change scenarios and multiple climate models can help quantify this uncertainty.\n\nLatest release: second-generation v0.2.2 Sup3rCC data with six GCMs across two climate scenarios (5x SSP2-4.5 and 1x SSP5-8.5). This version includes new generative models that have a larger effective receptive field for improved spatiotemporal weather dynamics over large-areas and improved diurnal shapes. This version also includes seasonal double-bias correction with Quantile Delta Mapping (QDM) at the 100km and 4km resolutions over a longer historical period (20-40 years) for greatly reduced historical climate bias. This release includes \"sup3rcc_models_202412\" that can be used with sup3r software v0.2.2 and phygnn v0.0.30 to reproduce this data release, and \"sup3rcc_models_202507\" that can be used with sup3r v0.2.3 and phygnn v0.0.31 with some additional non-ML performance improvements.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of Energy",
+      "title": "Super-Resolution for Renewable Energy Resource Data with Climate Change Impacts (Sup3rCC)",
+      "url": "https://github.com/NREL/sup3r"
+    },
+    {
+      "deadline": null,
+      "description": "The datasets include individual-level BMI in Phoenix, AZ and Portland, OR obtained from the state DMVs, greenery along walkable roads within 500, 1000, 1500, and 2000 network buffers, and covariates. This dataset is not publicly accessible because: EPA cannot release personally identifiable information regarding living individuals, according to the Privacy Act and the Freedom of Information Act (FOIA). This dataset contains information about human research subjects. Because there is potential to identify individual participants and disclose personal information, either alone or in combination with other datasets, individual level data are not appropriate to post for public access. Restricted access may be granted to authorized persons by contacting the party listed. It can be accessed through the following means: EnviroAtlas data can be assessed through https://www.epa.gov/enviroatlas\nIndividual-level residential location and body mass index can be requested from state DMVs.\nNavteq street data can be assessed through EPA internal network by EPA Region. Format: Data used in this study include:\n1) EnviroAtlas 1m landcover data (Raster)\n2) EnviroAtlas metrics related to street greenery (Raster)\n3) Boundaries of neighborhood extents (buffers) (Vector, polygon)\n4) Navteq street dataset (Vector, polyline)\n5) Individual residential addresses (CSV) and its geocoded points (Vector, point)\n6) Individual-level body mass index (CSV)\n7) EnviroAtlas Intersection Density of Walkable Roads (Raster)\n8) EnviroAtlas Distance to a Park Entrance (Raster)\n9) EnviroAtlas Percent Population below the Adjusted Threshold for Quality of Life (CSV)\n10) EnviroAtlas Percent Population with Income Twice below the Poverty Level (CSV)\n11) EnviroAtlas Percent Non-White Population (CSV)\n12) Age and Sex. \n\nThis dataset is associated with the following publication:\nTsai, W., A.S. Davis, and L.E. Jackson. Associations between types of greenery along neighborhood roads and weight status in different climates.   Urban Forestry & Urban Greening. Elsevier B.V., Amsterdam,  NETHERLANDS, 41: 104-107, (2019).",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:879a755c-2445-480a-830d-4cad02c22511",
+      "industries": [
+        "eco-health",
+        "enviroatlas",
+        "obesity",
+        "street-greenery",
+        "urban-green-space"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The datasets include individual-level BMI in Phoenix, AZ and Portland, OR obtained from the state DMVs, greenery along walkable roads within 500, 1000, 1500, and 2000 network buffers, and covariates. This dataset is not publicly accessible because: EPA cannot release personally identifiable information regarding living individuals, according to the Privacy Act and the Freedom of Information Act (FOIA). This dataset contains information about human research subjects. Because there is potential to identify individual participants and disclose personal information, either alone or in combination with other datasets, individual level data are not appropriate to post for public access. Restricted access may be granted to authorized persons by contacting the party listed. It can be accessed through the following means: EnviroAtlas data can be assessed through https://www.epa.gov/enviroatlas\nIndividual-level residential location and body mass index can be requested from state DMVs.\nNavteq street data can be assessed through EPA internal network by EPA Region. Format: Data used in this study include:\n1) EnviroAtlas 1m landcover data (Raster)\n2) EnviroAtlas metrics related to street greenery (Raster)\n3) Boundaries of neighborhood extents (buffers) (Vector, polygon)\n4) Navteq street dataset (Vector, polyline)\n5) Individual residential addresses (CSV) and its geocoded points (Vector, point)\n6) Individual-level body mass index (CSV)\n7) EnviroAtlas Intersection Density of Walkable Roads (Raster)\n8) EnviroAtlas Distance to a Park Entrance (Raster)\n9) EnviroAtlas Percent Population below the Adjusted Threshold for Quality of Life (CSV)\n10) EnviroAtlas Percent Population with Income Twice below the Poverty Level (CSV)\n11) EnviroAtlas Percent Non-White Population (CSV)\n12) Age and Sex. \n\nThis dataset is associated with the following publication:\nTsai, W., A.S. Davis, and L.E. Jackson. Associations between types of greenery along neighborhood roads and weight status in different climates.   Urban Forestry & Urban Greening. Elsevier B.V., Amsterdam,  NETHERLANDS, 41: 104-107, (2019).",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "U.S. Environmental Protection Agency",
+      "title": "Urban Greenery and Body Mass Index",
+      "url": null
+    },
+    {
+      "deadline": null,
+      "description": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. This dataset contains points which represents the locations of all Hospital-Related Services in the State of Arkansas. The compilation of this data is a collaborative effort between the Arkansas Geographic Information Systems Office and the Arkansas Department of Health (ADH) to build a comprehensive geographic database of Hospital-Related Services as a component of the National Electronic Disease Surveillance System (NEDSS). The Hospital-Related Services form a sub-component of the existing CDC Bioterrorism plan that involves the visualization application for disease detection and surveillance. A visual aid of Hospital-Related Service locations overlaid on current digital aerial photography, associated road names, and landmarks, were produced to representatives of ADH to confirm the accuracy of the location.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:14c03b8c-730e-4b87-9200-697fbf38a485",
+      "industries": [
+        "arkansas",
+        "assisted",
+        "care",
+        "health",
+        "home",
+        "hospice",
+        "living",
+        "surgery"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. This dataset contains points which represents the locations of all Hospital-Related Services in the State of Arkansas. The compilation of this data is a collaborative effort between the Arkansas Geographic Information Systems Office and the Arkansas Department of Health (ADH) to build a comprehensive geographic database of Hospital-Related Services as a component of the National Electronic Disease Surveillance System (NEDSS). The Hospital-Related Services form a sub-component of the existing CDC Bioterrorism plan that involves the visualization application for disease detection and surveillance. A visual aid of Hospital-Related Service locations overlaid on current digital aerial photography, associated road names, and landmarks, were produced to representatives of ADH to confirm the accuracy of the location.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Hospital Related Service (point)",
+      "url": "http://gis.arkansas.gov/product/health-facility-services-point/ https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Health/FeatureServer/2"
+    },
+    {
+      "deadline": null,
+      "description": "Earthquake-triggered landslides can significantly contribute to human and economic losses during and immediately following earthquakes, but data on the runout behavior of such ground failures is limited. Hazard assessment of coseismic landslide risk can vary dramatically depending on landslide mobility and runout extent, which makes modeling of such behavior imperative. Predictive and empirical models require comprehensive datasets with diverse climatic, topographic, and geologic factors. We present an openly accessible global dataset of coseismic landslide runout lengths, produced from an automated method for estimating runout length from existing landslide inventories. This tool was developed and validated using manually measured runout lengths of 1,726 landslides from five global earthquake-induced landslide inventories spanning a variety of terrains and geologic settings. The resultant database contains 73,665 measured and estimated runout lengths of coseismic landslides from 23 global earthquakes derived from the USGS\u2019s open repository of earthquake-triggered ground-failure inventories on ScienceBase (https://doi.org/10.5066/F7H70DB4, v4.0, Schmitt et al., 2022). We present separate data files for each inventory, reporting area and predicted or measured runout lengths of individual landslides.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:cd7e0325-32b6-4179-986b-2d62e8f130eb",
+      "industries": [
+        "earthquake",
+        "hazard",
+        "landslide",
+        "runout",
+        "usgs-65202f23d34e44db0e2e43d8"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Earthquake-triggered landslides can significantly contribute to human and economic losses during and immediately following earthquakes, but data on the runout behavior of such ground failures is limited. Hazard assessment of coseismic landslide risk can vary dramatically depending on landslide mobility and runout extent, which makes modeling of such behavior imperative. Predictive and empirical models require comprehensive datasets with diverse climatic, topographic, and geologic factors. We present an openly accessible global dataset of coseismic landslide runout lengths, produced from an automated method for estimating runout length from existing landslide inventories. This tool was developed and validated using manually measured runout lengths of 1,726 landslides from five global earthquake-induced landslide inventories spanning a variety of terrains and geologic settings. The resultant database contains 73,665 measured and estimated runout lengths of coseismic landslides from 23 global earthquakes derived from the USGS\u2019s open repository of earthquake-triggered ground-failure inventories on ScienceBase (https://doi.org/10.5066/F7H70DB4, v4.0, Schmitt et al., 2022). We present separate data files for each inventory, reporting area and predicted or measured runout lengths of individual landslides.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of the Interior",
+      "title": "Coseismic landslide runout and mobility ratio data from publicly available mapped landslide inventories",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.65202f23d34e44db0e2e43d8.xml"
+    },
+    {
+      "deadline": null,
+      "description": "Version 6 of the Coral Reef Temperature Anomaly Database (CoRTAD) is a global, 4 km, sea surface temperature (SST) and related thermal stress metrics dataset for 1982-01-02 to 2022-12-30. The CoRTAD contains weekly-averaged SSTs, SST anomaly (SSTA, weekly SST minus weekly climatological SST), thermal stress anomaly (TSA, weekly SST minus the maximum weekly climatological SST), SSTA Degree Heating Week (SSTA_DHW, sum of previous 12 weeks when SSTA is greater than or equal to 1 degree C), SSTA Frequency (number of times over previous 52 weeks that SSTA is greater than or equal to 1 degree C), TSA DHW (TSA_DHW, also known as a Degree Heating Week, sum of previous 12 weeks when TSA is greater than or equal to 1 degree C), and TSA Frequency (number of times over previous 52 weeks that TSA is greater than or equal to 1 degree C). In addition, the CoRTAD includes ancillary sea ice concentration and marine wind speed data. These data are the sixth in the series of CoRTAD datasets originally created in association with Elizabeth Selig (Director, Marine Science, Conservation International) and John Bruno (University of North Carolina; UNC - Chapel Hill). This dataset is based on the Pathfinder V5.3 dataset, and is created with support from the NOAA Coral Reef Conservation Program.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:8bccfeb6-6b54-496e-9e4f-838649ab550a",
+      "industries": [
+        "climatology",
+        "land_binary_mask",
+        "latitude",
+        "longitude",
+        "maximum_of_gap_filled_sea_surface_skin_temperature",
+        "mean_of_gap_filled_sea_surface_skin_temperature",
+        "minimum_of_gap_filled_sea_surface_skin_temperature",
+        "oceanography",
+        "satelliteobservation",
+        "sea_ice_area_fraction",
+        "sea_surface_skin_temperature",
+        "time",
+        "wind_speed"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Version 6 of the Coral Reef Temperature Anomaly Database (CoRTAD) is a global, 4 km, sea surface temperature (SST) and related thermal stress metrics dataset for 1982-01-02 to 2022-12-30. The CoRTAD contains weekly-averaged SSTs, SST anomaly (SSTA, weekly SST minus weekly climatological SST), thermal stress anomaly (TSA, weekly SST minus the maximum weekly climatological SST), SSTA Degree Heating Week (SSTA_DHW, sum of previous 12 weeks when SSTA is greater than or equal to 1 degree C), SSTA Frequency (number of times over previous 52 weeks that SSTA is greater than or equal to 1 degree C), TSA DHW (TSA_DHW, also known as a Degree Heating Week, sum of previous 12 weeks when TSA is greater than or equal to 1 degree C), and TSA Frequency (number of times over previous 52 weeks that TSA is greater than or equal to 1 degree C). In addition, the CoRTAD includes ancillary sea ice concentration and marine wind speed data. These data are the sixth in the series of CoRTAD datasets originally created in association with Elizabeth Selig (Director, Marine Science, Conservation International) and John Bruno (University of North Carolina; UNC - Chapel Hill). This dataset is based on the Pathfinder V5.3 dataset, and is created with support from the NOAA Coral Reef Conservation Program.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "The Coral Reef Temperature Anomaly Database (CoRTAD) Version 6 - Global, 4 km Sea Surface Temperature and Related Thermal Stress Metrics from 1982 to 2022",
+      "url": "https://doi.org/10.25921/ffw7-cs39"
+    },
+    {
+      "deadline": null,
+      "description": "The data are qualitative data consisting of notes recorded during meetings, workshops, and other interactions with case study participants. This dataset is not publicly accessible because: EPA cannot release personally identifiable information regarding living individuals, according to the Privacy Act and the Freedom of Information Act (FOIA). This dataset contains information about human research subjects. Because there is potential to identify individual participants and disclose personal information, either alone or in combination with other datasets, individual level data are not appropriate to post for public access. Restricted access may be granted to authorized persons by contacting the party listed. It can be accessed through the following means: The data cannot be accessed by anyone outside of the research team because of the potential to identify human participants. Format: The data are qualitative data contained in Microsoft Word documents. \n\nThis dataset is associated with the following publication:\nEisenhauer, E., K. Maxwell, B. Kiessling, S. Henson, M. Matsler, R. Nee, M. Shacklette, M. Fry, and S. Julius. Inclusive engagement for equitable resilience: community case study insights.   Environmental Research Communications. IOP Publishing, BRISTOL,  UK, 6: 125012, (2024).",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:232fb313-0365-4abe-9f24-a2a38a872b79",
+      "industries": [
+        "climate-change",
+        "environmental-justice",
+        "equity",
+        "resilience",
+        "vulnerability"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The data are qualitative data consisting of notes recorded during meetings, workshops, and other interactions with case study participants. This dataset is not publicly accessible because: EPA cannot release personally identifiable information regarding living individuals, according to the Privacy Act and the Freedom of Information Act (FOIA). This dataset contains information about human research subjects. Because there is potential to identify individual participants and disclose personal information, either alone or in combination with other datasets, individual level data are not appropriate to post for public access. Restricted access may be granted to authorized persons by contacting the party listed. It can be accessed through the following means: The data cannot be accessed by anyone outside of the research team because of the potential to identify human participants. Format: The data are qualitative data contained in Microsoft Word documents. \n\nThis dataset is associated with the following publication:\nEisenhauer, E., K. Maxwell, B. Kiessling, S. Henson, M. Matsler, R. Nee, M. Shacklette, M. Fry, and S. Julius. Inclusive engagement for equitable resilience: community case study insights.   Environmental Research Communications. IOP Publishing, BRISTOL,  UK, 6: 125012, (2024).",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "U.S. Environmental Protection Agency",
+      "title": "ERB case studies meta data",
+      "url": null
+    },
+    {
+      "deadline": null,
+      "description": "This archived Paleoclimatology Study is available from the NOAA National Centers for Environmental Information (NCEI), under the World Data Service (WDS) for Paleoclimatology. The associated NCEI study type is Tree Ring. The data include parameters of tree ring with a geographic location of Turkey, Western Asia. The time period coverage is from 287 to -54 in calendar years before present (BP). See metadata information for parameter and study location details. Please cite this study when using the data.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:9b172d38-37af-4a83-885b-454acf869094",
+      "industries": [
+        "asia",
+        "austrian pine",
+        "biological records",
+        "black pine",
+        "climate indicators",
+        "continent",
+        "doc/noaa/nesdis/ncei",
+        "earth science",
+        "land records",
+        "latitude 41.2167",
+        "longitude 34.7833",
+        "material: null",
+        "national centers for environmental information",
+        "nesdis",
+        "noaa",
+        "paleoclimate",
+        "paleoclimate indicators",
+        "pini",
+        "pinus nigra j.f. arnold",
+        "sakin kayasi",
+        "tree ring",
+        "tree rings",
+        "tree-ring",
+        "turkey",
+        "u.s. department of commerce",
+        "western asia",
+        "what: age",
+        "what: number of samples",
+        "what: total ring width",
+        "what: tree ring standardized growth index",
+        "width"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This archived Paleoclimatology Study is available from the NOAA National Centers for Environmental Information (NCEI), under the World Data Service (WDS) for Paleoclimatology. The associated NCEI study type is Tree Ring. The data include parameters of tree ring with a geographic location of Turkey, Western Asia. The time period coverage is from 287 to -54 in calendar years before present (BP). See metadata information for parameter and study location details. Please cite this study when using the data.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "NOAA/WDS Paleoclimatology - K\u00c3\u00b6se - Sakin Kayasi - PINI - ITRDB TURK054",
+      "url": "https://doi.org/10.25921/reqm-ny57"
+    },
+    {
+      "deadline": "1985-01-01",
+      "description": "Global food availability and security is based on intensive agricultural production. Over the past century, this intensification has relied heavily on producing crops with increasing genetic uniformity. Although these practices have benefits, they also include the risks of increasing the vulnerability of crops to pests, diseases, and environmental stress. Plant breeding and associated scientific research is essential to meet the ongoing challenges of producing plants for food, fiber, animal feeds, industrial and medicinal purposes, and for landscape and ornamental uses. It is important to collect and conserve living plant material, both to help solve immediate agricultural production problems as well as safeguard plant genetic diversity for future needs. This mission is more essential than ever because the loss of genetic diversity is accelerating with threats from many factors including global urbanization, habitat changes associated with climate, and changes in land use related to population growth and economic development. The U.S. National Plant Germplasm System (NPGS) is collaborative effort to safeguard the genetic diversity of agriculturally important plants. The NPGS is managed by the Agricultural Research Service (ARS), the in-house research agency of the United States Department of Agriculture (USDA). Funding for the NPGS comes primarily through appropriations from the U.S. Congress. However, the NPGS is a partnership between the public and private sectors. Many NPGS genebanks are located at state land-grant university sites, which contribute lab, office, greenhouse and field space for operations, as well as staff for technical and support services. The private sector is a major user of the NPGS collections and is the primary means by which new and improved plants are commercialized. The mission of the NPGS is to support agricultural production by: acquiring crop germplasm conserving crop germplasm evaluating and characterizing crop germplasm documenting crop germplasm distributing crop germplasm Resources in this dataset: Resource Title: National Plant Germplasm System. File Name: Web Page, url: https://www.ars-grin.gov/Pages/Collections#bkmk-1",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:be57e223-9f92-42c3-ba0f-0ba3f10576f3",
+      "industries": [
+        "ars",
+        "data-gov",
+        "np301",
+        "online-database"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Global food availability and security is based on intensive agricultural production. Over the past century, this intensification has relied heavily on producing crops with increasing genetic uniformity. Although these practices have benefits, they also include the risks of increasing the vulnerability of crops to pests, diseases, and environmental stress. Plant breeding and associated scientific research is essential to meet the ongoing challenges of producing plants for food, fiber, animal feeds, industrial and medicinal purposes, and for landscape and ornamental uses. It is important to collect and conserve living plant material, both to help solve immediate agricultural production problems as well as safeguard plant genetic diversity for future needs. This mission is more essential than ever because the loss of genetic diversity is accelerating with threats from many factors including global urbanization, habitat changes associated with climate, and changes in land use related to population growth and economic development. The U.S. National Plant Germplasm System (NPGS) is collaborative effort to safeguard the genetic diversity of agriculturally important plants. The NPGS is managed by the Agricultural Research Service (ARS), the in-house research agency of the United States Department of Agriculture (USDA). Funding for the NPGS comes primarily through appropriations from the U.S. Congress. However, the NPGS is a partnership between the public and private sectors. Many NPGS genebanks are located at state land-grant university sites, which contribute lab, office, greenhouse and field space for operations, as well as staff for technical and support services. The private sector is a major user of the NPGS collections and is the primary means by which new and improved plants are commercialized. The mission of the NPGS is to support agricultural production by: acquiring crop germplasm conserving crop germplasm evaluating and characterizing crop germplasm documenting crop germplasm distributing crop germplasm Resources in this dataset: Resource Title: National Plant Germplasm System. File Name: Web Page, url: https://www.ars-grin.gov/Pages/Collections#bkmk-1",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "Department of Agriculture",
+      "title": "National Plant Germplasm System",
+      "url": "https://www.ars-grin.gov/Pages/Collections#bkmk-1"
+    },
+    {
+      "deadline": null,
+      "description": "Data available online through GeoStor at http://www.geostor.arkansas.gov. The Q3 Flood Data are derived from the Flood Insurance Rate Maps (FIRMS) published by the Federal Emergency Management Agency (FEMA). The file is georeferenced to earth\"\"s surface using geographic projection and decimal degree coordinate system. The specifications for the horizontal control of Q3 Flood Data files are consistent with those required for mapping at a scale of 1:24000.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:57d4e422-8331-44f5-bff6-3aa43f11a9b8",
+      "industries": [
+        "arkansas",
+        "fema",
+        "firm",
+        "flood",
+        "floodplain",
+        "floods",
+        "plain",
+        "united states"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Data available online through GeoStor at http://www.geostor.arkansas.gov. The Q3 Flood Data are derived from the Flood Insurance Rate Maps (FIRMS) published by the Federal Emergency Management Agency (FEMA). The file is georeferenced to earth\"\"s surface using geographic projection and decimal degree coordinate system. The specifications for the horizontal control of Q3 Flood Data files are consistent with those required for mapping at a scale of 1:24000.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Q3 Digital Flood Insurance Rate Map (polygon)",
+      "url": "http://gis.arkansas.gov/product/q3-digital-flood-insurance-rate-map-polygon/ https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Water/FeatureServer/33"
+    },
+    {
+      "deadline": null,
+      "description": "This is a MD iMAP hosted service. Find more information on http://imap.maryland.gov. Each point in Coastal Resiliency Assessment Shoreline Points represents a 250 meter segment of the Maryland coast -  including Atlantic -  Chesapeake Bay and Coastal Bay shorelines. The Natural Capital Project's Coastal Vulnerability model was used to calculate a Shoreline Hazard Index -  representing the relative exposure of each segment to storm-induced erosion and flooding. Inputs to the model included 6 physical variables (geomorphology -  elevation -  sea level rise -  wave power -  storm surge height and erosion rates) and 5 habitat types (forest -  marsh -  dune -  oyster reef and underwater grass). Two scenarios of the model were run: one scenario incorporating the protective role of all existing coastal habitats and the other scenario simulating the complete loss of habitats. The difference between the two scenarios indicates the potential magnitude of coastal hazard reduction by habitats at each location. Model results were integrated with MD DNR's Community Flood Risk Areas (March -  2016) in order to highlight areas where hazard reduction by habitats is most likely to benefit at-risk coastal communities.This dataset was produced under award number NA13NOS4190136 from the Office of Ocean and Coastal Resource Management (OCRM) -  National Oceanic and Atmospheric Administration (NOAA) through the Maryland Department of Natural Resources Chesapeake and Coastal Services (CCS). The statements -  finding and recommendations are those of the authors and do not necessarily reflect the views of NOAA or the U.S. Department of Commerce. The Natural Capital Project (NatCap) -  CCS and The Nature Conservancy (TNC) all contributed to the production of this dataset.   Last Updated:  3/31/2016Feature Service Link:  https://mdgeodata.md.gov/imap/rest/services/Environment/MD_CoastalResiliencyAssessment/FeatureServer ADDITIONAL LICENSE TERMS: The Spatial Data and the information therein (collectively \"the Data\") is provided \"as is\" without warranty of any kind either expressed implied or statutory. The user assumes the entire risk as to quality and performance of the Data. No guarantee of accuracy is granted nor is any responsibility for reliance thereon assumed. In no event shall the State of Maryland be liable for direct indirect incidental consequential or special damages of any kind. The State of Maryland does not accept liability for any damages or misrepresentation caused by inaccuracies in the Data or as a result to changes to the Data nor is there responsibility assumed to maintain the Data in any manner or form. The Data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the Data must acknowledge the State of Maryland in the metadata.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:8da44cdd-5148-447c-a712-822e7b898734",
+      "industries": [
+        "chesapeake-bay",
+        "climate-change",
+        "coastal-bay",
+        "coastal-zone",
+        "dnr",
+        "dynamic",
+        "environment",
+        "envl",
+        "hazard-reduction",
+        "marsh-protection-potential",
+        "maryland",
+        "maryland-department-of-natural-resources",
+        "md",
+        "md-imap",
+        "resiliency",
+        "risk",
+        "shoreline",
+        "shoreline-hazard",
+        "the-nature-conservancy",
+        "tnc",
+        "vector",
+        "wfs",
+        "wms"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This is a MD iMAP hosted service. Find more information on http://imap.maryland.gov. Each point in Coastal Resiliency Assessment Shoreline Points represents a 250 meter segment of the Maryland coast -  including Atlantic -  Chesapeake Bay and Coastal Bay shorelines. The Natural Capital Project's Coastal Vulnerability model was used to calculate a Shoreline Hazard Index -  representing the relative exposure of each segment to storm-induced erosion and flooding. Inputs to the model included 6 physical variables (geomorphology -  elevation -  sea level rise -  wave power -  storm surge height and erosion rates) and 5 habitat types (forest -  marsh -  dune -  oyster reef and underwater grass). Two scenarios of the model were run: one scenario incorporating the protective role of all existing coastal habitats and the other scenario simulating the complete loss of habitats. The difference between the two scenarios indicates the potential magnitude of coastal hazard reduction by habitats at each location. Model results were integrated with MD DNR's Community Flood Risk Areas (March -  2016) in order to highlight areas where hazard reduction by habitats is most likely to benefit at-risk coastal communities.This dataset was produced under award number NA13NOS4190136 from the Office of Ocean and Coastal Resource Management (OCRM) -  National Oceanic and Atmospheric Administration (NOAA) through the Maryland Department of Natural Resources Chesapeake and Coastal Services (CCS). The statements -  finding and recommendations are those of the authors and do not necessarily reflect the views of NOAA or the U.S. Department of Commerce. The Natural Capital Project (NatCap) -  CCS and The Nature Conservancy (TNC) all contributed to the production of this dataset.   Last Updated:  3/31/2016Feature Service Link:  https://mdgeodata.md.gov/imap/rest/services/Environment/MD_CoastalResiliencyAssessment/FeatureServer ADDITIONAL LICENSE TERMS: The Spatial Data and the information therein (collectively \"the Data\") is provided \"as is\" without warranty of any kind either expressed implied or statutory. The user assumes the entire risk as to quality and performance of the Data. No guarantee of accuracy is granted nor is any responsibility for reliance thereon assumed. In no event shall the State of Maryland be liable for direct indirect incidental consequential or special damages of any kind. The State of Maryland does not accept liability for any damages or misrepresentation caused by inaccuracies in the Data or as a result to changes to the Data nor is there responsibility assumed to maintain the Data in any manner or form. The Data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the Data must acknowledge the State of Maryland in the metadata.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Maryland",
+      "title": "MD iMAP: Maryland Shoreline Hazard Index",
+      "url": "http://data.imap.maryland.gov/datasets/35a3cce465634531a43d6d01988a43cf_1"
+    },
+    {
+      "deadline": null,
+      "description": "This data includes segments of Arkansas streams that have been designated as Extraordinary Resource Waters, as indicated by Regulation No. 2 of the Arkansas Pollution Control And Ecology Commission. It consists of waterbodies from the National Hydrography Dataset (NHD) Medium Resolution (1:100,000) Flowline.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:c127d64a-b7cb-4c89-9380-2aea88a5d8c1",
+      "industries": [
+        "2",
+        "adeq",
+        "arkansas pollution control and ecology commission",
+        "erw",
+        "reg",
+        "regulation",
+        "water"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This data includes segments of Arkansas streams that have been designated as Extraordinary Resource Waters, as indicated by Regulation No. 2 of the Arkansas Pollution Control And Ecology Commission. It consists of waterbodies from the National Hydrography Dataset (NHD) Medium Resolution (1:100,000) Flowline.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Extraordinary Resource Waters Segments (line)",
+      "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Environment/FeatureServer/2 http://gis.arkansas.gov/product/extraordinary-resource-waters-segments-line/"
+    },
+    {
+      "deadline": null,
+      "description": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. AHTD 7.5' Latitude and Longitude Lines for year end 2000 information. This file contains location information for 7.5' Latitude and Longitude Lines in the state of Arkansas. These locations were extracted from the Arkansas Highway and Transportation Department county mapping files for the year 2000.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:b0dbbe09-aa82-4e7c-a86c-8cb731fc334c",
+      "industries": [
+        "ahtd",
+        "arkansas",
+        "gadticule",
+        "geodetic",
+        "geographic",
+        "grid",
+        "lat",
+        "long",
+        "reference",
+        "united states"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Data available online through the Arkansas Spatial Data Infrastructure (ASDI) at http://gis.arkansas.gov. AHTD 7.5' Latitude and Longitude Lines for year end 2000 information. This file contains location information for 7.5' Latitude and Longitude Lines in the state of Arkansas. These locations were extracted from the Arkansas Highway and Transportation Department county mapping files for the year 2000.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Latitude and Longitude Grid 2000 (line)",
+      "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Planning_Cadastre/FeatureServer/2 http://gis.arkansas.gov/product/latitude-and-longitude-grid-2000-line/"
+    },
+    {
+      "deadline": null,
+      "description": "The Pacific Islands Ocean Observing System (PacIOOS), University of Hawaii School of Ocean and Earth Science and Technology Department of Oceanography, and Hawaii Sea Grant are developing a high-resolution, real-time wave run-up forecast and notification system for West Maui's coastline. In order to validate the site-specific, short-term forecasts and to determine meaningful thresholds associated with each forecast domain, citizen scientists contribute crowd-sourced photographs by documenting the shoreline of West Maui during predicted wave run-up events. Photos, observations, date, time, location, and other metadata are submitted online in this free, publicy-accessible dataset.\n\nSite-specific, short- and long-term forecasts, will strengthen West Maui's coastal community and economy by enhancing preparedness and response operations, and by informing future land use planning. A combination of high water levels and large wave swells can result in significant coastal erosion, damage to infrastructure and properties, and land-based sedimentation that impairs coastal water quality. The State of Hawaii has experienced an increase in wave plus tide-driven flooding in recent years, and these events are expected to grow in numbers and duration due to sea level rise and changing wave energies.\n\nWhen sharing these photographs, please cite this project with the following attribution:\n\n(c) PacIOOS, (year of photo). Some rights reserved. Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:999e16b0-90e7-4ce2-8940-f9c11fdd7364",
+      "industries": [
+        "atmospheric/ocean indicators",
+        "beaches",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal landforms",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "environmental impacts",
+        "erosion",
+        "floods",
+        "gemorphic landforms/processes",
+        "geomorphic landforms/processes",
+        "hawaii",
+        "hawaiian islands",
+        "human dimensions",
+        "inundation",
+        "maui",
+        "natural hazards",
+        "north america",
+        "ocean",
+        "ocean waves",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "shoreline displacement",
+        "shorelines",
+        "solid earth",
+        "united states of america",
+        "wave runup",
+        "west maui"
+      ],
+      "jurisdiction": "United States",
+      "notes": "The Pacific Islands Ocean Observing System (PacIOOS), University of Hawaii School of Ocean and Earth Science and Technology Department of Oceanography, and Hawaii Sea Grant are developing a high-resolution, real-time wave run-up forecast and notification system for West Maui's coastline. In order to validate the site-specific, short-term forecasts and to determine meaningful thresholds associated with each forecast domain, citizen scientists contribute crowd-sourced photographs by documenting the shoreline of West Maui during predicted wave run-up events. Photos, observations, date, time, location, and other metadata are submitted online in this free, publicy-accessible dataset.\n\nSite-specific, short- and long-term forecasts, will strengthen West Maui's coastal community and economy by enhancing preparedness and response operations, and by informing future land use planning. A combination of high water levels and large wave swells can result in significant coastal erosion, damage to infrastructure and properties, and land-based sedimentation that impairs coastal water quality. The State of Hawaii has experienced an increase in wave plus tide-driven flooding in recent years, and these events are expected to grow in numbers and duration due to sea level rise and changing wave energies.\n\nWhen sharing these photographs, please cite this project with the following attribution:\n\n(c) PacIOOS, (year of photo). Some rights reserved. Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "West Maui Wave Run-up Forecast Validation",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "deadline": null,
+      "description": "Data available online through the Arkansas Spatial Data Infrastructure (http://gis.arkansas.gov). This data set is a digital general soil association map developed by the National Cooperative Soil Survey. It consists of a broad based inventory of soils and nonsoil areas that occur in a repeatable pattern on the landscape and that can be cartographically shown at the scale mapped. The soil maps for STATSGO are compiled by generalizing more detailed soil survey maps. Where more detailed soil survey maps are not available, data on geology, topography, vegetation, and climate are assembled, together with Land Remote Sensing Satellite (LANDSAT) images. Soils of like areas are studied, and the probable classification and extent of the soils are determined. Map unit composition for a STATSGO map is determined by transecting or sampling areas on the more detailed maps and expanding the data statistically to characterize the whole map unit. This data set consists of georeferenced digital map data and computerized attribute data. The map data are collected in 1- by 2-degree topographic quadrangle units and merged and distributed as statewide coverages. The soil map units are linked to attributes in the Map Unit Interpretations Record relational data base which gives the proportionate extent of the component soils and their properties.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:71eb9816-a838-405a-b760-441965c9232e",
+      "industries": [
+        "arkansas",
+        "dirt",
+        "soil",
+        "united states"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Data available online through the Arkansas Spatial Data Infrastructure (http://gis.arkansas.gov). This data set is a digital general soil association map developed by the National Cooperative Soil Survey. It consists of a broad based inventory of soils and nonsoil areas that occur in a repeatable pattern on the landscape and that can be cartographically shown at the scale mapped. The soil maps for STATSGO are compiled by generalizing more detailed soil survey maps. Where more detailed soil survey maps are not available, data on geology, topography, vegetation, and climate are assembled, together with Land Remote Sensing Satellite (LANDSAT) images. Soils of like areas are studied, and the probable classification and extent of the soils are determined. Map unit composition for a STATSGO map is determined by transecting or sampling areas on the more detailed maps and expanding the data statistically to characterize the whole map unit. This data set consists of georeferenced digital map data and computerized attribute data. The map data are collected in 1- by 2-degree topographic quadrangle units and merged and distributed as statewide coverages. The soil map units are linked to attributes in the Map Unit Interpretations Record relational data base which gives the proportionate extent of the component soils and their properties.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "State of Arkansas",
+      "title": "Farming.STATSGO_SOILS",
+      "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Farming/FeatureServer/9 http://gis.arkansas.gov/product/statsgo-soils-polygon/"
+    },
+    {
+      "deadline": null,
+      "description": "Computer model simulation of tsunami run-up inundation around Honolulu, Hawaii including half a meter of sea level rise at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates maximum inundation based on five major historical tsunamis that have impacted Hawaii: 1) The 1946 Aleutian earthquake (8.2 Mw), 2) 1952 Kamchatka earthquake (9.0 Mw), 3) 1957 Aleutian earthquake (8.6 Mw), 4) 1960 Chile earthquake (9.5 Mw), and 5) the 1964 Alaska earthquake (9.2 Mw).\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:ef314604-dc8b-494e-890a-07cebcaf041c",
+      "industries": [
+        "atmospheric/ocean indicators",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "earth science services",
+        "hawaii",
+        "hawaiian islands",
+        "honolulu",
+        "human dimensions",
+        "inundation",
+        "models",
+        "natural hazards",
+        "north america",
+        "oahu",
+        "ocean",
+        "ocean general circulation models (ogcm)/regional ocean models",
+        "ocean waves",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "tsunamis",
+        "united states of america"
+      ],
+      "jurisdiction": "United States",
+      "notes": "Computer model simulation of tsunami run-up inundation around Honolulu, Hawaii including half a meter of sea level rise at mean higher high water (MHHW) as its baseline water level. The study area includes the urban corridor stretching from Pearl Harbor to Waikiki and Diamond Head along the south shore of the island of Oahu. The model simulates maximum inundation based on five major historical tsunamis that have impacted Hawaii: 1) The 1946 Aleutian earthquake (8.2 Mw), 2) 1952 Kamchatka earthquake (9.0 Mw), 3) 1957 Aleutian earthquake (8.6 Mw), 4) 1960 Chile earthquake (9.5 Mw), and 5) the 1964 Alaska earthquake (9.2 Mw).\n\nModel results produced in 2014 by Dr. Kwok Fai Cheung of the department of Ocean and Resources Engineering (ORE) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. While considerable effort has been made to implement all model components in a thorough, correct, and accurate manner, numerous sources of error are possible. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "Tsunami Run-Up Inundation With 0.5-m Sea Level Rise: Honolulu, Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "deadline": null,
+      "description": "This map shows coastal flooding around Honolulu, Hawaii due to 3 feet (0.914 m) of sea level rise. This scenario was derived using a National Geospatial Agency (NGA)-provided digital elevation model (DEM) based on LiDAR data of the Honolulu area collected in 2009. This \"bare earth\" DEM (vegetation and structures removed) was used to represent the current topography of the study area above zero elevation for the urban corridor stretching from Honolulu International Airport to Waikiki and Diamond Head along the south shore of Oahu. The accuracy of the DEM was validated using a selection of 16 Tidal Benchmarks located within the study area. The single value tidal water surface of mean higher high water (MHHW) modeled at the Honolulu tide gauge was used to represent sea level for the purposes of this study. Water levels are shown as they would appear during the highest high tides (excluding wind-driven tides).\n\nData produced in 2014 by Dr. Charles \"Chip\" Fletcher of the department of Geology & Geophysics (G&G) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "entity_types": [
+        "municipality",
+        "nonprofit",
+        "business"
+      ],
+      "external_id": "Data.gov:7cb2f22b-70b4-4dc7-979b-5fdcefdc66d6",
+      "industries": [
+        "atmospheric/ocean indicators",
+        "central pacific ocean",
+        "climate indicators",
+        "coastal processes",
+        "continent",
+        "earth science",
+        "hawaii",
+        "hawaiian islands",
+        "honolulu",
+        "inundation",
+        "north america",
+        "oahu",
+        "ocean",
+        "oceans",
+        "pacific islands ocean observing system",
+        "pacific ocean",
+        "pacioos",
+        "sea level rise",
+        "united states of america"
+      ],
+      "jurisdiction": "United States",
+      "notes": "This map shows coastal flooding around Honolulu, Hawaii due to 3 feet (0.914 m) of sea level rise. This scenario was derived using a National Geospatial Agency (NGA)-provided digital elevation model (DEM) based on LiDAR data of the Honolulu area collected in 2009. This \"bare earth\" DEM (vegetation and structures removed) was used to represent the current topography of the study area above zero elevation for the urban corridor stretching from Honolulu International Airport to Waikiki and Diamond Head along the south shore of Oahu. The accuracy of the DEM was validated using a selection of 16 Tidal Benchmarks located within the study area. The single value tidal water surface of mean higher high water (MHHW) modeled at the Honolulu tide gauge was used to represent sea level for the purposes of this study. Water levels are shown as they would appear during the highest high tides (excluding wind-driven tides).\n\nData produced in 2014 by Dr. Charles \"Chip\" Fletcher of the department of Geology & Geophysics (G&G) in the School of Ocean and Earth Science and Technology (SOEST) of the University of Hawaii at Manoa. Supported in part by the NOAA Coastal Storms Program (CSP) and the University of Hawaii Sea Grant College Program. These data do not consider future changes in coastal geomorphology and natural processes such as erosion, subsidence, or future construction. These data do not specify timing of inundation depths and are not appropriate for conducting detailed spatial analysis. The entire risk associated with the results and performance of these data is assumed by the user. These data should be used strictly as a planning reference and not for navigation, permitting, or other legal purposes.",
+      "project_types": [
+        "energy efficiency",
+        "climate innovation"
+      ],
+      "source": "Data.gov",
+      "sponsor": "National Oceanic and Atmospheric Administration, Department of Commerce",
+      "title": "Sea Level Rise Inundation: 3-ft Scenario: Honolulu, Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    }
+  ]
+}

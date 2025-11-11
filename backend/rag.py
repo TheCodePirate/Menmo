@@ -25,22 +25,24 @@ class DocumentChunk:
 
 
 def _load_documents() -> List[DocumentChunk]:
-    data_path = Path(__file__).parent / "data" / "documents.json"
-    if not data_path.exists():
-        return []
-    data = json.loads(data_path.read_text())
-    documents = []
-    for item in data.get("documents", []):
-        documents.append(
-            DocumentChunk(
-                id=item.get("id", "doc"),
-                title=item.get("title", "Document"),
-                content=item.get("content", ""),
-                citation=item.get("citation", {}),
-                grant_slugs=item.get("grant_slugs", []),
-                proprietary=bool(item.get("proprietary", False)),
+    data_dir = Path(__file__).parent / "data"
+    documents: List[DocumentChunk] = []
+    for filename in ("documents.json", "scraped_documents.json"):
+        data_path = data_dir / filename
+        if not data_path.exists():
+            continue
+        data = json.loads(data_path.read_text())
+        for item in data.get("documents", []):
+            documents.append(
+                DocumentChunk(
+                    id=item.get("id", "doc"),
+                    title=item.get("title", "Document"),
+                    content=item.get("content", ""),
+                    citation=item.get("citation", {}),
+                    grant_slugs=item.get("grant_slugs", []),
+                    proprietary=bool(item.get("proprietary", False)),
+                )
             )
-        )
     return documents
 
 

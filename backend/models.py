@@ -70,12 +70,14 @@ class Grant(TimestampedModel, Base):
     __tablename__ = "grants"
 
     id = Column(Integer, primary_key=True, index=True)
+    external_id = Column(String(255), nullable=True, unique=True, index=True)
     title = Column(String(255), nullable=False)
     description = Column(Text, nullable=False)
     sponsor = Column(String(255), nullable=True)
     deadline = Column(String(100), nullable=True)
     url = Column(String(512), nullable=True)
     jurisdiction = Column(String(255), nullable=True)
+    source = Column(String(255), nullable=True)
     entity_types = Column(JSON, nullable=False, default=list)
     industries = Column(JSON, nullable=False, default=list)
     project_types = Column(JSON, nullable=False, default=list)
