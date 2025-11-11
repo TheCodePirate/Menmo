@@ -10,9 +10,15 @@ const GrantSearchPage: React.FC = () => {
   };
 
   return (
-    <section>
-      <h2>Ingest new grants</h2>
-      <p>Paste relevant information about opportunities to keep the recommendation engine up to date.</p>
+    <section className="page-shell content-card">
+      <div className="section-heading">
+        <span className="eyebrow">Knowledge ingestion</span>
+        <h2>Keep Menmo aware of emerging opportunities</h2>
+        <p>
+          Paste the signal that matters—from new RFPs to internal grant notes—so the matching engine
+          continuously recalibrates around your pipeline.
+        </p>
+      </div>
       <GrantSearchForm onIngest={handleIngest} />
     </section>
   );
