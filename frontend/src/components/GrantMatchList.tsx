@@ -9,26 +9,35 @@ interface Props {
 
 const GrantMatchList: React.FC<Props> = ({ matches, isLoading }) => {
   if (isLoading) {
-    return <p>Loading recommended matches...</p>;
+    return <p className="card-state">Loading recommended matches...</p>;
   }
 
   if (!matches.length) {
-    return <p>No matches yet. Complete onboarding and ingest grants to see recommendations.</p>;
+    return (
+      <p className="card-state">
+        No matches yet. Complete onboarding and ingest grants to surface precision-aligned opportunities.
+      </p>
+    );
   }
 
   return (
     <ul className="grant-match-list">
       {matches.map((match) => (
         <li key={match.grant.id} className="grant-match">
-          <h3>{match.grant.title}</h3>
-          {match.grant.sponsor && <p className="sponsor">Sponsored by {match.grant.sponsor}</p>}
-          <p>{match.grant.description}</p>
-          <p className="score">Match score: {(match.score * 100).toFixed(1)}%</p>
-          {match.grant.url && (
-            <a href={match.grant.url} target="_blank" rel="noreferrer">
-              View grant details
-            </a>
-          )}
+          <div className="match-score">
+            <span className="score-value">{(match.score * 100).toFixed(0)}%</span>
+            <span className="score-label">fit</span>
+          </div>
+          <div className="match-body">
+            <h3>{match.grant.title}</h3>
+            {match.grant.sponsor && <p className="sponsor">{match.grant.sponsor}</p>}
+            <p>{match.grant.description}</p>
+            {match.grant.url && (
+              <a href={match.grant.url} target="_blank" rel="noreferrer" className="match-link">
+                View grant details
+              </a>
+            )}
+          </div>
         </li>
       ))}
     </ul>

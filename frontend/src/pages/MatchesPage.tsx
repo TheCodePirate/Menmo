@@ -33,12 +33,24 @@ const MatchesPage: React.FC<Props> = ({ userId }) => {
   }, [userId]);
 
   if (!userId) {
-    return <p>Create a user profile to unlock personalized matches.</p>;
+    return (
+      <section className="page-shell content-card">
+        <div className="section-heading">
+          <span className="eyebrow">Intelligence feed</span>
+          <h2>Recommended Matches</h2>
+          <p>Create a Menmo profile to reveal precision-matched opportunities and next actions.</p>
+        </div>
+      </section>
+    );
   }
 
   return (
-    <section>
-      <h2>Recommended Matches</h2>
+    <section className="page-shell content-card">
+      <div className="section-heading">
+        <span className="eyebrow">Intelligence feed</span>
+        <h2>Recommended Matches</h2>
+        <p>We surface the highest-signal grants with transparent scores and reasons to pursue.</p>
+      </div>
       <GrantMatchList matches={matches} isLoading={isLoading} />
     </section>
   );
