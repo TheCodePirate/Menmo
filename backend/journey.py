@@ -20,6 +20,7 @@ from .models import (
     UserProfile,
 )
 from .rag import RAGEngine
+from .supabase_sync import SupabaseSync
 
 
 APPLICATION_SECTIONS: List[Dict[str, str]] = [
@@ -66,10 +67,11 @@ def _tokenize_keywords(value: Optional[str]) -> List[str]:
 class JourneyService:
     """High-level service implementing the Menmo journey stages."""
 
-    def __init__(self, session: Session):
+    def __init__(self, session: Session, supabase_sync: SupabaseSync | None = None):
         self.session = session
         self.matching_service = MatchingService()
         self.rag_engine = RAGEngine()
+        self.supabase_sync = supabase_sync or SupabaseSync.from_env()
 
     # ------------------------------------------------------------------
     # Stage 1 – Quick Scan
@@ -241,7 +243,10 @@ class JourneyService:
 
         match_results.sort(key=lambda item: item.score, reverse=True)
         self.session.commit()
-        return match_results[:top_k]
+
+        top_matches = match_results[:top_k]
+        self.supabase_sync.sync_matches(top_matches)
+        return top_matches
 
     # ------------------------------------------------------------------
     # Stage 3 – Gap-to-Yes Planner
@@ -268,6 +273,7 @@ class JourneyService:
             self.session.add(task)
             tasks.append(task)
         self.session.commit()
+        self.supabase_sync.sync_tasks(tasks)
         return tasks
 
     # ------------------------------------------------------------------
